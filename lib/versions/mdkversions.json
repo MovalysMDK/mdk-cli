@@ -1,0 +1,44 @@
+{
+    "versions": [
+        {
+            "version": "5.1.0",
+            "devToolsVersion": "3.0.0",
+            "messages": [
+                {
+                    "text": "The best version of MDK ever",
+                    "level": "info"
+                }
+            ]
+        },
+        {
+            "version": "5.0.0",
+            "devToolsVersion": "2.0.0",
+            "messages": [
+                {
+                    "text": "",
+                    "level": ""
+                }
+            ]
+        },
+        {
+            "version": "5.0.1",
+            "devToolsVersion": "2.0.0",
+            "messages": [
+                {
+                    "text": "This version is deprecated",
+                    "level": "warn"
+                }
+            ]
+        },
+        {
+            "version": "2.3.4",
+            "devToolsVersion": "1.4.5",
+            "messages": [
+                {
+                    "text": "This version is no longer supported",
+                    "level": "error"
+                }
+            ]
+        }
+    ]
+}
