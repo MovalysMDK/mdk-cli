@@ -37,7 +37,8 @@
     "read": "1.0.7",
     "request": "2.63.0",
     "fs-extra": "0.24.0",
-    "nconf": "0.8.0"
+    "nconf": "0.8.0",
+    "diskspace": "*"
   },
   "author": "SopraSteria Group",
   "license": "Apache-2.0"
