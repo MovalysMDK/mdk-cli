@@ -9,7 +9,7 @@
             "script": "installJdk",
             "opts": {},
             "diskSpace": 30
-        },
+        }/*,
         {
             "name": "maven",
             "version": "3.0.5",
@@ -22,7 +22,7 @@
             "script": "installAndroidSdk",
             "platforms": ["android"],
             "diskSpace": 2000
-        }
+        }*/
     ],
     "checks": [
         {
