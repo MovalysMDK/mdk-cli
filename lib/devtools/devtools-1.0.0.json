@@ -1,5 +1,5 @@
 {
-    "mdk-cli": {
+    "mdk_cli": {
         "minVersion": "1.0.0"
     },
     "install": [
@@ -19,25 +19,9 @@
                     "osxVolumePath" : "/Volumes/JDK 7 Update 79"
                 }
             }],
-            "opts": {
-
-            },
-            "diskSpace": 30,
-            "checksum": ""
-        }/*,
-        {
-            "name": "maven",
-            "version": "3.0.5",
-            "script": "installMaven",
+            "opts": {},
             "diskSpace": 30
-        },
-        {
-            "name": "android-sdk",
-            "version": "3.0.5",
-            "script": "installAndroidSdk",
-            "platforms": ["android"],
-            "diskSpace": 2000
-        }*/
+        }
     ],
     "checks": [
         {
