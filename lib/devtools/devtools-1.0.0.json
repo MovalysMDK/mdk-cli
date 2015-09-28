@@ -11,12 +11,13 @@
             "packages": [ {
                 "url": "http://download.oracle.com/otn-pub/java/jdk/7u79-b15/jdk-7u79-macosx-x64.dmg",
                 "filename": "jdk-7u79-macosx-x64.dmg",
-                "checksum": "",
+                "checksum": "910ad1aa48cccdce6cac012ab7107e0707b2edbb",
                 "headers": {
                     "Cookie": "oraclelicense=accept-securebackup-cookie"
                 },
                 "opts": {
-                    "osxVolumePath" : "/Volumes/JDK 7 Update 79"
+                    "osxVolumePath" : "/Volumes/JDK 7 Update 79",
+                    "extractedPkgDir": "jdk17079.pkg"
                 }
             }],
             "opts": {},
