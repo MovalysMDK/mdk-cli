@@ -21,7 +21,7 @@
                 }
             }],
             "opts": {},
-            "diskSpace": 30
+            "diskSpace": 310
         },
         {
             "name": "apache-maven",
@@ -43,11 +43,7 @@
     ],
     "checks": [
         {
-            "script": "checkJdk"
-        },
-        {
-            "script": "",
-            "platforms": ["android"]
+            "script": "common/checkJdk"
         }
     ]
 }
