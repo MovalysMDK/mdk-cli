@@ -21,16 +21,12 @@
                 }
             }],
             "opts": {},
-            "diskSpace": 30
+            "diskSpace": 310
         }
     ],
     "checks": [
         {
-            "script": "checkJdk"
-        },
-        {
-            "script": "",
-            "platforms": ["android"]
+            "script": "common/checkJdk"
         }
     ]
 }
