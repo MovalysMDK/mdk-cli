@@ -6,7 +6,7 @@
         {
             "name": "jdk",
             "version": "1.7.0.79",
-            "script": "common/installJdk",
+            "script": "jdk/installJdk",
             "os": ["osx"],
             "packages": [ {
                 "url": "http://download.oracle.com/otn-pub/java/jdk/7u79-b15/jdk-7u79-macosx-x64.dmg",
@@ -22,7 +22,7 @@
             }],
             "opts": {},
             "diskSpace": 30
-        },
+        }
     ],
     "checks": [
         {
