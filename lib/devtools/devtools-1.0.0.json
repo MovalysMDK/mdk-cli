@@ -50,6 +50,24 @@
                 "binDirectory" : "bin"
             },
             "diskSpace": 12
+        },
+        {
+            "name": "doxygen",
+            "version": "1.8.8",
+            "script": "common/installDoxygen",
+            "os": ["osx"],
+            "packages": [ {
+                "url": "http://ftp.stack.nl/pub/users/dimitri/Doxygen-1.8.8.dmg",
+                "filename": "Doxygen-1.8.8.dmg",
+                "checksum": "5c9ec7a82b34337e7b22cbad5ecc9d650b9372e6",
+                "opts": {
+                    "osxVolumePath" : "/Volumes/Doxygen",
+                    "extractedPkgDir": "Doxygen.app",
+                    "binaryLocation": "Contents/Resources"
+                }
+            }],
+            "opts": {},
+            "diskSpace": 96
         }
     ],
     "checks": [
@@ -61,6 +79,9 @@
         },
         {
             "script": "ios/checkCocoapods"
+        },
+        {
+            "script": "common/checkDoxygen"
         }
     ]
 }
