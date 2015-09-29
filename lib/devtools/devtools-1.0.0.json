@@ -31,7 +31,7 @@
             "packages": [ {
                 "url": "http://apache.mirror.anlx.net/maven/maven-3/3.3.3/binaries/apache-maven-3.3.3-bin.zip",
                 "filename": "apache-maven-3.3.3-bin.zip",
-                "checksum": "794b3b7961200c542a7292682d21ba36",
+                "checksum": "b8eebb7ba265532bf55aa17f89440c2fe267bed3",
                 "headers": {
                 },
                 "opts": {
