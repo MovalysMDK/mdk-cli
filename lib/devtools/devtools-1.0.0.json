@@ -34,8 +34,7 @@
                 "checksum": "b8eebb7ba265532bf55aa17f89440c2fe267bed3",
                 "headers": {
                 },
-                "opts": {
-                }
+                "opts": {}
             }],
             "opts": {},
             "diskSpace": 9
@@ -44,6 +43,9 @@
     "checks": [
         {
             "script": "common/checkJdk"
+        },
+        {
+            "script": "common/checkMaven"
         }
     ]
 }
