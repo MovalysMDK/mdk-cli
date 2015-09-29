@@ -38,6 +38,18 @@
             }],
             "opts": {},
             "diskSpace": 9
+        },
+        {
+            "name": "cocoapods",
+            "version": "0.37.2",
+            "script": "ios/installCocoapods",
+            "os": ["osx"],
+            "platforms" : ["ios"],
+            "opts": {
+                "libDirectory" : "lib",
+                "binDirectory" : "bin"
+            },
+            "diskSpace": 12
         }
     ],
     "checks": [
@@ -46,6 +58,9 @@
         },
         {
             "script": "common/checkMaven"
+        },
+        {
+            "script": "ios/checkCocoapods"
         }
     ]
 }
