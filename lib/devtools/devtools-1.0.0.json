@@ -60,7 +60,8 @@
             "script": "common/checkMaven"
         },
         {
-            "script": "ios/checkCocoapods"
+            "script": "ios/checkCocoapods",
+            "platforms": ["ios"]
         }
     ]
 }
