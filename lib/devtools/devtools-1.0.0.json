@@ -47,13 +47,15 @@
             "platforms" : ["ios"],
             "opts": {
                 "libDirectory" : "lib",
-                "binDirectory" : "bin"
+                "binDirectory" : "bin",
+                "isGem": "true"
             },
             "diskSpace": 12
         },
         {
             "name": "xcproj",
             "version": "0.1",
+            "isGem": true,
             "script": "ios/installXcproj",
             "os": ["osx"],
             "platforms" : ["ios"],
@@ -62,7 +64,9 @@
                 "filename": "develop.zip",
                 "checksum": "0b89a38a7ee615d8ccacf040173f27f8a0746b8a"
             }],
-            "opts": {},
+            "opts": {
+              "isGem": "true"
+            },
             "diskSpace": 1
         },
         {
