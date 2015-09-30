@@ -54,18 +54,22 @@
         },
         {
             "name": "xcproj",
-            "version": "0.1",
+            "version": "0.1.2",
             "isGem": true,
             "script": "ios/installXcproj",
             "os": ["osx"],
             "platforms" : ["ios"],
             "packages": [ {
-                "url": "https://github.com/0xced/xcproj/archive/develop.zip",
-                "filename": "develop.zip",
-                "checksum": "0b89a38a7ee615d8ccacf040173f27f8a0746b8a"
+                "url": "https://github.com/0xced/xcproj/archive/0.1.2.zip",
+                "filename": "0.1.2.zip",
+                "checksum": "766b00b7db6313d9c91811986691e8940db76ce7",
+                "opts": {
+                  "baseVersionName": "<string>0.1</string>",
+                  "fixedVersionName": "<string>0.1.2</string>"
+                }
             }],
             "opts": {
-              "isGem": "true"
+                "isGem": "true"
             },
             "diskSpace": 1
         },
@@ -86,7 +90,26 @@
             }],
             "opts": {},
             "diskSpace": 96
-        }
+        },
+      {
+        "name": "uncrustify",
+        "version": "0.61",
+        "script": "ios/installUncrustify",
+        "os": ["osx"],
+        "packages": [ {
+          "url": "https://github.com/bengardner/uncrustify/archive/uncrustify-0.61.zip",
+          "filename": "uncrustify-0.61.zip",
+          "checksum": "cf9295558d0c08a19738a8521457392044a043e8",
+          "opts": {
+              "binaryLocation": "src",
+              "versionFileNameToFix" :"uncrustify_version.h",
+              "baseVersionName": "0.60",
+              "fixedVersionName": "0.61"
+          }
+        }],
+        "opts": {},
+        "diskSpace": 14
+      }
     ],
     "checks": [
         {
@@ -106,6 +129,10 @@
         {
             "script": "common/checkDoxygen",
             "platforms": ["ios"]
+        },
+        {
+          "script": "ios/checkUncrustify",
+          "platforms": ["ios"]
         }
     ]
 }
