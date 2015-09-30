@@ -92,18 +92,16 @@
             "script": "common/checkMaven"
         },
         {
-<<<<<<< HEAD
             "script": "ios/checkCocoapods",
             "platforms": ["ios"]
-=======
-            "script": "ios/checkCocoapods"
         },
         {
-            "script": "ios/checkXcproj"
+            "script": "ios/checkXcproj",
+            "platforms": ["ios"]
         },
         {
-            "script": "common/checkDoxygen"
->>>>>>> 7e7114f31a05a7826f8fbbdb90582d41e9dc6c12
+            "script": "common/checkDoxygen",
+            "platforms": ["ios"]
         }
     ]
 }

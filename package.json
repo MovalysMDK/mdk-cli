@@ -1,5 +1,5 @@
 {
-  "name" : "mdk-cli",
+  "name": "mdk-cli",
   "version": "1.0.0",
   "preferGlobal": "true",
   "description": "MDK command line interface tool",
@@ -11,7 +11,7 @@
     "mdk": "./bin/mdk"
   },
   "repository": {
-    "type" : "git",
+    "type": "git",
     "url": "gitmovalys@git.ptx.fr.sopra:mdk-cli.git"
   },
   "bugs": {
@@ -40,5 +40,10 @@
     "diskspace": "*"
   },
   "author": "SopraSteria Group",
-  "license": "Apache-2.0"
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-jshint": "^1.11.2",
+    "gulp-jsonlint": "^1.1.1"
+  }
 }
