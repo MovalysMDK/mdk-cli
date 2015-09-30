@@ -96,13 +96,16 @@
             "script": "common/checkMaven"
         },
         {
-            "script": "ios/checkCocoapods"
+            "script": "ios/checkCocoapods",
+            "platforms": ["ios"]
         },
         {
-            "script": "ios/checkXcproj"
+            "script": "ios/checkXcproj",
+            "platforms": ["ios"]
         },
         {
-            "script": "common/checkDoxygen"
+            "script": "common/checkDoxygen",
+            "platforms": ["ios"]
         }
     ]
 }
