@@ -76,9 +76,10 @@
         {
             "name": "doxygen",
             "version": "1.8.8",
-            "script": "common/installDoxygen",
+            "script": "ios/installDoxygen",
             "os": ["osx"],
-            "packages": [ {
+            "platforms" : ["ios"],
+          "packages": [ {
                 "url": "http://ftp.stack.nl/pub/users/dimitri/Doxygen-1.8.8.dmg",
                 "filename": "Doxygen-1.8.8.dmg",
                 "checksum": "5c9ec7a82b34337e7b22cbad5ecc9d650b9372e6",
@@ -127,7 +128,7 @@
             "platforms": ["ios"]
         },
         {
-            "script": "common/checkDoxygen",
+            "script": "ios/checkDoxygen",
             "platforms": ["ios"]
         },
         {
