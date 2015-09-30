@@ -52,6 +52,20 @@
             "diskSpace": 12
         },
         {
+            "name": "xcproj",
+            "version": "0.1",
+            "script": "ios/installXcproj",
+            "os": ["osx"],
+            "platforms" : ["ios"],
+            "packages": [ {
+                "url": "https://github.com/0xced/xcproj/archive/develop.zip",
+                "filename": "develop.zip",
+                "checksum": "0b89a38a7ee615d8ccacf040173f27f8a0746b8a"
+            }],
+            "opts": {},
+            "diskSpace": 1
+        },
+        {
             "name": "doxygen",
             "version": "1.8.8",
             "script": "common/installDoxygen",
@@ -79,6 +93,9 @@
         },
         {
             "script": "ios/checkCocoapods"
+        },
+        {
+            "script": "ios/checkXcproj"
         },
         {
             "script": "common/checkDoxygen"
