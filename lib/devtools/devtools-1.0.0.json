@@ -50,6 +50,38 @@
                 "binDirectory" : "bin"
             },
             "diskSpace": 12
+        },
+        {
+            "name": "xcproj",
+            "version": "0.1",
+            "script": "ios/installXcproj",
+            "os": ["osx"],
+            "platforms" : ["ios"],
+            "packages": [ {
+                "url": "https://github.com/0xced/xcproj/archive/develop.zip",
+                "filename": "develop.zip",
+                "checksum": "0b89a38a7ee615d8ccacf040173f27f8a0746b8a"
+            }],
+            "opts": {},
+            "diskSpace": 1
+        },
+        {
+            "name": "doxygen",
+            "version": "1.8.8",
+            "script": "common/installDoxygen",
+            "os": ["osx"],
+            "packages": [ {
+                "url": "http://ftp.stack.nl/pub/users/dimitri/Doxygen-1.8.8.dmg",
+                "filename": "Doxygen-1.8.8.dmg",
+                "checksum": "5c9ec7a82b34337e7b22cbad5ecc9d650b9372e6",
+                "opts": {
+                    "osxVolumePath" : "/Volumes/Doxygen",
+                    "extractedPkgDir": "Doxygen.app",
+                    "binaryLocation": "Contents/Resources"
+                }
+            }],
+            "opts": {},
+            "diskSpace": 96
         }
     ],
     "checks": [
@@ -60,8 +92,18 @@
             "script": "common/checkMaven"
         },
         {
+<<<<<<< HEAD
             "script": "ios/checkCocoapods",
             "platforms": ["ios"]
+=======
+            "script": "ios/checkCocoapods"
+        },
+        {
+            "script": "ios/checkXcproj"
+        },
+        {
+            "script": "common/checkDoxygen"
+>>>>>>> 7e7114f31a05a7826f8fbbdb90582d41e9dc6c12
         }
     ]
 }
