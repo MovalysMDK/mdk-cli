@@ -1,139 +1,157 @@
 {
-    "mdk_cli": {
-        "minVersion": "1.0.0"
-    },
-    "install": [
-        {
-            "name": "jdk",
-            "version": "1.7.0.79",
-            "script": "common/installJdk",
-            "os": ["osx"],
-            "packages": [ {
-                "url": "http://download.oracle.com/otn-pub/java/jdk/7u79-b15/jdk-7u79-macosx-x64.dmg",
-                "filename": "jdk-7u79-macosx-x64.dmg",
-                "checksum": "910ad1aa48cccdce6cac012ab7107e0707b2edbb",
-                "headers": {
-                    "Cookie": "oraclelicense=accept-securebackup-cookie"
-                },
-                "opts": {
-                    "osxVolumePath" : "/Volumes/JDK 7 Update 79",
-                    "extractedPkgDir": "jdk17079.pkg"
-                }
-            }],
-            "opts": {},
-            "diskSpace": 310
+  "mdk_cli": {
+    "minVersion": "1.0.0"
+  },
+  "install": [
+    {
+      "name": "jdk",
+      "version": "1.7.0.79",
+      "script": "common/installJdk",
+      "os": ["osx"],
+      "packages": [ {
+        "url": "http://download.oracle.com/otn-pub/java/jdk/7u79-b15/jdk-7u79-macosx-x64.dmg",
+        "filename": "jdk-7u79-macosx-x64.dmg",
+        "checksum": "910ad1aa48cccdce6cac012ab7107e0707b2edbb",
+        "headers": {
+          "Cookie": "oraclelicense=accept-securebackup-cookie"
         },
-        {
-            "name": "apache-maven",
-            "version": "3.3.3",
-            "script": "common/installMaven",
-            "os": ["osx"],
-            "packages": [ {
-                "url": "http://apache.mirror.anlx.net/maven/maven-3/3.3.3/binaries/apache-maven-3.3.3-bin.zip",
-                "filename": "apache-maven-3.3.3-bin.zip",
-                "checksum": "b8eebb7ba265532bf55aa17f89440c2fe267bed3",
-                "headers": {
-                },
-                "opts": {}
-            }],
-            "opts": {},
-            "diskSpace": 9
-        },
-        {
-            "name": "cocoapods",
-            "version": "0.37.2",
-            "script": "ios/installCocoapods",
-            "os": ["osx"],
-            "platforms" : ["ios"],
-            "opts": {
-                "libDirectory" : "lib",
-                "binDirectory" : "bin",
-                "isGem": "true"
-            },
-            "diskSpace": 12
-        },
-        {
-            "name": "xcproj",
-            "version": "0.1.2",
-            "isGem": true,
-            "script": "ios/installXcproj",
-            "os": ["osx"],
-            "platforms" : ["ios"],
-            "packages": [ {
-                "url": "https://github.com/0xced/xcproj/archive/0.1.2.zip",
-                "filename": "0.1.2.zip",
-                "checksum": "766b00b7db6313d9c91811986691e8940db76ce7",
-                "opts": {
-                  "baseVersionName": "<string>0.1</string>",
-                  "fixedVersionName": "<string>0.1.2</string>"
-                }
-            }],
-            "opts": {
-                "isGem": "true"
-            },
-            "diskSpace": 1
-        },
-        {
-            "name": "doxygen",
-            "version": "1.8.8",
-            "script": "ios/installDoxygen",
-            "os": ["osx"],
-            "platforms" : ["ios"],
-          "packages": [ {
-                "url": "http://ftp.stack.nl/pub/users/dimitri/Doxygen-1.8.8.dmg",
-                "filename": "Doxygen-1.8.8.dmg",
-                "checksum": "5c9ec7a82b34337e7b22cbad5ecc9d650b9372e6",
-                "opts": {
-                    "osxVolumePath" : "/Volumes/Doxygen",
-                    "extractedPkgDir": "Doxygen.app",
-                    "binaryLocation": "Contents/Resources"
-                }
-            }],
-            "opts": {},
-            "diskSpace": 96
-        },
-      {
-        "name": "uncrustify",
-        "version": "0.61",
-        "script": "ios/installUncrustify",
-        "os": ["osx"],
-        "packages": [ {
-          "url": "https://github.com/bengardner/uncrustify/archive/uncrustify-0.61.zip",
-          "filename": "uncrustify-0.61.zip",
-          "checksum": "cf9295558d0c08a19738a8521457392044a043e8",
-          "opts": {
-              "binaryLocation": "src",
-              "versionFileNameToFix" :"uncrustify_version.h",
-              "baseVersionName": "0.60",
-              "fixedVersionName": "0.61"
-          }
-        }],
-        "opts": {},
-        "diskSpace": 14
-      }
-    ],
-    "checks": [
-        {
-            "script": "common/checkJdk"
-        },
-        {
-            "script": "common/checkMaven"
-        },
-        {
-            "script": "ios/checkCocoapods",
-            "platforms": ["ios"]
-        },
-        {
-            "script": "ios/checkXcproj",
-            "platforms": ["ios"]
-        },
-        {
-            "script": "ios/checkDoxygen",
-            "platforms": ["ios"]
-        },
-        {
-          "script": "ios/checkUncrustify",
-          "platforms": ["ios"]
+        "opts": {
+          "osxVolumePath" : "/Volumes/JDK 7 Update 79",
+          "extractedPkgDir": "jdk17079.pkg"
         }
-    ]
+      }],
+      "opts": {},
+      "diskSpace": 310
+    },
+    {
+      "name": "apache-maven",
+      "version": "3.3.3",
+      "script": "common/installMaven",
+      "os": ["osx"],
+      "packages": [ {
+        "url": "http://apache.mirror.anlx.net/maven/maven-3/3.3.3/binaries/apache-maven-3.3.3-bin.zip",
+        "filename": "apache-maven-3.3.3-bin.zip",
+        "checksum": "b8eebb7ba265532bf55aa17f89440c2fe267bed3",
+        "headers": {
+        },
+        "opts": {}
+      }],
+      "opts": {},
+      "diskSpace": 9
+    },
+    {
+      "name": "cocoapods",
+      "version": "0.37.2",
+      "script": "ios/installCocoapods",
+      "os": ["osx"],
+      "platforms" : ["ios"],
+      "opts": {
+        "libDirectory" : "lib",
+        "binDirectory" : "bin",
+        "isGem": "true"
+      },
+      "diskSpace": 12
+    },
+    {
+      "name": "xcproj",
+      "version": "0.1.2",
+      "isGem": true,
+      "script": "ios/installXcproj",
+      "os": ["osx"],
+      "platforms" : ["ios"],
+      "packages": [ {
+        "url": "https://github.com/0xced/xcproj/archive/0.1.2.zip",
+        "filename": "0.1.2.zip",
+        "checksum": "766b00b7db6313d9c91811986691e8940db76ce7",
+        "opts": {
+          "baseVersionName": "<string>0.1</string>",
+          "fixedVersionName": "<string>0.1.2</string>"
+        }
+      }],
+      "opts": {
+        "isGem": "true"
+      },
+      "diskSpace": 1
+    },
+    {
+      "name": "mfxcode",
+      "version": "1.0.0",
+      "script": "ios/installMfxcode",
+      "os": ["osx"],
+      "platforms" : ["ios"],
+      "opts": {
+        "libDirectory" : "lib",
+        "binDirectory" : "bin",
+        "isGem": "true"
+      },
+      "diskSpace": 14
+    },
+    {
+      "name": "doxygen",
+      "version": "1.8.8",
+      "script": "ios/installDoxygen",
+      "os": ["osx"],
+      "platforms" : ["ios"],
+      "packages": [ {
+        "url": "http://ftp.stack.nl/pub/users/dimitri/Doxygen-1.8.8.dmg",
+        "filename": "Doxygen-1.8.8.dmg",
+        "checksum": "5c9ec7a82b34337e7b22cbad5ecc9d650b9372e6",
+        "opts": {
+          "osxVolumePath" : "/Volumes/Doxygen",
+          "extractedPkgDir": "Doxygen.app",
+          "binaryLocation": "Contents/Resources"
+        }
+      }],
+      "opts": {},
+      "diskSpace": 96
+    },
+    {
+      "name": "uncrustify",
+      "version": "0.61",
+      "script": "ios/installUncrustify",
+      "os": ["osx"],
+      "platforms" : ["ios"],
+      "packages": [ {
+        "url": "https://github.com/bengardner/uncrustify/archive/uncrustify-0.61.zip",
+        "filename": "uncrustify-0.61.zip",
+        "checksum": "cf9295558d0c08a19738a8521457392044a043e8",
+        "opts": {
+          "binaryLocation": "src",
+          "versionFileNameToFix" :"uncrustify_version.h",
+          "baseVersionName": "0.60",
+          "fixedVersionName": "0.61"
+        }
+      }],
+      "opts": {},
+      "diskSpace": 14
+    }
+  ],
+  "checks": [
+    {
+      "script": "common/checkJdk"
+    },
+    {
+      "script": "common/checkMaven"
+    },
+    {
+      "script": "ios/checkCocoapods",
+      "platforms": ["ios"]
+    },
+    {
+      "script": "ios/checkXcproj",
+      "platforms": ["ios"]
+    },
+    {
+      "script": "ios/checkMfxcode",
+      "platforms": ["ios"]
+    },
+    {
+      "script": "ios/checkDoxygen",
+      "platforms": ["ios"]
+    },
+    {
+      "script": "ios/checkUncrustify",
+      "platforms": ["ios"]
+    }
+  ]
 }
