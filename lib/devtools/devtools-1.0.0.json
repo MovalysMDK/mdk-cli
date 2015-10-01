@@ -124,6 +124,23 @@
       }],
       "opts": {},
       "diskSpace": 14
+    },
+    {
+      "name": "xctool",
+      "version": "0.2.6",
+      "script": "ios/installXctool",
+      "os": ["osx"],
+      "platforms" : ["ios"],
+      "packages": [ {
+        "url": "https://github.com/facebook/xctool/releases/download/v0.2.6/xctool-v0.2.6.zip",
+        "filename": "xctool-v0.2.6.zip",
+        "checksum": "4861d62f729b4c2d2f3817ccbb943529ccccf095",
+        "headers": {
+        },
+        "opts": {}
+      }],
+      "opts": {},
+      "diskSpace": 3
     }
   ],
   "checks": [
@@ -151,6 +168,10 @@
     },
     {
       "script": "ios/checkUncrustify",
+      "platforms": ["ios"]
+    },
+    {
+      "script": "ios/checkXctool",
       "platforms": ["ios"]
     }
   ]
