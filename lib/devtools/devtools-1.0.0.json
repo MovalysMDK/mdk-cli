@@ -68,14 +68,28 @@
                 "filename": "0.1.2.zip",
                 "checksum": "766b00b7db6313d9c91811986691e8940db76ce7",
                 "opts": {
-                  "baseVersionName": "<string>0.1</string>",
-                  "fixedVersionName": "<string>0.1.2</string>"
+                    "baseVersionName": "<string>0.1</string>",
+                    "fixedVersionName": "<string>0.1.2</string>"
                 }
             }],
             "opts": {
                 "isGem": "true"
             },
             "diskSpace": 1
+        },
+        {
+            "name": "mfxcode",
+            "version": "1.0.0",
+            "script": "ios/installMfxcode",
+            "installVersion": 1,
+            "os": ["osx"],
+            "platforms" : ["ios"],
+            "opts": {
+                "libDirectory" : "lib",
+                "binDirectory" : "bin",
+                "isGem": "true"
+            },
+            "diskSpace": 14
         },
         {
             "name": "doxygen",
@@ -97,27 +111,45 @@
             "opts": {},
             "diskSpace": 96
         },
-      {
-        "name": "uncrustify",
-        "version": "0.61",
-        "script": "ios/installUncrustify",
-        "installVersion": 1,
-        "os": ["osx"],
-        "platforms" : ["ios"],
-        "packages": [ {
-          "url": "https://github.com/bengardner/uncrustify/archive/uncrustify-0.61.zip",
-          "filename": "uncrustify-0.61.zip",
-          "checksum": "cf9295558d0c08a19738a8521457392044a043e8",
-          "opts": {
-              "binaryLocation": "src",
-              "versionFileNameToFix" :"uncrustify_version.h",
-              "baseVersionName": "0.60",
-              "fixedVersionName": "0.61"
-          }
-        }],
-        "opts": {},
-        "diskSpace": 14
-      }
+        {
+            "name": "uncrustify",
+            "version": "0.61",
+            "script": "ios/installUncrustify",
+            "installVersion": 1,
+            "os": ["osx"],
+            "platforms" : ["ios"],
+            "packages": [ {
+                "url": "https://github.com/bengardner/uncrustify/archive/uncrustify-0.61.zip",
+                "filename": "uncrustify-0.61.zip",
+                "checksum": "cf9295558d0c08a19738a8521457392044a043e8",
+                "opts": {
+                    "binaryLocation": "src",
+                    "versionFileNameToFix" :"uncrustify_version.h",
+                    "baseVersionName": "0.60",
+                    "fixedVersionName": "0.61"
+                }
+            }],
+            "opts": {},
+            "diskSpace": 14
+        },
+        {
+            "name": "xctool",
+            "version": "0.2.6",
+            "script": "ios/installXctool",
+            "installVersion": 1,
+            "os": ["osx"],
+            "platforms" : ["ios"],
+            "packages": [ {
+                "url": "https://github.com/facebook/xctool/releases/download/v0.2.6/xctool-v0.2.6.zip",
+                "filename": "xctool-v0.2.6.zip",
+                "checksum": "4861d62f729b4c2d2f3817ccbb943529ccccf095",
+                "headers": {
+                },
+                "opts": {}
+            }],
+            "opts": {},
+            "diskSpace": 3
+        }
     ],
     "checks": [
         {
@@ -135,12 +167,20 @@
             "platforms": ["ios"]
         },
         {
+            "script": "ios/checkMfxcode",
+            "platforms": ["ios"]
+        },
+        {
             "script": "ios/checkDoxygen",
             "platforms": ["ios"]
         },
         {
-          "script": "ios/checkUncrustify",
-          "platforms": ["ios"]
+            "script": "ios/checkUncrustify",
+            "platforms": ["ios"]
+        },
+        {
+            "script": "ios/checkXctool",
+            "platforms": ["ios"]
         }
     ]
 }
