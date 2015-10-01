@@ -145,6 +145,20 @@
   ],
   "checks": [
     {
+      "script": "ios/checkMacos",
+      "platforms": ["ios"],
+      "opts": {
+        "minVersion": "10.10.0"
+      }
+    },
+    {
+      "script": "ios/checkXcodeCLT",
+      "platforms": ["ios"],
+      "opts": {
+        "minVersion": "6.4.0"
+      }
+    },
+    {
       "script": "common/checkJdk"
     },
     {
