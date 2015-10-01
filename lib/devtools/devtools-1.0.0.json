@@ -7,6 +7,7 @@
             "name": "jdk",
             "version": "1.7.0.79",
             "script": "common/installJdk",
+            "installVersion": 1,
             "os": ["osx"],
             "packages": [ {
                 "url": "http://download.oracle.com/otn-pub/java/jdk/7u79-b15/jdk-7u79-macosx-x64.dmg",
@@ -27,6 +28,7 @@
             "name": "apache-maven",
             "version": "3.3.3",
             "script": "common/installMaven",
+            "installVersion": 1,
             "os": ["osx"],
             "packages": [ {
                 "url": "http://apache.mirror.anlx.net/maven/maven-3/3.3.3/binaries/apache-maven-3.3.3-bin.zip",
@@ -43,6 +45,7 @@
             "name": "cocoapods",
             "version": "0.37.2",
             "script": "ios/installCocoapods",
+            "installVersion": 1,
             "os": ["osx"],
             "platforms" : ["ios"],
             "opts": {
@@ -57,6 +60,7 @@
             "version": "0.1.2",
             "isGem": true,
             "script": "ios/installXcproj",
+            "installVersion": 1,
             "os": ["osx"],
             "platforms" : ["ios"],
             "packages": [ {
@@ -77,9 +81,10 @@
             "name": "doxygen",
             "version": "1.8.8",
             "script": "ios/installDoxygen",
+            "installVersion": 1,
             "os": ["osx"],
             "platforms" : ["ios"],
-          "packages": [ {
+            "packages": [ {
                 "url": "http://ftp.stack.nl/pub/users/dimitri/Doxygen-1.8.8.dmg",
                 "filename": "Doxygen-1.8.8.dmg",
                 "checksum": "5c9ec7a82b34337e7b22cbad5ecc9d650b9372e6",
@@ -96,7 +101,9 @@
         "name": "uncrustify",
         "version": "0.61",
         "script": "ios/installUncrustify",
+        "installVersion": 1,
         "os": ["osx"],
+        "platforms" : ["ios"],
         "packages": [ {
           "url": "https://github.com/bengardner/uncrustify/archive/uncrustify-0.61.zip",
           "filename": "uncrustify-0.61.zip",
