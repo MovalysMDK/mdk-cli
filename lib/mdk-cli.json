@@ -1,5 +1,6 @@
 {
   "mdkUrl": "https://mdk.movalys.sopra.com/",
   "mdkRepoRelease": "https://artifactory.movalys.sopra.com/artifactory/prj-mdk-releases/",
-  "mdkRepoPluginRelease": "https://artifactory.movalys.sopra.com/artifactory/prj-mdk-releases/"
+  "mdkRepoPluginRelease": "https://artifactory.movalys.sopra.com/artifactory/prj-mdk-releases/",
+  "mdkRepoGit": "https://git.movalys.sopra.com/git/"
 }
