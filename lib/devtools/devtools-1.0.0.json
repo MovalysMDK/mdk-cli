@@ -156,7 +156,7 @@
             "script": "ios/checkMacos",
             "platforms": ["ios"],
             "opts": {
-                "minVersion": "10.11.0"
+                "minVersion": "10.10.0"
             },
             "prerequisite": true
         },
