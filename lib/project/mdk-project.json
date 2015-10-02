@@ -19,6 +19,6 @@
         "gruntOptions": ["--silent", "--no-optional"],
         "bowerOptions": ["--quiet"],
         "cocoapodOptions": [],
-        "adjavaDebug": 0
+        "adjavaDebug": "false"
     }
 }
