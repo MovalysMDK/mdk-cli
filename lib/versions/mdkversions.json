@@ -7,6 +7,22 @@
                 {
                     "text": "The best version of MDK ever",
                     "level": "info"
+                },
+                {
+                    "text": "An happy orange warning",
+                    "level": "warning"
+                },
+                {
+                    "text": "An happy orange warning 2",
+                    "level": "warning"
+                },
+                {
+                    "text": "This version will no longer supported tomorrow",
+                    "level": "error"
+                },
+                {
+                    "text": "The best version of MDK ever or not",
+                    "level": "info"
                 }
             ]
         },
