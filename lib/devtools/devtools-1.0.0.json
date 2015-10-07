@@ -149,6 +149,27 @@
             }],
             "opts": {},
             "diskSpace": 3
+        },
+        {
+            "name": "android-sdk",
+            "version": "24.3.4",
+            "script": "android/installAndroidSdk",
+            "installVersion": 1,
+            "os": ["osx"],
+            "platforms" : ["android"],
+            "packages": [ {
+                "url": "http://dl.google.com/android/android-sdk_r24.3.4-macosx.zip",
+                "filename": "android-sdk_r24.3.4-macosx.zip",
+                "checksum": "128f10fba668ea490cc94a08e505a48a608879b9",
+                "headers": {
+                },
+                "opts": {
+                    "api": [15,23],
+                    "buildTools": "23.0.1"
+                }
+            }],
+            "opts": {},
+            "diskSpace": 3
         }
     ],
     "checks": [
