@@ -19,6 +19,7 @@
         "gruntOptions": ["--silent", "--no-optional"],
         "bowerOptions": ["--quiet"],
         "cocoapodOptions": [],
+        "gradleOptions": [],
         "adjavaDebug": "false"
     }
 }
