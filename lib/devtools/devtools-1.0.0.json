@@ -228,6 +228,14 @@
         {
             "script": "ios/checkXctool",
             "platforms": ["ios"]
+        },
+        {
+            "script": "android/checkAndroidSdk",
+            "platforms": ["android"]
+        },
+        {
+            "script": "android/checkGradle",
+            "platforms": ["android"]
         }
     ]
 }
