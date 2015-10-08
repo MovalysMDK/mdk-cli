@@ -58,7 +58,6 @@
         {
             "name": "xcproj",
             "version": "0.1.2",
-            "isGem": true,
             "script": "ios/installXcproj",
             "installVersion": 1,
             "os": ["osx"],
@@ -73,7 +72,6 @@
                 }
             }],
             "opts": {
-                "isGem": "true"
             },
             "diskSpace": 1
         },
