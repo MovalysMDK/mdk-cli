@@ -164,12 +164,22 @@
                 "headers": {
                 },
                 "opts": {
-                    "api": [15,23],
-                    "buildTools": "23.0.1"
+                    "api": [15,22,23],
+                    "buildTools": "22.0.1"
                 }
             }],
             "opts": {},
             "diskSpace": 3
+        },
+        {
+            "name": "gradle",
+            "version": "2.4",
+            "script": "android/installGradle",
+            "installVersion": 1,
+            "platforms" : ["android"],
+            "packages": [],
+            "opts": {},
+            "diskSpace": 0
         }
     ],
     "checks": [
