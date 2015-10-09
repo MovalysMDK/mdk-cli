@@ -182,6 +182,15 @@
     ],
     "checks": [
         {
+          "script": "common/checkMdkArtifactory",
+          "prerequisite": true
+        },
+        {
+          "script": "ios/checkMdkGitRepository",
+          "platforms": ["ios"],
+          "prerequisite": true
+        },
+        {
             "script": "ios/checkMacos",
             "platforms": ["ios"],
             "opts": {
