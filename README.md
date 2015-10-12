@@ -14,15 +14,14 @@
 ./mdk config-set mdk_password xM1t29DF
 
 #./mdk config-set mdkUrl TODO
-#./mdk config-set mdkRepoGemsRelease TODO
-#./mdk config-set mdkRepoGit TODO
 
 * Tests sur l'intégration continue
 
 1) Création du zip
 
 Supprimer le répertoire node_modules de mdk-cli
-Faire un zip de mdk-cli
+Faire un zip de mdk-cli:
+zip -r mdk-cli mdk-cli/*
 
 2) Transfert du zip
 
