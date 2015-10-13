@@ -182,15 +182,6 @@
     ],
     "checks": [
         {
-          "script": "common/checkMdkArtifactory",
-          "prerequisite": true
-        },
-        {
-          "script": "ios/checkMdkGitRepository",
-          "platforms": ["ios"],
-          "prerequisite": true
-        },
-        {
             "script": "ios/checkMacos",
             "platforms": ["ios"],
             "opts": {
@@ -243,6 +234,13 @@
         {
             "script": "android/checkGradle",
             "platforms": ["android"]
+        },
+        {
+            "script": "common/checkMdkArtifactory"
+        },
+        {
+            "script": "ios/checkMdkGitRepository",
+            "platforms": ["ios"]
         }
     ]
 }
