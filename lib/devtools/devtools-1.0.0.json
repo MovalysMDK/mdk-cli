@@ -21,6 +21,12 @@
                     "extractedPkgDir": "jdk17079.pkg"
                 }
             }],
+            "licenses":[
+                {
+                    "name": "Oracle Binary Code License Agreement for the Java SE Platform Products and JavaFX",
+                    "url": "http://www.oracle.com/technetwork/java/javase/terms/license/index.html"
+                }
+            ],
             "opts": {},
             "diskSpace": 310
         },
@@ -166,6 +172,12 @@
                     "buildTools": "22.0.1"
                 }
             }],
+            "licenses":[
+              {
+                "name": "Android Software Development Kit License",
+                "url": "https://developer.android.com/sdk/terms.html"
+              }
+            ],
             "opts": {},
             "diskSpace": 3
         },
