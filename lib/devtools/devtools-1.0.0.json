@@ -234,6 +234,13 @@
         {
             "script": "android/checkGradle",
             "platforms": ["android"]
+        },
+        {
+            "script": "common/checkMdkArtifactory"
+        },
+        {
+            "script": "ios/checkMdkGitRepository",
+            "platforms": ["ios"]
         }
     ]
 }
