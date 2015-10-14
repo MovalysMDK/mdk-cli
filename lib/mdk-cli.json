@@ -4,5 +4,5 @@
   "mdkRepoPluginRelease": "https://artifactory.movalys.sopra.com/artifactory/prj-mdk-releases/",
   "mdkRepoGemsRelease": "https://artifactory.movalys.sopra.com/artifactory/prj-mdkgems-releases/",
   "mdkRepoGit": "https://git.movalys.sopra.com/git/",
-  "snapshotEnable": false
+  "snapshotEnable": "false"
 }
