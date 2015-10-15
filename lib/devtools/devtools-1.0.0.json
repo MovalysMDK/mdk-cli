@@ -185,7 +185,7 @@
             "version": "24.3.4",
             "script": "android/installAndroidSdk",
             "installVersion": 1,
-            "os": ["osx", "win"],
+            "os": ["osx"],
             "platforms" : ["android"],
             "packages": [ {
                 "url": "http://dl.google.com/android/android-sdk_r24.3.4-macosx.zip",
@@ -205,7 +205,34 @@
                 }
             ],
             "opts": {},
-            "diskSpace": 3
+            "diskSpace": 1000
+        },
+        {
+            "name": "android-sdk",
+            "version": "24.3.4",
+            "script": "android/installAndroidSdk",
+            "installVersion": 1,
+            "os": ["win"],
+            "platforms" : ["android"],
+            "packages": [ {
+                "url": "http://dl.google.com/android/android-sdk_r24.3.4-windows.zip",
+                "filename": "android-sdk_r24.3.4-windows.zip",
+                "checksum": "4a8718fb4a2bf2128d34b92f23ddd79fc65839e7",
+                "headers": {
+                },
+                "opts": {
+                    "api": [15,22,23],
+                    "buildTools": "22.0.1"
+                }
+            }],
+            "licenses":[
+                {
+                    "name": "Android Software Development Kit License",
+                    "url": "https://developer.android.com/sdk/terms.html"
+                }
+            ],
+            "opts": {},
+            "diskSpace": 1000
         },
         {
             "name": "gradle",
@@ -215,7 +242,7 @@
             "platforms" : ["android"],
             "packages": [],
             "opts": {},
-            "diskSpace": 0
+            "diskSpace": 250
         }
     ],
     "checks": [
@@ -270,7 +297,7 @@
         {
             "script": "android/checkAndroidSdk",
             "platforms": ["android"],
-            "os": ["osx"]
+            "os": ["osx", "win"]
         },
         {
             "script": "android/checkGradle",

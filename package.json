@@ -35,6 +35,8 @@
     "cli-color": "1.0.0",
     "read": "1.0.7",
     "request": "2.63.0",
+    "request-progress": "0.3.1",
+    "progress": "1.1.5",
     "fs-extra": "0.24.0",
     "nconf": "0.8.0",
     "diskspace": "*",
