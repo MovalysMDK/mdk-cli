@@ -62,7 +62,6 @@
             "version": "3.3.3",
             "script": "common/installMaven",
             "installVersion": 1,
-            "os": ["osx", "win"],
             "packages": [ {
                 "url": "http://apache.mirror.anlx.net/maven/maven-3/3.3.3/binaries/apache-maven-3.3.3-bin.zip",
                 "filename": "apache-maven-3.3.3-bin.zip",
@@ -237,10 +236,12 @@
             "prerequisite": true
         },
         {
-            "script": "common/checkJdk"
+            "script": "common/checkJdk",
+            "os": ["osx"]
         },
         {
-            "script": "common/checkMaven"
+            "script": "common/checkMaven",
+            "os": ["osx"]
         },
         {
             "script": "ios/checkCocoapods",
@@ -268,14 +269,17 @@
         },
         {
             "script": "android/checkAndroidSdk",
-            "platforms": ["android"]
+            "platforms": ["android"],
+            "os": ["osx"]
         },
         {
             "script": "android/checkGradle",
-            "platforms": ["android"]
+            "platforms": ["android"],
+            "os": ["osx"]
         },
         {
-            "script": "common/checkMdkArtifactory"
+            "script": "common/checkMdkArtifactory",
+            "os": ["osx"]
         },
         {
             "script": "ios/checkMdkGitRepository",

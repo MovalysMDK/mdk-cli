@@ -42,7 +42,8 @@
     "mustache": "2.1.3",
     "checksum": "0.1.0",
     "tar-stream": "1.2.1",
-    "pump": "0.3.0"
+    "pump": "0.3.0",
+    "adm-zip": "*"
   },
   "author": "SopraSteria Group",
   "license": "Apache-2.0",
