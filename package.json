@@ -40,7 +40,8 @@
     "diskspace": "*",
     "moment": "2.10.6",
     "mustache": "2.1.3",
-    "checksum": "0.1.0"
+    "checksum": "0.1.0",
+    "adm-zip": "*"
   },
   "author": "SopraSteria Group",
   "license": "Apache-2.0",
