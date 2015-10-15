@@ -31,11 +31,38 @@
             "diskSpace": 310
         },
         {
+            "name": "jdk",
+            "version": "1.7.0.79",
+            "script": "common/installJdk",
+            "installVersion": 1,
+            "os": ["win"],
+            "packages": [ {
+                "url": "http://download.oracle.com/otn-pub/java/jdk/7u79-b15/server-jre-7u79-windows-x64.tar.gz",
+                "filename": "server-jre-7u79-windows-x64.tar.gz",
+                "checksum": "6c51a9d17f2e2f99eb1f2f9b026718560c6a7065",
+                "headers": {
+                    "Cookie": "oraclelicense=accept-securebackup-cookie"
+                },
+                "options": {
+                    "extratedTarFilename": "jdk17079.tar",
+                    "extractedDirectory" : "jdk1.7.0_79"
+                }
+            }],
+            "licenses":[
+                {
+                    "name": "Oracle Binary Code License Agreement for the Java SE Platform Products and JavaFX",
+                    "url": "http://www.oracle.com/technetwork/java/javase/terms/license/index.html"
+                }
+            ],
+            "opts": {},
+            "diskSpace": 215
+        },
+        {
             "name": "apache-maven",
             "version": "3.3.3",
             "script": "common/installMaven",
             "installVersion": 1,
-            "os": ["osx"],
+            "os": ["osx", "win"],
             "packages": [ {
                 "url": "http://apache.mirror.anlx.net/maven/maven-3/3.3.3/binaries/apache-maven-3.3.3-bin.zip",
                 "filename": "apache-maven-3.3.3-bin.zip",
@@ -159,7 +186,7 @@
             "version": "24.3.4",
             "script": "android/installAndroidSdk",
             "installVersion": 1,
-            "os": ["osx"],
+            "os": ["osx", "win"],
             "platforms" : ["android"],
             "packages": [ {
                 "url": "http://dl.google.com/android/android-sdk_r24.3.4-macosx.zip",
@@ -173,10 +200,10 @@
                 }
             }],
             "licenses":[
-              {
-                "name": "Android Software Development Kit License",
-                "url": "https://developer.android.com/sdk/terms.html"
-              }
+                {
+                    "name": "Android Software Development Kit License",
+                    "url": "https://developer.android.com/sdk/terms.html"
+                }
             ],
             "opts": {},
             "diskSpace": 3
