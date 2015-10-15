@@ -237,11 +237,11 @@
         },
         {
             "script": "common/checkJdk",
-            "os": ["osx"]
+            "os": ["osx", "win"]
         },
         {
             "script": "common/checkMaven",
-            "os": ["osx"]
+            "os": ["osx", "win"]
         },
         {
             "script": "ios/checkCocoapods",
