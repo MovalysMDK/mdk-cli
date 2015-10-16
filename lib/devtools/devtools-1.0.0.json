@@ -296,13 +296,11 @@
         },
         {
             "script": "android/checkAndroidSdk",
-            "platforms": ["android"],
-            "os": ["osx", "win"]
+            "platforms": ["android"]
         },
         {
             "script": "android/checkGradle",
-            "platforms": ["android"],
-            "os": ["osx"]
+            "platforms": ["android"]
         },
         {
             "script": "common/checkMdkArtifactory",
