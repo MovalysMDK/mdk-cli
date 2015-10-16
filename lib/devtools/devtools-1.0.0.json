@@ -303,8 +303,7 @@
             "platforms": ["android"]
         },
         {
-            "script": "common/checkMdkArtifactory",
-            "os": ["osx"]
+            "script": "common/checkMdkArtifactory"
         },
         {
             "script": "ios/checkMdkGitRepository",
