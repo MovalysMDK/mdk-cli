@@ -44,7 +44,6 @@
                     "Cookie": "oraclelicense=accept-securebackup-cookie"
                 },
                 "options": {
-                    "extratedTarFilename": "jdk17079.tar",
                     "extractedDirectory" : "jdk1.7.0_79"
                 }
             }],
@@ -63,9 +62,9 @@
             "script": "common/installMaven",
             "installVersion": 1,
             "packages": [ {
-                "url": "http://apache.mirror.anlx.net/maven/maven-3/3.3.3/binaries/apache-maven-3.3.3-bin.zip",
-                "filename": "apache-maven-3.3.3-bin.zip",
-                "checksum": "b8eebb7ba265532bf55aa17f89440c2fe267bed3",
+                "url": "http://mirrors.ukfast.co.uk/sites/ftp.apache.org/maven/maven-3/3.3.3/binaries/apache-maven-3.3.3-bin.tar.gz",
+                "filename": "apache-maven-3.3.3-bin.tar.gz",
+                "checksum": "c8f257dce3381d9d8c420168a6df0fa25664337c",
                 "headers": {
                 },
                 "opts": {}
