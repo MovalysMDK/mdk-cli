@@ -28,14 +28,12 @@
     "async": "1.4.2",
     "commander": "2.8.1",
     "mkdirp": "0.5.1",
-    "unzip": "0.1.11",
     "semver": "5.0.3",
     "xml2js": "0.4.12",
     "glob": "5.0.14",
     "cli-color": "1.0.0",
     "read": "1.0.7",
     "request": "2.63.0",
-    "request-progress": "0.3.1",
     "progress": "1.1.5",
     "fs-extra": "0.24.0",
     "nconf": "0.8.0",
@@ -45,7 +43,7 @@
     "checksum": "0.1.0",
     "tar-stream": "1.2.1",
     "pump": "0.3.0",
-    "adm-zip": "*"
+    "unzip2": "0.2.5"
   },
   "author": "SopraSteria Group",
   "license": "Apache-2.0",
