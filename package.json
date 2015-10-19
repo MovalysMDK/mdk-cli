@@ -44,7 +44,7 @@
     "tar-stream": "1.2.2",
     "tar-fs": "1.8.1",
     "pump": "0.3.0",
-    "unzip2": "0.2.5"
+    "adm-zip": "*"
   },
   "author": "SopraSteria Group",
   "license": "Apache-2.0",

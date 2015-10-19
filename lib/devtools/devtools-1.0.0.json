@@ -44,7 +44,6 @@
                     "Cookie": "oraclelicense=accept-securebackup-cookie"
                 },
                 "options": {
-                    "extratedTarFilename": "jdk17079.tar",
                     "extractedDirectory" : "jdk1.7.0_79"
                 }
             }],
