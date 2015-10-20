@@ -1,6 +1,6 @@
 {
   "name": "mdk-cli",
-  "version": "1.0.0",
+  "version": "1.0.0-rc1",
   "preferGlobal": "true",
   "description": "MDK command line interface tool",
   "main": "./lib/mdk",
@@ -15,8 +15,8 @@
     "url": "gitmovalys@git.ptx.fr.sopra:mdk-cli.git"
   },
   "bugs": {
-    "url": "https://www.TODO.com",
-    "email": "toto@soprasteria.com"
+    "url": "https://mdk.movalys.sopra.com",
+    "email": "movalys.support@soprasteria.com"
   },
   "keywords": [
     "movalys",
