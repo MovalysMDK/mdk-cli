@@ -1,6 +1,6 @@
 {
     "mdk_cli": {
-        "minVersion": "1.0.0"
+        "minVersion": "1.0.0-rc1"
     },
     "install": [
         {
