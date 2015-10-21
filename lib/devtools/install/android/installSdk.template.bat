@@ -1,7 +1,12 @@
+@echo off
 
-echo y | {{{cmd}}}
+echo y | call {{{cmd}}}  || goto :error
 
 {{#cmdBuildTools}}
-echo y | {{{cmdBuildTools}}}
+echo y | call {{{cmdBuildTools}}}  || goto :error
 {{/cmdBuildTools}}
 
+goto :EOF
+
+:error
+exit /b 1
