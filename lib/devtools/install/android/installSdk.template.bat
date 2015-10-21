@@ -1,9 +1,9 @@
 @echo off
 
-echo y | call {{{cmd}}}  || goto :error
+echo y | call {{{cmd}}}
 
 {{#cmdBuildTools}}
-echo y | call {{{cmdBuildTools}}}  || goto :error
+echo y | call {{{cmdBuildTools}}}
 {{/cmdBuildTools}}
 
 goto :EOF
