@@ -1,7 +1,8 @@
 {  
   "templates":[  
     {  
-      "name":"MDK Basic",
+      "name":"MDK_Basic",
+      "description": "MDK Basic template that provides a simple MDK template with no design",
       "default":true,
       "platforms":[  
         {  
@@ -31,7 +32,8 @@
       ]
     },
     {  
-      "name":"MDK Design",
+      "name":"MDK_Design",
+      "description": "MDK Design template that provides a simple MDK template with MDK default design",
       "platforms":[  
         {  
           "name":"android",
