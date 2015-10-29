@@ -24,19 +24,29 @@
       ]
     },
     {  
-      "name":"MDK_Design",
-      "description": "MDK Design template that provides a simple MDK template with MDK default design",
+      "name":"QLAG_Template",
+      "description": "A great template by QLAG.",
       "platforms":[  
         {  
           "name":"android",
-          "groupId":"com.sopragroup.adeuza.movalysfwk",
-          "artifactId":"mdk-android-demo-template"
+          "groupId":"com.sopragroup.qlag",
+          "artifactId":"qlag-android-template"
+        },
+        {
+          "name":"ios",
+          "groupId":"com.sopragroup.qlag",
+          "artifactId":"qlag-ios-template"
         }
       ],
       "versions":[  
         {  
-          "version":"4.5.1-SNAPSHOT",
-          "mdkVersion":"4.5.1-SNAPSHOT"
+          "version":"1.0.0",
+          "mdkVersion":"6.0.0-SNAPSHOT"
+        },
+        {
+          "version":"2.0.0-SNAPSHOT",
+          "mdkVersion":"6.0.0-SNAPSHOT",
+          "zipFile":"QLAG-1.0.0-bin.zip"
         }
       ]
     }
