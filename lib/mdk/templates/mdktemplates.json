@@ -40,13 +40,14 @@
       ],
       "versions":[  
         {  
-          "version":"1.0.0",
-          "mdkVersion":"6.0.0-SNAPSHOT"
+          "version":"2.0.0",
+          "mdkVersion":"6.0.0-SNAPSHOT",
+          "zipFile":"QLAG-2.0.0-bin.zip",
+          "zipPath":"http://pdtinteg.ptx.fr.sopra/artifactory/prj-mdk-releases/com/sopragroup/qlag/QLAG/2.0.0/"
         },
         {
-          "version":"2.0.0-SNAPSHOT",
-          "mdkVersion":"6.0.0-SNAPSHOT",
-          "zipFile":"QLAG-1.0.0-bin.zip"
+          "version":"2.0.1-SNAPSHOT",
+          "mdkVersion":"6.0.0-SNAPSHOT"
         }
       ]
     }
