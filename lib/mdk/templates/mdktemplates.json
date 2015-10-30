@@ -1,33 +1,36 @@
-{  
-  "templates":[  
-    {  
+{
+  "templates":[
+    {
       "name":"MDK_Basic",
       "description": "MDK Basic template that provides a simple MDK template with no design",
       "default":true,
-      "platforms":[  
-        {  
+      "platforms":[
+        {
           "name":"android",
           "groupId":"com.sopragroup.adeuza.movalysfwk",
           "artifactId":"mdk-android-project-template"
         },
-        {  
+        {
           "name":"ios",
           "groupId":"com.sopragroup.adeuza.movalysfwk",
           "artifactId":"mdk-ios-project-template"
         }
       ],
-      "versions":[  
-        {  
+      "versions":[
+        {
           "version":"6.0.0-SNAPSHOT",
           "mdkVersion":"6.0.0-SNAPSHOT"
         }
       ]
     },
-    {  
+    {
       "name":"QLAG_Template",
       "description": "A great template by QLAG.",
-      "platforms":[  
-        {  
+      "demo": {
+        "applicationId":"com.sopragroup.mdk.handson.mesnotesdefrais"
+      },
+      "platforms":[
+        {
           "name":"android",
           "groupId":"com.sopragroup.qlag",
           "artifactId":"qlag-android-template"
@@ -38,15 +41,15 @@
           "artifactId":"qlag-ios-template"
         }
       ],
-      "versions":[  
-        {  
-          "version":"2.0.0",
+      "versions":[
+        {
+          "version":"2.0.3",
           "mdkVersion":"6.0.0-SNAPSHOT",
           "zipFile":"QLAG-2.0.0-bin.zip",
           "zipPath":"http://pdtinteg.ptx.fr.sopra/artifactory/prj-mdk-releases/com/sopragroup/qlag/QLAG/2.0.0/"
         },
         {
-          "version":"2.0.1-SNAPSHOT",
+          "version":"2.0.4-SNAPSHOT",
           "mdkVersion":"6.0.0-SNAPSHOT"
         }
       ]
