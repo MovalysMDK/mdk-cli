@@ -2,7 +2,9 @@
     "versions": [
         {
             "version": "6.0.0-SNAPSHOT",
-            "devToolsVersion": "1.0.0"
+            "devToolsVersion": "1.0.0",
+			"iosMDKVersion": "2.0.0",
+			"iosMDKControl": "1.0.0"
         }
     ]
 }
