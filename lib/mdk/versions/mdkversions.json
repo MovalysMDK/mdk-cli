@@ -3,8 +3,19 @@
         {
             "version": "6.0.0-SNAPSHOT",
             "devToolsVersion": "1.0.0",
-			"iosMDKVersion": "2.0.0",
-			"iosMDKControl": "1.0.0"
+            "android": {
+                "pom-customizable-keys": {
+                    "adJavaImportForceOverwrite":"/project/profiles/profile/id[text()='adjava']/../build/plugins/plugin/artifactId[starts-with(text(),'adjava')]/../executions/execution/id[starts-with(text(), 'adjava')]/../configuration/properties/importForceOverwrite",
+                    "adJavaDebug":"/project/profiles/profile/id[text()='adjava']/../build/plugins/plugin/artifactId[starts-with(text(),'adjava')]/../executions/execution/id[starts-with(text(), 'adjava')]/../configuration/properties/debug"
+                }
+            },
+            "ios": {
+                "pom-customizable-keys": {
+                    "adJavaDebug":"/project/profiles/profile/id[text()='adjava']/../build/plugins/plugin/artifactId[starts-with(text(),'adjava')]/../executions/execution/id[starts-with(text(), 'adjava')]/../configuration/properties/debug"
+                },
+                "mfVersion": "2.0.0",
+                "mdkControl": "1.0.0"
+            }
         }
     ]
 }
