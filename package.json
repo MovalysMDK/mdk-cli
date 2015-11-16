@@ -45,7 +45,9 @@
     "tar-fs": "1.8.1",
     "pump": "0.3.0",
     "console.table": "0.4.0",
-    "adm-zip": "0.4.7"
+    "adm-zip": "0.4.7",
+    "xpath": "0.0.9",
+    "xmldom": "0.1.19"
   },
   "author": "SopraSteria Group",
   "license": "Apache-2.0",
