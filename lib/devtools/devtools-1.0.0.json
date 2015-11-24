@@ -74,7 +74,7 @@
         },
         {
             "name": "cocoapods",
-            "version": "0.37.2",
+            "version": "0.39",
             "script": "ios/installCocoapods",
             "installVersion": 1,
             "os": ["osx"],
