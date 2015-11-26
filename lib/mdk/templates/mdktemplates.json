@@ -55,6 +55,33 @@
           "zipPath":"http://pdtinteg.ptx.fr.sopra/artifactory/prj-mdk-releases/com/sopragroup/qlag/QLAG/2.0.5/"
         }
       ]
+    },
+	{
+      "name":"Notes_de_frais",
+      "description": "MDK Template based on the demo application \"Mes notes de frais\"",
+      "demo": {
+        "applicationId":"com.sopragroup.mdk.handson.mesnotesdefrais"
+      },
+      "platforms":[
+        {
+          "name":"android",
+          "groupId":"com.sopragroup.adeuza.movalysfwk.templates.mndf",
+          "artifactId":"mdk-android-mndf-demo-template"
+        },
+        {
+          "name":"ios",
+          "groupId":"com.sopragroup.adeuza.movalysfwk.templates.mndf",
+          "artifactId":"mdk-ios-mndf-template"
+        }
+      ],
+      "versions":[
+        {
+          "version":"1.0.0",
+          "mdkVersion":"6.0.0-SNAPSHOT",
+		  "zipPath":"http://pdtinteg.ptx.fr.sopra/artifactory/prj-mdk-releases/com/sopragroup/adeuza/movalysfwk/templates/mndf/mdk-mndf/1.0.0/",
+		  "zipFile":"mdk-mndf-1.0.0-bin.zip"
+        }
+      ]
     }
   ]
 }
