@@ -76,10 +76,10 @@
       ],
       "versions":[
         {
-          "version":"1.0.0",
+          "version":"1.0.0-BETA1",
           "mdkVersion":"6.0.0-SNAPSHOT",
-		  "zipPath":"http://pdtinteg.ptx.fr.sopra/artifactory/prj-mdk-releases/com/sopragroup/adeuza/movalysfwk/templates/mndf/mdk-mndf/1.0.0/",
-		  "zipFile":"mdk-mndf-1.0.0-bin.zip"
+		  "zipPath":"http://pdtinteg.ptx.fr.sopra/artifactory/prj-mdk-releases/com/sopragroup/adeuza/movalysfwk/templates/mndf/mdk-mndf/1.0.0-BETA1/",
+		  "zipFile":"mdk-mndf-1.0.0-BETA1-bin.zip"
         }
       ]
     }
