@@ -42,12 +42,6 @@
         }
       ],
       "versions":[
-        {
-          "version":"2.0.4-SNAPSHOT",
-          "mdkVersion":"6.0.0-SNAPSHOT",
-          "zipFile":"QLAG-2.0.4-SNAPSHOT-bin.zip",
-          "zipPath":"http://pdtinteg.ptx.fr.sopra/artifactory/prj-mdk-releases/com/sopragroup/qlag/QLAG/2.0.4-SNAPSHOT/"
-        },
 		{
           "version":"2.0.5",
           "mdkVersion":"6.0.0-SNAPSHOT",
@@ -76,10 +70,10 @@
       ],
       "versions":[
         {
-          "version":"1.0.0-BETA1",
+          "version":"1.0.0-BETA2",
           "mdkVersion":"6.0.0-SNAPSHOT",
-		  "zipPath":"http://pdtinteg.ptx.fr.sopra/artifactory/prj-mdk-releases/com/sopragroup/adeuza/movalysfwk/templates/mndf/mdk-mndf/1.0.0-BETA1/",
-		  "zipFile":"mdk-mndf-1.0.0-BETA1-bin.zip"
+		  "zipPath":"http://pdtinteg.ptx.fr.sopra/artifactory/prj-mdk-releases/com/sopragroup/adeuza/movalysfwk/templates/mndf/mdk-mndf/1.0.0-BETA2/",
+		  "zipFile":"mdk-mndf-1.0.0-BETA2-bin.zip"
         }
       ]
     }
