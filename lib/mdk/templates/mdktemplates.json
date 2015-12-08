@@ -18,10 +18,10 @@
       ],
       "versions":[
         {
-          "version":"6.0.0-BETA1",
+          "version":"6.0.0-BETA3",
           "mdkVersion":"6.0.0",
-		  "zipPath":"http://pdtinteg.ptx.fr.sopra/artifactory/prj-mdk-releases/com/sopragroup/adeuza/movalysfwk/templates/basic/mdk-project/6.0.0-BETA1/",
-		  "zipFile":"mdk-project-6.0.0-BETA1-bin.zip"
+		  "zipPath":"http://pdtinteg.ptx.fr.sopra/artifactory/prj-mdk-releases/com/sopragroup/adeuza/movalysfwk/templates/basic/mdk-project/6.0.0-BETA3/",
+		  "zipFile":"mdk-project-6.0.0-BETA3-bin.zip"
         }
       ]
     },
@@ -55,7 +55,7 @@
       "name":"My Expenses Demo",
       "description": "Demo project generating the My Expenses application based on the Design template",
 	  "demo": {
-        "applicationId":"com.sopragroup.mdk.handson.mesnotesdefrais"
+        "applicationId":"com.soprasteria.mdk.handson.myexpenses"
       },
       "platforms":[
         {
@@ -83,7 +83,7 @@
       "name":"My Expenses Tuto",
       "description": "Tutorial project based on the My Expenses application and the Design template",
 	  "demo": {
-        "applicationId":"com.sopragroup.mdk.handson.mesnotesdefrais"
+        "applicationId":"com.soprasteria.mdk.handson.myexpenses"
       },
       "platforms":[
         {
