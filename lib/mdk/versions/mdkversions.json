@@ -1,7 +1,7 @@
 {
   "versions": [
     {
-      "version": "6.0.0-SNAPSHOT",
+      "version": "6.0.0",
       "devToolsVersion": "1.0.0",
       "android": {
         "pom-customizable-keys": {

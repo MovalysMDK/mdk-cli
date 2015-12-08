@@ -1,81 +1,111 @@
 {
   "templates":[
-    {
-      "name":"MDK_Basic",
-      "description": "MDK Basic template that provides a simple MDK template with no design",
-      "default":true,
-      "platforms":[
-        {
-          "name":"android",
-          "groupId":"com.sopragroup.adeuza.movalysfwk",
-          "artifactId":"mdk-android-project-template"
-        },
-        {
-          "name":"ios",
-          "groupId":"com.sopragroup.adeuza.movalysfwk",
-          "artifactId":"mdk-ios-project-template"
-        }
-      ],
-      "versions":[
-        {
-          "version":"6.0.0-SNAPSHOT",
-          "mdkVersion":"6.0.0-SNAPSHOT"
-        }
-      ]
-    },
-    {
-      "name":"QLAG_Template",
-      "description": "A great template by QLAG.",
-      "demo": {
-        "applicationId":"com.sopragroup.mdk.handson.mesnotesdefrais"
-      },
-      "platforms":[
-        {
-          "name":"android",
-          "groupId":"com.sopragroup.qlag",
-          "artifactId":"qlag-android-template"
-        },
-        {
-          "name":"ios",
-          "groupId":"com.sopragroup.qlag",
-          "artifactId":"qlag-ios-template"
-        }
-      ],
-      "versions":[
-		{
-          "version":"2.0.5",
-          "mdkVersion":"6.0.0-SNAPSHOT",
-          "zipFile":"QLAG-2.0.5-bin.zip",
-          "zipPath":"http://pdtinteg.ptx.fr.sopra/artifactory/prj-mdk-releases/com/sopragroup/qlag/QLAG/2.0.5/"
-        }
-      ]
-    },
 	{
-      "name":"Notes_de_frais",
-      "description": "MDK Template based on the demo application \"Mes notes de frais\"",
-      "demo": {
+      "name":"Basic",
+	  "default":true,
+      "description": "A Basic template for a MDK Project",
+      "platforms":[
+        {
+          "name":"android",
+          "groupId":"com.sopragroup.adeuza.movalysfwk.templates.basic",
+          "artifactId":"mdk-android-basic-template"
+        },
+        {
+          "name":"ios",
+          "groupId":"com.sopragroup.adeuza.movalysfwk.templates.basic",
+          "artifactId": "mdk-ios-basic-template"
+        }
+      ],
+      "versions":[
+        {
+          "version":"6.0.0-BETA1",
+          "mdkVersion":"6.0.0",
+		  "zipPath":"http://pdtinteg.ptx.fr.sopra/artifactory/prj-mdk-releases/com/sopragroup/adeuza/movalysfwk/templates/basic/mdk-project/6.0.0-BETA1/",
+		  "zipFile":"mdk-project-6.0.0-BETA1-bin.zip"
+        }
+      ]
+    },
+	
+	{
+      "name":"Design",
+      "description": "A Design template for a MDK Project",
+      "platforms":[
+        {
+          "name":"android",
+          "groupId":"com.sopragroup.adeuza.movalysfwk.templates.design",
+          "artifactId":"mdk-android-design-template"
+        },
+        {
+          "name":"ios",
+          "groupId":"com.sopragroup.adeuza.movalysfwk.templates.design",
+          "artifactId": "mdk-ios-design-template"
+        }
+      ],
+      "versions":[
+        {
+          "version":"6.0.0-BETA1",
+          "mdkVersion":"6.0.0",
+		  "zipPath":"http://pdtinteg.ptx.fr.sopra/artifactory/prj-mdk-releases/com/sopragroup/adeuza/movalysfwk/templates/design/mdk-project/6.0.0-BETA1/",
+		  "zipFile":"mdk-project-6.0.0-BETA1-bin.zip"
+        }
+      ]
+    },
+	
+	{
+      "name":"My Expenses Demo",
+      "description": "Demo project generating the My Expenses application based on the Design template",
+	  "demo": {
         "applicationId":"com.sopragroup.mdk.handson.mesnotesdefrais"
       },
       "platforms":[
         {
           "name":"android",
-          "groupId":"com.sopragroup.adeuza.movalysfwk.templates.mndf",
-          "artifactId":"mdk-android-mndf-demo-template"
+          "groupId":"com.sopragroup.adeuza.movalysfwk.templates.my_expenses_demo",
+          "artifactId":"mdk-android-my_expenses_demo-template"
         },
         {
           "name":"ios",
-          "groupId":"com.sopragroup.adeuza.movalysfwk.templates.mndf",
-          "artifactId":"mdk-ios-mndf-template"
+          "groupId":"com.sopragroup.adeuza.movalysfwk.templates.my_expenses_demo",
+          "artifactId": "mdk-ios-my_expenses_demo-template"
         }
       ],
       "versions":[
         {
-          "version":"1.0.0-BETA3",
-          "mdkVersion":"6.0.0-SNAPSHOT",
-		  "zipPath":"http://pdtinteg.ptx.fr.sopra/artifactory/prj-mdk-releases/com/sopragroup/adeuza/movalysfwk/templates/mndf/mdk-mndf/1.0.0-BETA3/",
-		  "zipFile":"mdk-mndf-1.0.0-BETA3-bin.zip"
+          "version":"6.0.0-BETA1",
+          "mdkVersion":"6.0.0",
+		  "zipPath":"http://pdtinteg.ptx.fr.sopra/artifactory/prj-mdk-releases/com/sopragroup/adeuza/movalysfwk/templates/my_expenses_demo/mdk-project/6.0.0-BETA1/",
+		  "zipFile":"mdk-project-6.0.0-BETA1-bin.zip"
+        }
+      ]
+    },
+	
+	{
+      "name":"My Expenses Tuto",
+      "description": "Tutorial project based on the My Expenses application and the Design template",
+	  "demo": {
+        "applicationId":"com.sopragroup.mdk.handson.mesnotesdefrais"
+      },
+      "platforms":[
+        {
+          "name":"android",
+          "groupId":"com.sopragroup.adeuza.movalysfwk.templates.my_expenses_tuto",
+          "artifactId":"mdk-android-my_expenses_tuto-template"
+        },
+        {
+          "name":"ios",
+          "groupId":"com.sopragroup.adeuza.movalysfwk.templates.my_expenses_tuto",
+          "artifactId": "mdk-ios-my_expenses_tuto-template"
+        }
+      ],
+      "versions":[
+        {
+          "version":"6.0.0-BETA1",
+          "mdkVersion":"6.0.0",
+		  "zipPath":"http://pdtinteg.ptx.fr.sopra/artifactory/prj-mdk-releases/com/sopragroup/adeuza/movalysfwk/templates/my_expenses_tuto/mdk-project/6.0.0-BETA1/",
+		  "zipFile":"mdk-project-6.0.0-BETA1-bin.zip"
         }
       ]
     }
+	
   ]
 }
