@@ -18,10 +18,10 @@
       ],
       "versions":[
         {
-          "version":"6.0.0-BETA3",
+          "version":"6.0.0-BETA5",
           "mdkVersion":"6.0.0",
-		  "zipPath":"http://pdtinteg.ptx.fr.sopra/artifactory/prj-mdk-releases/com/sopragroup/adeuza/movalysfwk/templates/basic/mdk-project/6.0.0-BETA3/",
-		  "zipFile":"mdk-project-6.0.0-BETA3-bin.zip"
+		  "zipPath":"http://pdtinteg.ptx.fr.sopra/artifactory/prj-mdk-releases/com/sopragroup/adeuza/movalysfwk/templates/basic/mdk-project/6.0.0-BETA5/",
+		  "zipFile":"mdk-project-6.0.0-BETA5-bin.zip"
         }
       ]
     },
@@ -43,10 +43,10 @@
       ],
       "versions":[
         {
-          "version":"6.0.0-BETA1",
+          "version":"6.0.0-BETA2",
           "mdkVersion":"6.0.0",
-		  "zipPath":"http://pdtinteg.ptx.fr.sopra/artifactory/prj-mdk-releases/com/sopragroup/adeuza/movalysfwk/templates/design/mdk-project/6.0.0-BETA1/",
-		  "zipFile":"mdk-project-6.0.0-BETA1-bin.zip"
+		  "zipPath":"http://pdtinteg.ptx.fr.sopra/artifactory/prj-mdk-releases/com/sopragroup/adeuza/movalysfwk/templates/design/mdk-project/6.0.0-BETA2/",
+		  "zipFile":"mdk-project-6.0.0-BETA2-bin.zip"
         }
       ]
     },
@@ -71,10 +71,10 @@
       ],
       "versions":[
         {
-          "version":"6.0.0-BETA1",
+          "version":"6.0.0-BETA4",
           "mdkVersion":"6.0.0",
-		  "zipPath":"http://pdtinteg.ptx.fr.sopra/artifactory/prj-mdk-releases/com/sopragroup/adeuza/movalysfwk/templates/my_expenses_demo/mdk-project/6.0.0-BETA1/",
-		  "zipFile":"mdk-project-6.0.0-BETA1-bin.zip"
+		  "zipPath":"http://pdtinteg.ptx.fr.sopra/artifactory/prj-mdk-releases/com/sopragroup/adeuza/movalysfwk/templates/my_expenses_demo/mdk-project/6.0.0-BETA4/",
+		  "zipFile":"mdk-project-6.0.0-BETA4-bin.zip"
         }
       ]
     },
@@ -89,7 +89,7 @@
         {
           "name":"android",
           "groupId":"com.sopragroup.adeuza.movalysfwk.templates.my_expenses_tuto",
-          "artifactId":"mdk-android-my_expenses_tuto-template"
+          "artifactId":"mdk-android-design-template"
         },
         {
           "name":"ios",
@@ -99,10 +99,10 @@
       ],
       "versions":[
         {
-          "version":"6.0.0-BETA1",
+          "version":"6.0.0-BETA3",
           "mdkVersion":"6.0.0",
-		  "zipPath":"http://pdtinteg.ptx.fr.sopra/artifactory/prj-mdk-releases/com/sopragroup/adeuza/movalysfwk/templates/my_expenses_tuto/mdk-project/6.0.0-BETA1/",
-		  "zipFile":"mdk-project-6.0.0-BETA1-bin.zip"
+		  "zipPath":"http://pdtinteg.ptx.fr.sopra/artifactory/prj-mdk-releases/com/sopragroup/adeuza/movalysfwk/templates/my_expenses_tuto/mdk-project/6.0.0-BETA3/",
+		  "zipFile":"mdk-project-6.0.0-BETA3-bin.zip"
         }
       ]
     }
