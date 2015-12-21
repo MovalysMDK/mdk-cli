@@ -3,7 +3,7 @@
 	{
       "name":"Basic",
 	  "default":true,
-      "description": "A Basic template for a MDK Project",
+      "description": "A Basic template for a MDK Project.",
       "platforms":[
         {
           "name":"android",
@@ -14,21 +14,26 @@
           "name":"ios",
           "groupId":"com.sopragroup.adeuza.movalysfwk.templates.basic",
           "artifactId": "mdk-ios-basic-template"
+        },
+        {
+          "name":"html5",
+          "groupId":"com.sopragroup.adeuza.movalysfwk.templates.basic",
+          "artifactId": "mdk-html5-basic-template"
         }
       ],
       "versions":[
         {
-          "version":"6.0.0-BETA5",
+          "version":"6.0.0-SNAPSHOT",
           "mdkVersion":"6.0.0",
-		  "zipPath":"http://pdtinteg.ptx.fr.sopra/artifactory/prj-mdk-releases/com/sopragroup/adeuza/movalysfwk/templates/basic/mdk-project/6.0.0-BETA5/",
-		  "zipFile":"mdk-project-6.0.0-BETA5-bin.zip"
+		  "zipPath":"http://pdtinteg.ptx.fr.sopra/artifactory/prj-mdk-releases/com/sopragroup/adeuza/movalysfwk/templates/basic/mdk-basic-project/6.0.0-RC1/",
+		  "zipFile":"mdk-basic-project-6.0.0-RC1-bin.zip"
         }
       ]
     },
 	
 	{
       "name":"Design",
-      "description": "A Design template for a MDK Project",
+      "description": "A Design template for a MDK Project. Provides a set of predefined layouts and styles to make your application look better.",
       "platforms":[
         {
           "name":"android",
@@ -43,17 +48,17 @@
       ],
       "versions":[
         {
-          "version":"6.0.0-BETA2",
+          "version":"6.0.0-RC1",
           "mdkVersion":"6.0.0",
-		  "zipPath":"http://pdtinteg.ptx.fr.sopra/artifactory/prj-mdk-releases/com/sopragroup/adeuza/movalysfwk/templates/design/mdk-project/6.0.0-BETA2/",
-		  "zipFile":"mdk-project-6.0.0-BETA2-bin.zip"
+		  "zipPath":"http://pdtinteg.ptx.fr.sopra/artifactory/prj-mdk-releases/com/sopragroup/adeuza/movalysfwk/templates/design/mdk-design-project/6.0.0-RC1/",
+		  "zipFile":"mdk-design-project-6.0.0-RC1-bin.zip"
         }
       ]
     },
 	
 	{
       "name":"My Expenses Demo",
-      "description": "Demo project generating the My Expenses application based on the Design template",
+      "description": "Demo project generating the My Expenses application from scratch, based on the Design template. Use com.soprasteria.mdk.handson.myexpenses as name for your project.",
 	  "demo": {
         "applicationId":"com.soprasteria.mdk.handson.myexpenses"
       },
@@ -71,17 +76,17 @@
       ],
       "versions":[
         {
-          "version":"6.0.0-BETA5",
+          "version":"6.0.0-RC1",
           "mdkVersion":"6.0.0",
-		  "zipPath":"http://pdtinteg.ptx.fr.sopra/artifactory/prj-mdk-releases/com/sopragroup/adeuza/movalysfwk/templates/my_expenses_demo/mdk-project/6.0.0-BETA5/",
-		  "zipFile":"mdk-project-6.0.0-BETA5-bin.zip"
+		  "zipPath":"http://pdtinteg.ptx.fr.sopra/artifactory/prj-mdk-releases/com/sopragroup/adeuza/movalysfwk/templates/my_expenses_demo/mdk-my_expenses_demo-project/6.0.0-RC1/",
+		  "zipFile":"mdk-my_expenses_demo-project-6.0.0-RC1-bin.zip"
         }
       ]
     },
 	
 	{
       "name":"My Expenses Tuto",
-      "description": "Tutorial project based on the My Expenses application and the Design template",
+      "description": "Tutorial project based on the My Expenses application and the Design template. Provides a set of files and instructions to guide you through the making of a MDK application. Use com.soprasteria.mdk.handson.myexpenses as name for your project.",
 	  "demo": {
         "applicationId":"com.soprasteria.mdk.handson.myexpenses"
       },
@@ -99,10 +104,10 @@
       ],
       "versions":[
         {
-          "version":"6.0.0-BETA3",
+          "version":"6.0.0-RC1",
           "mdkVersion":"6.0.0",
-		  "zipPath":"http://pdtinteg.ptx.fr.sopra/artifactory/prj-mdk-releases/com/sopragroup/adeuza/movalysfwk/templates/my_expenses_tuto/mdk-project/6.0.0-BETA3/",
-		  "zipFile":"mdk-project-6.0.0-BETA3-bin.zip"
+		  "zipPath":"http://pdtinteg.ptx.fr.sopra/artifactory/prj-mdk-releases/com/sopragroup/adeuza/movalysfwk/templates/my_expenses_tuto/mdk-my_expenses_tuto-project/6.0.0-RC1/",
+		  "zipFile":"mdk-my_expenses_tuto-project-6.0.0-RC1-bin.zip"
         }
       ]
     }
