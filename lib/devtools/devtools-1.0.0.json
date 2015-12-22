@@ -218,7 +218,15 @@
             "packages": [],
             "opts": {},
             "diskSpace": 250
-        }
+        },
+		{
+			"name": "cordova",
+            "version": "5.4.1",
+            "script": "html/installCordova",
+            "installVersion": 1,
+            "platforms" : ["html5"],
+			"diskSpace": 63
+		}
     ],
     "checks": [
         {
@@ -283,6 +291,10 @@
         {
             "script": "ios/checkMdkGitRepository",
             "platforms": ["ios"]
-        }
+        },
+		{
+			"script": "html5/checkCordova",
+			"platforms": ["html5"]
+		}
     ]
 }
