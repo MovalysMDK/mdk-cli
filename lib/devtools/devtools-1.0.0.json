@@ -221,9 +221,12 @@
         },
 		{
 			"name": "cordova",
+			"npmName": "cordova",
             "version": "5.4.1",
-            "script": "html/installCordova",
+            "script": "html5/installNPMPackage",
             "installVersion": 1,
+			"packages": [],
+            "opts": {},
             "platforms" : ["html5"],
 			"diskSpace": 63
 		}
