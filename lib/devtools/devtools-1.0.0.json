@@ -228,7 +228,51 @@
 			"packages": [],
             "opts": {},
             "platforms" : ["html5"],
-			"diskSpace": 63
+			"diskSpace": 65
+		},
+		{
+			"name": "grunt",
+			"npmName": "grunt-cli",
+            "version": "0.1.13",
+            "script": "html5/installNPMPackage",
+            "installVersion": 1,
+			"packages": [],
+            "opts": {},
+            "platforms" : ["html5"],
+			"diskSpace": 2
+		},
+		{
+			"name": "gulp",
+			"npmName": "gulp",
+            "version": "3.9.0",
+            "script": "html5/installNPMPackage",
+            "installVersion": 1,
+			"packages": [],
+            "opts": {},
+            "platforms" : ["html5"],
+			"diskSpace": 7
+		},
+		{
+			"name": "js-beautify",
+			"npmName": "js-beautify",
+            "version": "1.5.10",
+            "script": "html5/installNPMPackage",
+            "installVersion": 1,
+			"packages": [],
+            "opts": {},
+            "platforms" : ["html5"],
+			"diskSpace": 2
+		},
+		{
+			"name": "sass",
+			"npmName": "node-sass",
+            "version": "3.4.2",
+            "script": "html5/installNPMPackage",
+            "installVersion": 1,
+			"packages": [],
+            "opts": {},
+            "platforms" : ["html5"],
+			"diskSpace": 21
 		}
     ],
     "checks": [
@@ -297,6 +341,22 @@
         },
 		{
 			"script": "html5/checkCordova",
+			"platforms": ["html5"]
+		},
+		{
+			"script": "html5/checkGrunt",
+			"platforms": ["html5"]
+		},
+		{
+			"script": "html5/checkGulp",
+			"platforms": ["html5"]
+		},
+		{
+			"script": "html5/checkJSBeautify",
+			"platforms": ["html5"]
+		},
+		{
+			"script": "html5/checkSass",
 			"platforms": ["html5"]
 		}
     ]
