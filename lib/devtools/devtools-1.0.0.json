@@ -273,6 +273,17 @@
             "opts": {},
             "platforms" : ["html5"],
 			"diskSpace": 21
+		},
+		{
+			"name": "bower",
+			"npmName": "bower",
+            "version": "1.7.1",
+            "script": "html5/installNPMPackage",
+            "installVersion": 1,
+			"packages": [],
+            "opts": {},
+            "platforms" : ["html5"],
+			"diskSpace": 28
 		}
     ],
     "checks": [
@@ -357,6 +368,10 @@
 		},
 		{
 			"script": "html5/checkSass",
+			"platforms": ["html5"]
+		},
+		{
+			"script": "html5/checkBower",
 			"platforms": ["html5"]
 		}
     ]
