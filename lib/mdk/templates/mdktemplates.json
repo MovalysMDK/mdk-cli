@@ -14,6 +14,11 @@
           "name":"ios",
           "groupId":"com.sopragroup.adeuza.movalysfwk.templates.basic",
           "artifactId": "mdk-ios-basic-template"
+        },
+        {
+          "name":"html5",
+          "groupId":"com.sopragroup.adeuza.movalysfwk.templates.basic",
+          "artifactId": "mdk-html5-basic-template"
         }
       ],
       "versions":[
