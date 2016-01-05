@@ -184,7 +184,7 @@
             "version": "24.3.4",
             "script": "android/installAndroidSdk",
             "installVersion": 1,
-            "platforms" : ["android"],
+            "platforms" : ["android", "html5"],
             "packages": [ {
                 "url": "http://dl.google.com/android/android-sdk_r24.3.4-macosx.zip",
                 "filename": "android-sdk_r24.3.4-macosx.zip",
@@ -231,17 +231,6 @@
 			"diskSpace": 65
 		},
 		{
-			"name": "grunt",
-			"npmName": "grunt-cli",
-            "version": "0.1.13",
-            "script": "html5/installNPMPackage",
-            "installVersion": 1,
-			"packages": [],
-            "opts": {},
-            "platforms" : ["html5"],
-			"diskSpace": 2
-		},
-		{
 			"name": "gulp",
 			"npmName": "gulp",
             "version": "3.9.0",
@@ -282,6 +271,30 @@
             "installVersion": 1,
 			"packages": [],
             "opts": {},
+            "platforms" : ["html5"],
+			"diskSpace": 28
+		},
+		{
+			"name": "ios-sim",
+			"npmName": "ios-sim",
+            "version": "5.0.4",
+            "script": "html5/installNPMPackage",
+            "installVersion": 1,
+			"packages": [],
+            "opts": {},
+            "os": ["osx"],
+            "platforms" : ["html5"],
+			"diskSpace": 28
+		},
+		{
+			"name": "ios-deploy",
+			"npmName": "ios-deploy",
+            "version": "1.8.3",
+            "script": "html5/installNPMPackage",
+            "installVersion": 1,
+			"packages": [],
+            "opts": {},
+            "os": ["osx"],
             "platforms" : ["html5"],
 			"diskSpace": 28
 		}
@@ -337,7 +350,7 @@
         },
         {
             "script": "android/checkAndroidSdk",
-            "platforms": ["android"]
+            "platforms": ["android", "html5"]
         },
         {
             "script": "android/checkGradle",
@@ -355,10 +368,6 @@
 			"platforms": ["html5"]
 		},
 		{
-			"script": "html5/checkGrunt",
-			"platforms": ["html5"]
-		},
-		{
 			"script": "html5/checkGulp",
 			"platforms": ["html5"]
 		},
@@ -373,6 +382,16 @@
 		{
 			"script": "html5/checkBower",
 			"platforms": ["html5"]
+		},
+		{
+			"script": "html5/checkiOSSim",
+			"platforms": ["html5"],
+            "os": ["osx"]
+		},
+		{
+			"script": "html5/checkiOSDeploy",
+			"platforms": ["html5"],
+            "os": ["osx"]
 		}
     ]
 }
