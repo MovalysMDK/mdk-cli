@@ -84,6 +84,11 @@
           "name":"ios",
           "groupId":"com.sopragroup.adeuza.movalysfwk.templates.my_expenses_demo",
           "artifactId": "mdk-ios-my_expenses_demo-template"
+        },
+        {
+          "name":"html5",
+          "groupId":"com.sopragroup.adeuza.movalysfwk.templates.my_expenses_demo",
+          "artifactId": "mdk-html5-basic-template"
         }
       ],
       "versions":[
