@@ -50,14 +50,19 @@
           "name":"ios",
           "groupId":"com.sopragroup.adeuza.movalysfwk.templates.design",
           "artifactId": "mdk-ios-design-template"
+        },
+        {
+          "name":"html5",
+          "groupId":"com.sopragroup.adeuza.movalysfwk.templates.design",
+          "artifactId": "mdk-html5-design-template"
         }
       ],
       "versions":[
         {
-          "version":"6.0.0-RC1",
+          "version":"6.0.0-RC2",
           "mdkVersion":"6.0.0",
-		  "zipPath":"http://pdtinteg.ptx.fr.sopra/artifactory/prj-mdk-releases/com/sopragroup/adeuza/movalysfwk/templates/design/mdk-design-project/6.0.0-RC1/",
-		  "zipFile":"mdk-design-project-6.0.0-RC1-bin.zip"
+		  "zipPath":"http://pdtinteg.ptx.fr.sopra/artifactory/prj-mdk-releases/com/sopragroup/adeuza/movalysfwk/templates/design/mdk-design-project/6.0.0-RC2/",
+		  "zipFile":"mdk-design-project-6.0.0-RC2-bin.zip"
         },
 		{
           "version":"6.0.0-SNAPSHOT",
@@ -88,7 +93,7 @@
         {
           "name":"html5",
           "groupId":"com.sopragroup.adeuza.movalysfwk.templates.my_expenses_demo",
-          "artifactId": "mdk-html5-basic-template"
+          "artifactId": "mdk-html5-my_expenses_demo-template"
         }
       ],
       "versions":[
@@ -123,6 +128,11 @@
           "name":"ios",
           "groupId":"com.sopragroup.adeuza.movalysfwk.templates.my_expenses_tuto",
           "artifactId": "mdk-ios-my_expenses_tuto-template"
+        },
+        {
+          "name":"html5",
+          "groupId":"com.sopragroup.adeuza.movalysfwk.templates.my_expenses_tuto",
+          "artifactId": "mdk-html5-my_expenses_tuto-template"
         }
       ],
       "versions":[
