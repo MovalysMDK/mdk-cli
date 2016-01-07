@@ -122,7 +122,7 @@
         {
           "name":"android",
           "groupId":"com.sopragroup.adeuza.movalysfwk.templates.my_expenses_tuto",
-          "artifactId":"mdk-android-design-template"
+          "artifactId":"mdk-android-my_expenses_tuto-template"
         },
         {
           "name":"ios",
