@@ -139,8 +139,8 @@
         {
           "version":"6.0.1-RC1",
           "mdkVersion":"6.0.1-RC1",
-		  "zipPath":"http://pdtinteg.ptx.fr.sopra/artifactory/prj-mdk-releases/com/sopragroup/adeuza/movalysfwk/templates/my_expenses_tuto/mdk-my_expenses_tuto-project/6.0.0-RC1/",
-		  "zipFile":"mdk-my_expenses_tuto-project-6.0.0-RC1-bin.zip"
+		  "zipPath":"http://pdtinteg.ptx.fr.sopra/artifactory/prj-mdk-releases/com/sopragroup/adeuza/movalysfwk/templates/my_expenses_tuto/mdk-my_expenses_tuto-project/6.0.1-RC1/",
+		  "zipFile":"mdk-my_expenses_tuto-project-6.0.1-RC1-bin.zip"
         },
 		{
           "version":"6.0.1-SNAPSHOT",
