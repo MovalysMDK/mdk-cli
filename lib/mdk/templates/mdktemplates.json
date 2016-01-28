@@ -28,11 +28,17 @@
 		  "zipPath":"http://pdtinteg.ptx.fr.sopra/artifactory/prj-mdk-releases/com/sopragroup/adeuza/movalysfwk/templates/basic/mdk-basic-project/6.0.1-RC1/",
 		  "zipFile":"mdk-basic-project-6.0.1-RC1-bin.zip"
         },
+        {
+          "version":"6.1.0",
+          "mdkVersion":"6.1.0",
+		  "zipPath":"http://pdtinteg.ptx.fr.sopra/artifactory/prj-mdk-releases/com/sopragroup/adeuza/movalysfwk/templates/basic/mdk-basic-project/6.1.0/",
+		  "zipFile":"mdk-basic-project-6.1.0-bin.zip"
+        },
 		{
-          "version":"6.0.1-SNAPSHOT",
-          "mdkVersion":"6.0.1-SNAPSHOT",
-		  "zipPath":"http://pdtinteg.ptx.fr.sopra/artifactory/prj-mdk-snapshots/com/sopragroup/adeuza/movalysfwk/templates/basic/mdk-basic-project/6.0.1-SNAPSHOT/",
-		  "zipFile":"mdk-basic-project-6.0.1-SNAPSHOT-bin.zip"
+          "version":"6.2.0-SNAPSHOT",
+          "mdkVersion":"6.2.0-SNAPSHOT",
+		  "zipPath":"http://pdtinteg.ptx.fr.sopra/artifactory/prj-mdk-snapshots/com/sopragroup/adeuza/movalysfwk/templates/basic/mdk-basic-project/6.2.0-SNAPSHOT/",
+		  "zipFile":"mdk-basic-project-6.2.0-SNAPSHOT-bin.zip"
         }
       ]
     },
@@ -64,11 +70,17 @@
 		  "zipPath":"http://pdtinteg.ptx.fr.sopra/artifactory/prj-mdk-releases/com/sopragroup/adeuza/movalysfwk/templates/design/mdk-design-project/6.0.1-RC1/",
 		  "zipFile":"mdk-design-project-6.0.1-RC1-bin.zip"
         },
+        {
+          "version":"6.1.0",
+          "mdkVersion":"6.1.0",
+		  "zipPath":"http://pdtinteg.ptx.fr.sopra/artifactory/prj-mdk-releases/com/sopragroup/adeuza/movalysfwk/templates/design/mdk-design-project/6.1.0/",
+		  "zipFile":"mdk-design-project-6.1.0-bin.zip"
+        },
 		{
-          "version":"6.0.1-SNAPSHOT",
-          "mdkVersion":"6.0.1-SNAPSHOT",
-		  "zipPath":"http://pdtinteg.ptx.fr.sopra/artifactory/prj-mdk-snapshots/com/sopragroup/adeuza/movalysfwk/templates/design/mdk-design-project/6.0.1-SNAPSHOT/",
-		  "zipFile":"mdk-design-project-6.0.1-SNAPSHOT-bin.zip"
+          "version":"6.2.0-SNAPSHOT",
+          "mdkVersion":"6.2.0-SNAPSHOT",
+		  "zipPath":"http://pdtinteg.ptx.fr.sopra/artifactory/prj-mdk-snapshots/com/sopragroup/adeuza/movalysfwk/templates/design/mdk-design-project/6.2.0-SNAPSHOT/",
+		  "zipFile":"mdk-design-project-6.2.0-SNAPSHOT-bin.zip"
         }
       ]
     },
@@ -103,11 +115,17 @@
 		  "zipPath":"http://pdtinteg.ptx.fr.sopra/artifactory/prj-mdk-releases/com/sopragroup/adeuza/movalysfwk/templates/my_expenses_demo/mdk-my_expenses_demo-project/6.0.1-RC1/",
 		  "zipFile":"mdk-my_expenses_demo-project-6.0.1-RC1-bin.zip"
         },
+        {
+          "version":"6.1.0",
+          "mdkVersion":"6.1.0",
+		  "zipPath":"http://pdtinteg.ptx.fr.sopra/artifactory/prj-mdk-releases/com/sopragroup/adeuza/movalysfwk/templates/my_expenses_demo/mdk-my_expenses_demo-project/6.1.0/",
+		  "zipFile":"mdk-my_expenses_demo-project-6.1.0-bin.zip"
+        },
 		{
-          "version":"6.0.1-SNAPSHOT",
-          "mdkVersion":"6.0.1-SNAPSHOT",
-		  "zipPath":"http://pdtinteg.ptx.fr.sopra/artifactory/prj-mdk-snapshots/com/sopragroup/adeuza/movalysfwk/templates/my_expenses_demo/mdk-my_expenses_demo-project/6.0.1-SNAPSHOT/",
-		  "zipFile":"mdk-my_expenses_demo-project-6.0.1-SNAPSHOT-bin.zip"
+          "version":"6.2.0-SNAPSHOT",
+          "mdkVersion":"6.2.0-SNAPSHOT",
+		  "zipPath":"http://pdtinteg.ptx.fr.sopra/artifactory/prj-mdk-snapshots/com/sopragroup/adeuza/movalysfwk/templates/my_expenses_demo/mdk-my_expenses_demo-project/6.2.0-SNAPSHOT/",
+		  "zipFile":"mdk-my_expenses_demo-project-6.2.0-SNAPSHOT-bin.zip"
         }
       ]
     },
@@ -142,11 +160,17 @@
 		  "zipPath":"http://pdtinteg.ptx.fr.sopra/artifactory/prj-mdk-releases/com/sopragroup/adeuza/movalysfwk/templates/my_expenses_tuto/mdk-my_expenses_tuto-project/6.0.1-RC1/",
 		  "zipFile":"mdk-my_expenses_tuto-project-6.0.1-RC1-bin.zip"
         },
+        {
+          "version":"6.1.0",
+          "mdkVersion":"6.1.0",
+		  "zipPath":"http://pdtinteg.ptx.fr.sopra/artifactory/prj-mdk-releases/com/sopragroup/adeuza/movalysfwk/templates/my_expenses_tuto/mdk-my_expenses_tuto-project/6.1.0/",
+		  "zipFile":"mdk-my_expenses_tuto-project-6.1.0-bin.zip"
+        },
 		{
-          "version":"6.0.1-SNAPSHOT",
-          "mdkVersion":"6.0.1-SNAPSHOT",
-		  "zipPath":"http://pdtinteg.ptx.fr.sopra/artifactory/prj-mdk-snapshots/com/sopragroup/adeuza/movalysfwk/templates/my_expenses_tuto/mdk-my_expenses_tuto-project/6.0.1-SNAPSHOT/",
-		  "zipFile":"mdk-my_expenses_tuto-project-6.0.1-SNAPSHOT-bin.zip"
+          "version":"6.2.0-SNAPSHOT",
+          "mdkVersion":"6.2.0-SNAPSHOT",
+		  "zipPath":"http://pdtinteg.ptx.fr.sopra/artifactory/prj-mdk-snapshots/com/sopragroup/adeuza/movalysfwk/templates/my_expenses_tuto/mdk-my_expenses_tuto-project/6.2.0-SNAPSHOT/",
+		  "zipFile":"mdk-my_expenses_tuto-project-6.2.0-SNAPSHOT-bin.zip"
         }
       ]
     }
