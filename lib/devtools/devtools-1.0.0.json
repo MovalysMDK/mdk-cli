@@ -297,7 +297,45 @@
             "os": ["osx"],
             "platforms" : ["html5"],
 			"diskSpace": 28
-		}
+		},
+        {
+            "name": "NuGet",
+			"npmName": "NuGet",
+            "version": "3.3.0",
+            "script": "win8/installNuGet",
+            "installVersion": 1,
+			"packages": [ {
+                "url": "https://dist.nuget.org/win-x86-commandline/v3.3.0/nuget.exe",
+                "filename": "nuget.exe",
+                "checksum": "56de2b3f051ef6d114ad71ece4ceb5330fe44e0e",
+                "headers": {
+                },
+                "opts": {}
+            }],
+            "opts": {},
+            "os": ["win"],
+            "platforms" : ["win8"],
+			"diskSpace": 2
+        },
+        {
+            "name": "AStyle",
+			"npmName": "AStyle",
+            "version": "2.05.1",
+            "script": "win8/installAStyle",
+            "installVersion": 1,
+			"packages": [ {
+                "url": "http://downloads.sourceforge.net/project/astyle/astyle/astyle%202.05.1/AStyle_2.05.1_windows.zip?r=&ts=1454424022&use_mirror=netix",
+                "filename": "AStyle_2.05.1_windows.zip",
+                "checksum": "3e67d3823df562a6bffc6997421318a9b5562677",
+                "headers": {
+                },
+                "opts": {}
+            }],
+            "opts": {},
+            "os": ["win"],
+            "platforms" : ["win8"],
+			"diskSpace": 2
+        }
     ],
     "checks": [
         {
@@ -392,6 +430,16 @@
 			"script": "html5/checkiOSDeploy",
 			"platforms": ["html5"],
             "os": ["osx"]
+		},
+		{
+			"script": "win8/checkNuGet",
+			"platforms": ["win8"],
+            "os": ["win"]
+		},
+		{
+			"script": "win8/checkAStyle",
+			"platforms": ["win8"],
+            "os": ["win"]
 		}
     ]
 }
