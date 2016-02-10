@@ -19,6 +19,11 @@
           "name":"html5",
           "groupId":"com.sopragroup.adeuza.movalysfwk.templates.basic",
           "artifactId": "mdk-html5-basic-template"
+        },
+        {
+          "name":"win8",
+          "groupId":"com.sopragroup.adeuza.movalysfwk.templates.basic",
+          "artifactId": "mdk-win8-basic-template"
         }
       ],
       "versions":[
