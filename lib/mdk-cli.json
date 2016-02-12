@@ -1,8 +1,6 @@
 {
-  "mdkUrl": "https://mdk.movalys.sopra.com/",
+  "mdkUrl": "https://raw.githubusercontent.com/MovalysMDK/mdk-cli-config/master/",
   "mdkRepoRelease": "https://artifactory.movalys.sopra.com/artifactory/prj-mdk-releases/",
   "mdkRepoPluginRelease": "https://artifactory.movalys.sopra.com/artifactory/prj-mdk-releases/",
-  "mdkRepoGemsRelease": "https://artifactory.movalys.sopra.com/artifactory/prj-mdkgems-releases/",
-  "mdkRepoGit": "https://git.movalys.sopra.com/git/",
   "snapshotEnable": "false"
 }
