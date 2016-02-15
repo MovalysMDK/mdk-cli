@@ -55,7 +55,7 @@
   "license": "LGPL-3.0",
   "devDependencies": {
     "gulp": "^3.9.0",
-    "gulp-jsdoc": "^0.1.4",
+    "gulp-jsdoc": "0.1.4",
     "gulp-jshint": "^1.11.2",
     "gulp-jsonlint": "^1.1.1"
   }
