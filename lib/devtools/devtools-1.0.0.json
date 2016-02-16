@@ -108,7 +108,7 @@
         },
         {
             "name": "mfxcode",
-            "version": "1.0.0",
+            "version": "1.0.1",
             "script": "ios/installMfxcode",
             "installVersion": 1,
             "os": ["osx"],
@@ -396,10 +396,6 @@
         },
         {
             "script": "common/checkMdkArtifactory"
-        },
-        {
-            "script": "ios/checkMdkGitRepository",
-            "platforms": ["ios"]
         },
 		{
 			"script": "html5/checkCordova",
