@@ -1,6 +1,6 @@
 {
   "name": "mdk-cli",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "preferGlobal": "true",
   "description": "MDK command line interface tool",
   "main": "./lib/mdk",
