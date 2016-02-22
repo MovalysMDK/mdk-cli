@@ -454,6 +454,19 @@
 			"script": "win8/checkAStyle",
 			"platforms": ["win8"],
             "os": ["win"]
+		},
+		{
+			"script": "win8/checkVisualStudio2013",
+			"platforms": ["win8"],
+            "prerequisite": true
+		},
+		{
+			"script": "win8/checkWindowsVersion",
+			"platforms": ["win8"],
+            "opts": {
+                "minVersion": "8.1.0"
+            },
+            "prerequisite": true
 		}
     ]
 }
