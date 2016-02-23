@@ -368,7 +368,7 @@
             "script": "ios/checkXcodeCLT",
             "platforms": ["ios"],
             "opts": {
-                "minVersion": "6.2.0"
+                "minVersion": "7.0.0"
             },
             "prerequisite": true
         },
