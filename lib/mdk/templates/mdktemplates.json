@@ -226,6 +226,63 @@
 		  "zipFile":"mdk-my_expenses_tuto-project-6.2.0-SNAPSHOT-bin.zip"
         }
       ]
+    },
+
+    {
+      "name":"Formation",
+      "description": "Tutorial project based on the My Expenses application and the Design template. Provides a set of files and instructions to guide you through the making of a MDK application. Use com.soprasteria.mdk.handson.myexpenses as name for your project.",
+    "demo": {
+        "applicationId":"com.soprasteria.mdk.handson.myexpenses"
+      },
+      "platforms":[
+        {
+          "name":"android",
+          "groupId":"com.sopragroup.adeuza.movalysfwk.templates.formation",
+          "artifactId":"mdk-android-formation"
+        },
+        {
+          "name":"ios",
+          "groupId":"com.sopragroup.adeuza.movalysfwk.templates.formation",
+          "artifactId": "mdk-ios-formation-template"
+        },
+        {
+          "name":"html5",
+          "groupId":"com.sopragroup.adeuza.movalysfwk.templates.formation",
+          "artifactId": "mdk-html5-formation-template"
+        }
+      ],
+      "versions":[
+        {
+          "version":"6.0.1-RC1",
+          "mdkVersion":"6.0.1-RC1",
+      "zipPath":"com/sopragroup/adeuza/movalysfwk/templates/formation/mdk-formation-project/6.0.1-RC1/",
+      "zipFile":"mdk-formation-project-6.0.1-RC1-bin.zip"
+        },
+        {
+          "version":"6.1.0",
+          "mdkVersion":"6.1.0",
+      "zipPath":"com/sopragroup/adeuza/movalysfwk/templates/formation/mdk-formation-project/6.1.0/",
+      "zipFile":"mdk-formation-project-6.1.0-bin.zip"
+        },
+    {
+          "version":"6.2.0-RC3",
+          "mdkVersion":"6.2.0-RC3",
+      "zipPath":"com/sopragroup/adeuza/movalysfwk/templates/formation/mdk-formation-project/6.2.0-RC3/",
+      "zipFile":"mdk-formation-project-6.2.0-RC3-bin.zip"
+        },
+    {
+          "version":"6.2.0-RC4",
+          "mdkVersion":"6.2.0-RC4",
+      "zipPath":"com/sopragroup/adeuza/movalysfwk/templates/formation/mdk-formation-project/6.2.0-RC4/",
+      "zipFile":"mdk-formation-project-6.2.0-RC4-bin.zip"
+        },
+    {
+          "version":"6.2.0-SNAPSHOT",
+          "mdkVersion":"6.2.0-SNAPSHOT",
+      "zipPath":"com/sopragroup/adeuza/movalysfwk/templates/formation/mdk-formation-project/6.2.0-SNAPSHOT/",
+      "zipFile":"mdk-formation-project-6.2.0-SNAPSHOT-bin.zip"
+        }
+      ]
     }
 	
   ]
