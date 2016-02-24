@@ -6,56 +6,57 @@
       "description": "A Basic template for a MDK Project.",
       "platforms":[
         {
-          "name":"android",
-          "groupId":"com.sopragroup.adeuza.movalysfwk.templates.basic",
-          "artifactId":"mdk-android-basic-template"
+			"name":"android",
+			"groupId":"com.sopragroup.adeuza.movalysfwk.templates.basic",
+			"artifactId":"mdk-android-basic-template"
         },
         {
-          "name":"ios",
-          "groupId":"com.sopragroup.adeuza.movalysfwk.templates.basic",
-          "artifactId": "mdk-ios-basic-template"
+			"name":"ios",
+			"groupId":"com.sopragroup.adeuza.movalysfwk.templates.basic",
+			"artifactId": "mdk-ios-basic-template"
         },
         {
-          "name":"html5",
-          "groupId":"com.sopragroup.adeuza.movalysfwk.templates.basic",
-          "artifactId": "mdk-html5-basic-template"
+			"name":"html5",
+			"groupId":"com.sopragroup.adeuza.movalysfwk.templates.basic",
+			"artifactId": "mdk-html5-basic-template"
         },
         {
-          "name":"win8",
-          "groupId":"com.sopragroup.adeuza.movalysfwk.templates.basic",
-          "artifactId": "mdk-win8-basic-template"
+			"name":"win8",
+			"groupId":"com.sopragroup.adeuza.movalysfwk.templates.basic",
+			"artifactId": "mdk-win8-basic-template"
         }
       ],
       "versions":[
         {
-          "version":"6.0.1-RC1",
-          "mdkVersion":"6.0.1-RC1",
-		  "zipPath":"com/sopragroup/adeuza/movalysfwk/templates/basic/mdk-basic-project/6.0.1-RC1/",
-		  "zipFile":"mdk-basic-project-6.0.1-RC1-bin.zip"
+			"version":"6.0.1-RC1",
+			"mdkVersion":"6.0.1-RC1",
+			"zipPath":"com/sopragroup/adeuza/movalysfwk/templates/basic/mdk-basic-project/6.0.1-RC1/",
+			"zipFile":"mdk-basic-project-6.0.1-RC1-bin.zip"
+        },
+		{
+			"version":"6.2.0-RC3",
+			"mdkVersion":"6.2.0-RC3",
+			"zipPath":"com/sopragroup/adeuza/movalysfwk/templates/basic/mdk-basic-project/6.2.0-RC3/",
+			"zipFile":"mdk-basic-project-6.2.0-RC3-bin.zip"
+        },
+		{
+			"version":"6.2.0-RC4",
+			"mdkVersion":"6.2.0-RC4",
+			"zipPath":"com/sopragroup/adeuza/movalysfwk/templates/basic/mdk-basic-project/6.2.0-RC4/",
+			"zipFile":"mdk-basic-project-6.2.0-RC4-bin.zip"
         },
         {
-          "version":"6.1.0",
-          "mdkVersion":"6.1.0",
-		  "zipPath":"com/sopragroup/adeuza/movalysfwk/templates/basic/mdk-basic-project/6.1.0/",
-		  "zipFile":"mdk-basic-project-6.1.0-bin.zip"
+			"version":"6.1.0",
+			"mdkVersion":"6.1.0",
+			"zipPath":"com/sopragroup/adeuza/movalysfwk/templates/basic/mdk-basic-project/6.1.0/",
+			"zipFile":"mdk-basic-project-6.1.0-bin.zip",
+			"default": true
         },
 		{
-          "version":"6.2.0-RC3",
-          "mdkVersion":"6.2.0-RC3",
-		  "zipPath":"com/sopragroup/adeuza/movalysfwk/templates/basic/mdk-basic-project/6.2.0-RC3/",
-		  "zipFile":"mdk-basic-project-6.2.0-RC3-bin.zip"
-        },
-		{
-          "version":"6.2.0-RC4",
-          "mdkVersion":"6.2.0-RC4",
-		  "zipPath":"com/sopragroup/adeuza/movalysfwk/templates/basic/mdk-basic-project/6.2.0-RC4/",
-		  "zipFile":"mdk-basic-project-6.2.0-RC4-bin.zip"
-        },
-		{
-          "version":"6.2.0-SNAPSHOT",
-          "mdkVersion":"6.2.0-SNAPSHOT",
-		  "zipPath":"com/sopragroup/adeuza/movalysfwk/templates/basic/mdk-basic-project/6.2.0-SNAPSHOT/",
-		  "zipFile":"mdk-basic-project-6.2.0-SNAPSHOT-bin.zip"
+			"version":"6.2.0-SNAPSHOT",
+			"mdkVersion":"6.2.0-SNAPSHOT",
+			"zipPath":"com/sopragroup/adeuza/movalysfwk/templates/basic/mdk-basic-project/6.2.0-SNAPSHOT/",
+			"zipFile":"mdk-basic-project-6.2.0-SNAPSHOT-bin.zip"
         }
       ]
     },
@@ -65,51 +66,52 @@
       "description": "A Design template for a MDK Project. Provides a set of predefined layouts and styles to make your application look better.",
       "platforms":[
         {
-          "name":"android",
-          "groupId":"com.sopragroup.adeuza.movalysfwk.templates.design",
-          "artifactId":"mdk-android-design-template"
+			"name":"android",
+			"groupId":"com.sopragroup.adeuza.movalysfwk.templates.design",
+			"artifactId":"mdk-android-design-template"
         },
         {
-          "name":"ios",
-          "groupId":"com.sopragroup.adeuza.movalysfwk.templates.design",
-          "artifactId": "mdk-ios-design-template"
+			"name":"ios",
+			"groupId":"com.sopragroup.adeuza.movalysfwk.templates.design",
+			"artifactId": "mdk-ios-design-template"
         },
         {
-          "name":"html5",
-          "groupId":"com.sopragroup.adeuza.movalysfwk.templates.design",
-          "artifactId": "mdk-html5-design-template"
+			"name":"html5",
+			"groupId":"com.sopragroup.adeuza.movalysfwk.templates.design",
+			"artifactId": "mdk-html5-design-template"
         }
       ],
       "versions":[
         {
-          "version":"6.0.1-RC1",
-          "mdkVersion":"6.0.1-RC1",
-		  "zipPath":"com/sopragroup/adeuza/movalysfwk/templates/design/mdk-design-project/6.0.1-RC1/",
-		  "zipFile":"mdk-design-project-6.0.1-RC1-bin.zip"
+			"version":"6.0.1-RC1",
+			"mdkVersion":"6.0.1-RC1",
+			"zipPath":"com/sopragroup/adeuza/movalysfwk/templates/design/mdk-design-project/6.0.1-RC1/",
+			"zipFile":"mdk-design-project-6.0.1-RC1-bin.zip"
+        },
+		{
+			"version":"6.2.0-RC3",
+			"mdkVersion":"6.2.0-RC3",
+			"zipPath":"com/sopragroup/adeuza/movalysfwk/templates/design/mdk-design-project/6.2.0-RC3/",
+			"zipFile":"mdk-design-project-6.2.0-RC3-bin.zip"
+        },
+		{
+			"version":"6.2.0-RC4",
+			"mdkVersion":"6.2.0-RC4",
+			"zipPath":"com/sopragroup/adeuza/movalysfwk/templates/design/mdk-design-project/6.2.0-RC4/",
+			"zipFile":"mdk-design-project-6.2.0-RC4-bin.zip"
         },
         {
-          "version":"6.1.0",
-          "mdkVersion":"6.1.0",
-		  "zipPath":"com/sopragroup/adeuza/movalysfwk/templates/design/mdk-design-project/6.1.0/",
-		  "zipFile":"mdk-design-project-6.1.0-bin.zip"
+			"version":"6.1.0",
+			"mdkVersion":"6.1.0",
+			"zipPath":"com/sopragroup/adeuza/movalysfwk/templates/design/mdk-design-project/6.1.0/",
+			"zipFile":"mdk-design-project-6.1.0-bin.zip",
+			"default": true
         },
 		{
-          "version":"6.2.0-RC3",
-          "mdkVersion":"6.2.0-RC3",
-		  "zipPath":"com/sopragroup/adeuza/movalysfwk/templates/design/mdk-design-project/6.2.0-RC3/",
-		  "zipFile":"mdk-design-project-6.2.0-RC3-bin.zip"
-        },
-		{
-          "version":"6.2.0-RC4",
-          "mdkVersion":"6.2.0-RC4",
-		  "zipPath":"com/sopragroup/adeuza/movalysfwk/templates/design/mdk-design-project/6.2.0-RC4/",
-		  "zipFile":"mdk-design-project-6.2.0-RC4-bin.zip"
-        },
-		{
-          "version":"6.2.0-SNAPSHOT",
-          "mdkVersion":"6.2.0-SNAPSHOT",
-		  "zipPath":"com/sopragroup/adeuza/movalysfwk/templates/design/mdk-design-project/6.2.0-SNAPSHOT/",
-		  "zipFile":"mdk-design-project-6.2.0-SNAPSHOT-bin.zip"
+			"version":"6.2.0-SNAPSHOT",
+			"mdkVersion":"6.2.0-SNAPSHOT",
+			"zipPath":"com/sopragroup/adeuza/movalysfwk/templates/design/mdk-design-project/6.2.0-SNAPSHOT/",
+			"zipFile":"mdk-design-project-6.2.0-SNAPSHOT-bin.zip"
         }
       ]
     },
@@ -122,51 +124,52 @@
       },
       "platforms":[
         {
-          "name":"android",
-          "groupId":"com.sopragroup.adeuza.movalysfwk.templates.my_expenses_demo",
-          "artifactId":"mdk-android-my_expenses_demo-template"
+			"name":"android",
+			"groupId":"com.sopragroup.adeuza.movalysfwk.templates.my_expenses_demo",
+			"artifactId":"mdk-android-my_expenses_demo-template"
         },
         {
-          "name":"ios",
-          "groupId":"com.sopragroup.adeuza.movalysfwk.templates.my_expenses_demo",
-          "artifactId": "mdk-ios-my_expenses_demo-template"
+			"name":"ios",
+			"groupId":"com.sopragroup.adeuza.movalysfwk.templates.my_expenses_demo",
+			"artifactId": "mdk-ios-my_expenses_demo-template"
         },
         {
-          "name":"html5",
-          "groupId":"com.sopragroup.adeuza.movalysfwk.templates.my_expenses_demo",
-          "artifactId": "mdk-html5-my_expenses_demo-template"
+			"name":"html5",
+			"groupId":"com.sopragroup.adeuza.movalysfwk.templates.my_expenses_demo",
+			"artifactId": "mdk-html5-my_expenses_demo-template"
         }
       ],
       "versions":[
         {
-          "version":"6.0.1-RC1",
-          "mdkVersion":"6.0.1-RC1",
-		  "zipPath":"com/sopragroup/adeuza/movalysfwk/templates/my_expenses_demo/mdk-my_expenses_demo-project/6.0.1-RC1/",
-		  "zipFile":"mdk-my_expenses_demo-project-6.0.1-RC1-bin.zip"
+			"version":"6.0.1-RC1",
+			"mdkVersion":"6.0.1-RC1",
+			"zipPath":"com/sopragroup/adeuza/movalysfwk/templates/my_expenses_demo/mdk-my_expenses_demo-project/6.0.1-RC1/",
+			"zipFile":"mdk-my_expenses_demo-project-6.0.1-RC1-bin.zip"
+        },
+		{
+			"version":"6.2.0-RC3",
+			"mdkVersion":"6.2.0-RC3",
+			"zipPath":"com/sopragroup/adeuza/movalysfwk/templates/my_expenses_demo/mdk-my_expenses_demo-project/6.2.0-RC3/",
+			"zipFile":"mdk-my_expenses_demo-project-6.2.0-RC3-bin.zip"
+        },
+		{
+			"version":"6.2.0-RC4",
+			"mdkVersion":"6.2.0-RC4",
+			"zipPath":"com/sopragroup/adeuza/movalysfwk/templates/my_expenses_demo/mdk-my_expenses_demo-project/6.2.0-RC4/",
+			"zipFile":"mdk-my_expenses_demo-project-6.2.0-RC4-bin.zip"
         },
         {
-          "version":"6.1.0",
-          "mdkVersion":"6.1.0",
-		  "zipPath":"com/sopragroup/adeuza/movalysfwk/templates/my_expenses_demo/mdk-my_expenses_demo-project/6.1.0/",
-		  "zipFile":"mdk-my_expenses_demo-project-6.1.0-bin.zip"
+			"version":"6.1.0",
+			"mdkVersion":"6.1.0",
+			"zipPath":"com/sopragroup/adeuza/movalysfwk/templates/my_expenses_demo/mdk-my_expenses_demo-project/6.1.0/",
+			"zipFile":"mdk-my_expenses_demo-project-6.1.0-bin.zip",
+			"default": true
         },
 		{
-          "version":"6.2.0-RC3",
-          "mdkVersion":"6.2.0-RC3",
-		  "zipPath":"com/sopragroup/adeuza/movalysfwk/templates/my_expenses_demo/mdk-my_expenses_demo-project/6.2.0-RC3/",
-		  "zipFile":"mdk-my_expenses_demo-project-6.2.0-RC3-bin.zip"
-        },
-		{
-          "version":"6.2.0-RC4",
-          "mdkVersion":"6.2.0-RC4",
-		  "zipPath":"com/sopragroup/adeuza/movalysfwk/templates/my_expenses_demo/mdk-my_expenses_demo-project/6.2.0-RC4/",
-		  "zipFile":"mdk-my_expenses_demo-project-6.2.0-RC4-bin.zip"
-        },
-		{
-          "version":"6.2.0-SNAPSHOT",
-          "mdkVersion":"6.2.0-SNAPSHOT",
-		  "zipPath":"com/sopragroup/adeuza/movalysfwk/templates/my_expenses_demo/mdk-my_expenses_demo-project/6.2.0-SNAPSHOT/",
-		  "zipFile":"mdk-my_expenses_demo-project-6.2.0-SNAPSHOT-bin.zip"
+			"version":"6.2.0-SNAPSHOT",
+			"mdkVersion":"6.2.0-SNAPSHOT",
+			"zipPath":"com/sopragroup/adeuza/movalysfwk/templates/my_expenses_demo/mdk-my_expenses_demo-project/6.2.0-SNAPSHOT/",
+			"zipFile":"mdk-my_expenses_demo-project-6.2.0-SNAPSHOT-bin.zip"
         }
       ]
     },
@@ -179,51 +182,52 @@
       },
       "platforms":[
         {
-          "name":"android",
-          "groupId":"com.sopragroup.adeuza.movalysfwk.templates.my_expenses_tuto",
-          "artifactId":"mdk-android-my_expenses_tuto-template"
+			"name":"android",
+			"groupId":"com.sopragroup.adeuza.movalysfwk.templates.my_expenses_tuto",
+			"artifactId":"mdk-android-my_expenses_tuto-template"
         },
         {
-          "name":"ios",
-          "groupId":"com.sopragroup.adeuza.movalysfwk.templates.my_expenses_tuto",
-          "artifactId": "mdk-ios-my_expenses_tuto-template"
+			"name":"ios",
+			"groupId":"com.sopragroup.adeuza.movalysfwk.templates.my_expenses_tuto",
+			"artifactId": "mdk-ios-my_expenses_tuto-template"
         },
         {
-          "name":"html5",
-          "groupId":"com.sopragroup.adeuza.movalysfwk.templates.my_expenses_tuto",
-          "artifactId": "mdk-html5-my_expenses_tuto-template"
+			"name":"html5",
+			"groupId":"com.sopragroup.adeuza.movalysfwk.templates.my_expenses_tuto",
+			"artifactId": "mdk-html5-my_expenses_tuto-template"
         }
       ],
       "versions":[
         {
-          "version":"6.0.1-RC1",
-          "mdkVersion":"6.0.1-RC1",
-		  "zipPath":"com/sopragroup/adeuza/movalysfwk/templates/my_expenses_tuto/mdk-my_expenses_tuto-project/6.0.1-RC1/",
-		  "zipFile":"mdk-my_expenses_tuto-project-6.0.1-RC1-bin.zip"
+			"version":"6.0.1-RC1",
+			"mdkVersion":"6.0.1-RC1",
+			"zipPath":"com/sopragroup/adeuza/movalysfwk/templates/my_expenses_tuto/mdk-my_expenses_tuto-project/6.0.1-RC1/",
+			"zipFile":"mdk-my_expenses_tuto-project-6.0.1-RC1-bin.zip"
+        },
+		{
+			"version":"6.2.0-RC3",
+			"mdkVersion":"6.2.0-RC3",
+			"zipPath":"com/sopragroup/adeuza/movalysfwk/templates/my_expenses_tuto/mdk-my_expenses_tuto-project/6.2.0-RC3/",
+			"zipFile":"mdk-my_expenses_tuto-project-6.2.0-RC3-bin.zip"
+        },
+		{
+			"version":"6.2.0-RC4",
+			"mdkVersion":"6.2.0-RC4",
+			"zipPath":"com/sopragroup/adeuza/movalysfwk/templates/my_expenses_tuto/mdk-my_expenses_tuto-project/6.2.0-RC4/",
+			"zipFile":"mdk-my_expenses_tuto-project-6.2.0-RC4-bin.zip"
         },
         {
-          "version":"6.1.0",
-          "mdkVersion":"6.1.0",
-		  "zipPath":"com/sopragroup/adeuza/movalysfwk/templates/my_expenses_tuto/mdk-my_expenses_tuto-project/6.1.0/",
-		  "zipFile":"mdk-my_expenses_tuto-project-6.1.0-bin.zip"
+			"version":"6.1.0",
+			"mdkVersion":"6.1.0",
+			"zipPath":"com/sopragroup/adeuza/movalysfwk/templates/my_expenses_tuto/mdk-my_expenses_tuto-project/6.1.0/",
+			"zipFile":"mdk-my_expenses_tuto-project-6.1.0-bin.zip",
+			"default": true
         },
 		{
-          "version":"6.2.0-RC3",
-          "mdkVersion":"6.2.0-RC3",
-		  "zipPath":"com/sopragroup/adeuza/movalysfwk/templates/my_expenses_tuto/mdk-my_expenses_tuto-project/6.2.0-RC3/",
-		  "zipFile":"mdk-my_expenses_tuto-project-6.2.0-RC3-bin.zip"
-        },
-		{
-          "version":"6.2.0-RC4",
-          "mdkVersion":"6.2.0-RC4",
-		  "zipPath":"com/sopragroup/adeuza/movalysfwk/templates/my_expenses_tuto/mdk-my_expenses_tuto-project/6.2.0-RC4/",
-		  "zipFile":"mdk-my_expenses_tuto-project-6.2.0-RC4-bin.zip"
-        },
-		{
-          "version":"6.2.0-SNAPSHOT",
-          "mdkVersion":"6.2.0-SNAPSHOT",
-		  "zipPath":"com/sopragroup/adeuza/movalysfwk/templates/my_expenses_tuto/mdk-my_expenses_tuto-project/6.2.0-SNAPSHOT/",
-		  "zipFile":"mdk-my_expenses_tuto-project-6.2.0-SNAPSHOT-bin.zip"
+			"version":"6.2.0-SNAPSHOT",
+			"mdkVersion":"6.2.0-SNAPSHOT",
+			"zipPath":"com/sopragroup/adeuza/movalysfwk/templates/my_expenses_tuto/mdk-my_expenses_tuto-project/6.2.0-SNAPSHOT/",
+			"zipFile":"mdk-my_expenses_tuto-project-6.2.0-SNAPSHOT-bin.zip"
         }
       ]
     },
@@ -236,51 +240,52 @@
       },
       "platforms":[
         {
-          "name":"android",
-          "groupId":"com.sopragroup.adeuza.movalysfwk.templates.formation",
-          "artifactId":"mdk-android-formation"
+			"name":"android",
+			"groupId":"com.sopragroup.adeuza.movalysfwk.templates.formation",
+			"artifactId":"mdk-android-formation"
         },
         {
-          "name":"ios",
-          "groupId":"com.sopragroup.adeuza.movalysfwk.templates.formation",
-          "artifactId": "mdk-ios-formation-template"
+			"name":"ios",
+			"groupId":"com.sopragroup.adeuza.movalysfwk.templates.formation",
+			"artifactId": "mdk-ios-formation-template"
         },
         {
-          "name":"html5",
-          "groupId":"com.sopragroup.adeuza.movalysfwk.templates.formation",
-          "artifactId": "mdk-html5-formation-template"
+			"name":"html5",
+			"groupId":"com.sopragroup.adeuza.movalysfwk.templates.formation",
+			"artifactId": "mdk-html5-formation-template"
         }
       ],
       "versions":[
         {
-          "version":"6.0.1-RC1",
-          "mdkVersion":"6.0.1-RC1",
-      "zipPath":"com/sopragroup/adeuza/movalysfwk/templates/formation/mdk-formation-project/6.0.1-RC1/",
-      "zipFile":"mdk-formation-project-6.0.1-RC1-bin.zip"
+			"version":"6.0.1-RC1",
+			"mdkVersion":"6.0.1-RC1",
+			"zipPath":"com/sopragroup/adeuza/movalysfwk/templates/formation/mdk-formation-project/6.0.1-RC1/",
+			"zipFile":"mdk-formation-project-6.0.1-RC1-bin.zip"
+        },
+		{
+			"version":"6.2.0-RC3",
+			"mdkVersion":"6.2.0-RC3",
+			"zipPath":"com/sopragroup/adeuza/movalysfwk/templates/formation/mdk-formation-project/6.2.0-RC3/",
+			"zipFile":"mdk-formation-project-6.2.0-RC3-bin.zip"
+        },
+		{
+			"version":"6.2.0-RC4",
+			"mdkVersion":"6.2.0-RC4",
+			"zipPath":"com/sopragroup/adeuza/movalysfwk/templates/formation/mdk-formation-project/6.2.0-RC4/",
+			"zipFile":"mdk-formation-project-6.2.0-RC4-bin.zip"
         },
         {
-          "version":"6.1.0",
-          "mdkVersion":"6.1.0",
-      "zipPath":"com/sopragroup/adeuza/movalysfwk/templates/formation/mdk-formation-project/6.1.0/",
-      "zipFile":"mdk-formation-project-6.1.0-bin.zip"
+			"version":"6.1.0",
+			"mdkVersion":"6.1.0",
+			"zipPath":"com/sopragroup/adeuza/movalysfwk/templates/formation/mdk-formation-project/6.1.0/",
+			"zipFile":"mdk-formation-project-6.1.0-bin.zip",
+			"default": true
         },
-    {
-          "version":"6.2.0-RC3",
-          "mdkVersion":"6.2.0-RC3",
-      "zipPath":"com/sopragroup/adeuza/movalysfwk/templates/formation/mdk-formation-project/6.2.0-RC3/",
-      "zipFile":"mdk-formation-project-6.2.0-RC3-bin.zip"
-        },
-    {
-          "version":"6.2.0-RC4",
-          "mdkVersion":"6.2.0-RC4",
-      "zipPath":"com/sopragroup/adeuza/movalysfwk/templates/formation/mdk-formation-project/6.2.0-RC4/",
-      "zipFile":"mdk-formation-project-6.2.0-RC4-bin.zip"
-        },
-    {
-          "version":"6.2.0-SNAPSHOT",
-          "mdkVersion":"6.2.0-SNAPSHOT",
-      "zipPath":"com/sopragroup/adeuza/movalysfwk/templates/formation/mdk-formation-project/6.2.0-SNAPSHOT/",
-      "zipFile":"mdk-formation-project-6.2.0-SNAPSHOT-bin.zip"
+		{
+			"version":"6.2.0-SNAPSHOT",
+			"mdkVersion":"6.2.0-SNAPSHOT",
+			"zipPath":"com/sopragroup/adeuza/movalysfwk/templates/formation/mdk-formation-project/6.2.0-SNAPSHOT/",
+			"zipFile":"mdk-formation-project-6.2.0-SNAPSHOT-bin.zip"
         }
       ]
     }
