@@ -3,5 +3,5 @@
   "mdkRepoRelease": "https://artifactory.movalys.org/artifactory/prj-mdk-releases/",
   "mdkRepoPluginRelease": "https://artifactory.movalys.org/artifactory/prj-mdk-releases/",
   "snapshotEnable": "false",
-  "mdkAnalyticsUrl": "https://analytics-web-server.eu-gb.mybluemix.net/sendData"
+  "mdkAnalyticsUrl": "https://mdk-analytics.eu-gb.mybluemix.net/rest/v1/commands"
 }
