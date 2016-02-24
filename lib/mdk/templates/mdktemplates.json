@@ -230,7 +230,7 @@
 
     {
       "name":"Formation",
-      "description": "Tutorial project based on the My Expenses application and the Design template. Provides a set of files and instructions to guide you through the making of a MDK application. Use com.soprasteria.mdk.handson.myexpenses as name for your project.",
+      "description": "Formation project based on the My Expenses application and the Design template. Provides a set of files and instructions to guide you through a MDK formation. Use com.soprasteria.mdk.handson.myexpenses as name for your project.",
     "demo": {
         "applicationId":"com.soprasteria.mdk.handson.myexpenses"
       },
