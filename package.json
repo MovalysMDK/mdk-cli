@@ -1,7 +1,7 @@
 {
   "name": "mdk-cli",
   "version": "1.1.1",
-  "preferGlobal": "true",
+  "preferGlobal": true,
   "description": "MDK command line interface tool",
   "main": "./lib/mdk",
   "engines": {
@@ -50,7 +50,8 @@
     "xml2js": "0.4.12",
     "xpath": "0.0.9",
     "xmldom": "0.1.19",
-    "extract-zip": "1.4.1"
+    "extract-zip": "1.4.1",
+    "suppose": "0.5.1"
   },
   "author": "SopraSteria Group",
   "license": "LGPL-3.0",
