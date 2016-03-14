@@ -17,7 +17,7 @@
     "options": {
         "mavenOptions": ["-Dmaven.wagon.http.ssl.insecure=true","-Dmaven.wagon.http.ssl.allowall=true"],
         "gruntOptions": ["--silent", "--no-optional"],
-        "bowerOptions": ["--quiet","--config.interactive=false"],
+        "bowerOptions": ["--config.interactive=false"],
         "cocoapodOptions": [],
         "gradleOptions": [],
         "gulpOptions": [],
