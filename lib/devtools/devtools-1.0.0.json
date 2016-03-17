@@ -373,6 +373,12 @@
             "prerequisite": true
         },
         {
+            "script": "common/checkGit",
+            "platforms":["html5"],
+            "os": ["osx", "win"],
+            "prerequisite": true
+        },
+        {
             "script": "common/checkJdk",
             "os": ["osx", "win"]
         },

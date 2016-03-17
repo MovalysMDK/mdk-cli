@@ -84,6 +84,33 @@
 	{
       "version": "6.2.0",
       "devToolsVersion": "1.0.0",
+      "android": {
+        "pom-customizable-keys": {
+          "adJavaAppendGeneratorForceOverwrite": "/project/profiles/profile/id[text()='adjava']/../build/plugins/plugin/artifactId[starts-with(text(),'adjava')]/../executions/execution/id[starts-with(text(), 'adjava')]/../configuration/properties/appendGeneratorForceOverwrite",
+          "adJavaImportForceOverwrite":"/project/profiles/profile/id[text()='adjava']/../build/plugins/plugin/artifactId[starts-with(text(),'adjava')]/../executions/execution/id[starts-with(text(), 'adjava')]/../configuration/properties/importForceOverwrite",
+          "adJavaDebug":"/project/profiles/profile/id[text()='adjava']/../build/plugins/plugin/artifactId[starts-with(text(),'adjava')]/../executions/execution/id[starts-with(text(), 'adjava')]/../configuration/debug"
+        }
+      },
+      "ios": {
+        "pom-customizable-keys": {
+          "adJavaAppendGeneratorForceOverwrite": "/project/profiles/profile/id[text()='adjava']/../build/plugins/plugin/artifactId[starts-with(text(),'adjava')]/../executions/execution/id[starts-with(text(), 'adjava')]/../configuration/properties/appendGeneratorForceOverwrite",
+          "adJavaImportForceOverwrite":"/project/profiles/profile/id[text()='adjava']/../build/plugins/plugin/artifactId[starts-with(text(),'adjava')]/../executions/execution/id[starts-with(text(), 'adjava')]/../configuration/properties/importForceOverwrite",
+          "adJavaDebug":"/project/profiles/profile/id[text()='adjava']/../build/plugins/plugin/artifactId[starts-with(text(),'adjava')]/../executions/execution/id[starts-with(text(), 'adjava')]/../configuration/debug"
+        },
+        "mfVersion": "2.2.0",
+        "mdkControl": "1.2.0"
+      },
+      "html5": {
+        "pom-customizable-keys": {
+          "adJavaAppendGeneratorForceOverwrite": "/project/profiles/profile/id[text()='adjava']/../build/plugins/plugin/artifactId[starts-with(text(),'adjava')]/../executions/execution/id[starts-with(text(), 'adjava')]/../configuration/properties/appendGeneratorForceOverwrite",
+          "adJavaImportForceOverwrite":"/project/profiles/profile/id[text()='adjava']/../build/plugins/plugin/artifactId[starts-with(text(),'adjava')]/../executions/execution/id[starts-with(text(), 'adjava')]/../configuration/properties/importForceOverwrite",
+          "adJavaDebug":"/project/profiles/profile/id[text()='adjava']/../build/plugins/plugin/artifactId[starts-with(text(),'adjava')]/../executions/execution/id[starts-with(text(), 'adjava')]/../configuration/debug"
+        }
+      }
+    },
+    {
+      "version": "6.2.1",
+      "devToolsVersion": "1.0.0",
       "default": true,
       "android": {
         "pom-customizable-keys": {
