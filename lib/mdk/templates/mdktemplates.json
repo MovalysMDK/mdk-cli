@@ -43,7 +43,13 @@
 			"version":"6.2.0",
 			"mdkVersion":"6.2.0",
 			"zipPath":"com/sopragroup/adeuza/movalysfwk/templates/basic/mdk-basic-project/6.2.0/",
-			"zipFile":"mdk-basic-project-6.2.0-bin.zip",
+			"zipFile":"mdk-basic-project-6.2.0-bin.zip"
+        },
+        {
+			"version":"6.2.1",
+			"mdkVersion":"6.2.1",
+			"zipPath":"com/sopragroup/adeuza/movalysfwk/templates/basic/mdk-basic-project/6.2.1/",
+			"zipFile":"mdk-basic-project-6.2.1-bin.zip",
 			"default": true
         },
 		{
@@ -92,7 +98,13 @@
 			"version":"6.2.0",
 			"mdkVersion":"6.2.0",
 			"zipPath":"com/sopragroup/adeuza/movalysfwk/templates/design/mdk-design-project/6.2.0/",
-			"zipFile":"mdk-design-project-6.2.0-bin.zip",
+			"zipFile":"mdk-design-project-6.2.0-bin.zip"
+        },
+        {
+			"version":"6.2.1",
+			"mdkVersion":"6.2.1",
+			"zipPath":"com/sopragroup/adeuza/movalysfwk/templates/design/mdk-design-project/6.2.1/",
+			"zipFile":"mdk-design-project-6.2.1-bin.zip",
             "default": true
         },
 		{
@@ -144,7 +156,13 @@
 			"version":"6.2.0",
 			"mdkVersion":"6.2.0",
 			"zipPath":"com/sopragroup/adeuza/movalysfwk/templates/my_expenses_demo/mdk-my_expenses_demo-project/6.2.0/",
-			"zipFile":"mdk-my_expenses_demo-project-6.2.0-bin.zip",
+			"zipFile":"mdk-my_expenses_demo-project-6.2.0-bin.zip"
+        },
+        {
+			"version":"6.2.1",
+			"mdkVersion":"6.2.1",
+			"zipPath":"com/sopragroup/adeuza/movalysfwk/templates/my_expenses_demo/mdk-my_expenses_demo-project/6.2.1/",
+			"zipFile":"mdk-my_expenses_demo-project-6.2.1-bin.zip",
 			"default": true
         },
 		{
@@ -196,7 +214,13 @@
 			"version":"6.2.0",
 			"mdkVersion":"6.2.0",
 			"zipPath":"com/sopragroup/adeuza/movalysfwk/templates/my_expenses_tuto/mdk-my_expenses_tuto-project/6.2.0/",
-			"zipFile":"mdk-my_expenses_tuto-project-6.2.0-bin.zip",
+			"zipFile":"mdk-my_expenses_tuto-project-6.2.0-bin.zip"
+        },
+        {
+			"version":"6.2.1",
+			"mdkVersion":"6.2.1",
+			"zipPath":"com/sopragroup/adeuza/movalysfwk/templates/my_expenses_tuto/mdk-my_expenses_tuto-project/6.2.1/",
+			"zipFile":"mdk-my_expenses_tuto-project-6.2.1-bin.zip",
 			"default": true
         },
 		{
@@ -248,7 +272,13 @@
 			"version":"6.2.0",
 			"mdkVersion":"6.2.0",
 			"zipPath":"com/sopragroup/adeuza/movalysfwk/templates/formation/mdk-formation-project/6.2.0/",
-			"zipFile":"mdk-formation-project-6.2.0-bin.zip",
+			"zipFile":"mdk-formation-project-6.2.0-bin.zip"
+        },
+        {
+			"version":"6.2.1",
+			"mdkVersion":"6.2.1",
+			"zipPath":"com/sopragroup/adeuza/movalysfwk/templates/formation/mdk-formation-project/6.2.1/",
+			"zipFile":"mdk-formation-project-6.2.1-bin.zip",
 			"default": true
         },
 		{
