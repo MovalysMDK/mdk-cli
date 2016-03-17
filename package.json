@@ -52,7 +52,9 @@
     "xmldom": "0.1.19",
     "extract-zip": "1.4.1",
     "suppose": "0.5.1",
-    "replace": "0.3.0"
+    "replace": "0.3.0",
+    "dateformat": "1.0.12",
+    "walk": "2.3.9"
   },
   "author": "SopraSteria Group",
   "license": "LGPL-3.0",
