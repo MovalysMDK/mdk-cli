@@ -2,6 +2,5 @@
   "mdkUrl": "https://raw.githubusercontent.com/MovalysMDK/mdk-cli-config/master/",
   "mdkRepoRelease": "https://artifactory.movalys.org/artifactory/prj-mdk-releases/",
   "mdkRepoPluginRelease": "https://artifactory.movalys.org/artifactory/prj-mdk-releases/",
-  "snapshotEnable": "false",
   "mdkAnalyticsUrl": "https://mdk-analytics.eu-gb.mybluemix.net/rest/v1/commands"
 }
