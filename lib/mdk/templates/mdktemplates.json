@@ -8,22 +8,26 @@
         {
 			"name":"android",
 			"groupId":"com.sopragroup.adeuza.movalysfwk.templates.basic",
-			"artifactId":"mdk-android-basic-template"
+			"artifactId":"mdk-android-basic-template",
+            "minTemplateVersion": "6.0.0"
         },
         {
 			"name":"ios",
 			"groupId":"com.sopragroup.adeuza.movalysfwk.templates.basic",
-			"artifactId": "mdk-ios-basic-template"
+			"artifactId": "mdk-ios-basic-template",
+            "minTemplateVersion": "6.0.0"
         },
         {
 			"name":"html5",
 			"groupId":"com.sopragroup.adeuza.movalysfwk.templates.basic",
-			"artifactId": "mdk-html5-basic-template"
+			"artifactId": "mdk-html5-basic-template",
+            "minTemplateVersion": "6.2.0"
         },
         {
 			"name":"win8",
 			"groupId":"com.sopragroup.adeuza.movalysfwk.templates.basic",
-			"artifactId": "mdk-win8-basic-template"
+			"artifactId": "mdk-win8-basic-template",
+            "minTemplateVersion": "6.4.0-SNAPSHOT"
         }
       ],
       "versions":[
@@ -74,17 +78,20 @@
         {
 			"name":"android",
 			"groupId":"com.sopragroup.adeuza.movalysfwk.templates.design",
-			"artifactId":"mdk-android-design-template"
+			"artifactId":"mdk-android-design-template",
+            "minTemplateVersion": "6.0.0"
         },
         {
 			"name":"ios",
 			"groupId":"com.sopragroup.adeuza.movalysfwk.templates.design",
-			"artifactId": "mdk-ios-design-template"
+			"artifactId": "mdk-ios-design-template",
+            "minTemplateVersion": "6.0.0"
         },
         {
 			"name":"html5",
 			"groupId":"com.sopragroup.adeuza.movalysfwk.templates.design",
-			"artifactId": "mdk-html5-design-template"
+			"artifactId": "mdk-html5-design-template",
+            "minTemplateVersion": "6.2.0"
         }
       ],
       "versions":[
@@ -138,17 +145,20 @@
         {
 			"name":"android",
 			"groupId":"com.sopragroup.adeuza.movalysfwk.templates.my_expenses_demo",
-			"artifactId":"mdk-android-my_expenses_demo-template"
+			"artifactId":"mdk-android-my_expenses_demo-template",
+            "minTemplateVersion": "6.0.0"
         },
         {
 			"name":"ios",
 			"groupId":"com.sopragroup.adeuza.movalysfwk.templates.my_expenses_demo",
-			"artifactId": "mdk-ios-my_expenses_demo-template"
+			"artifactId": "mdk-ios-my_expenses_demo-template",
+            "minTemplateVersion": "6.0.0"
         },
         {
 			"name":"html5",
 			"groupId":"com.sopragroup.adeuza.movalysfwk.templates.my_expenses_demo",
-			"artifactId": "mdk-html5-my_expenses_demo-template"
+			"artifactId": "mdk-html5-my_expenses_demo-template",
+            "minTemplateVersion": "6.2.0"
         }
       ],
       "versions":[
@@ -202,17 +212,20 @@
         {
 			"name":"android",
 			"groupId":"com.sopragroup.adeuza.movalysfwk.templates.my_expenses_tuto",
-			"artifactId":"mdk-android-my_expenses_tuto-template"
+			"artifactId":"mdk-android-my_expenses_tuto-template",
+            "minTemplateVersion": "6.0.0"
         },
         {
 			"name":"ios",
 			"groupId":"com.sopragroup.adeuza.movalysfwk.templates.my_expenses_tuto",
-			"artifactId": "mdk-ios-my_expenses_tuto-template"
+			"artifactId": "mdk-ios-my_expenses_tuto-template",
+            "minTemplateVersion": "6.0.0"
         },
         {
 			"name":"html5",
 			"groupId":"com.sopragroup.adeuza.movalysfwk.templates.my_expenses_tuto",
-			"artifactId": "mdk-html5-my_expenses_tuto-template"
+			"artifactId": "mdk-html5-my_expenses_tuto-template",
+            "minTemplateVersion": "6.2.0"
         }
       ],
       "versions":[
@@ -266,32 +279,23 @@
         {
 			"name":"android",
 			"groupId":"com.sopragroup.adeuza.movalysfwk.templates.formation",
-			"artifactId":"mdk-android-formation"
+			"artifactId":"mdk-android-formation",
+            "minTemplateVersion": "6.2.0"
         },
         {
 			"name":"ios",
 			"groupId":"com.sopragroup.adeuza.movalysfwk.templates.formation",
-			"artifactId": "mdk-ios-formation-template"
+			"artifactId": "mdk-ios-formation-template",
+            "minTemplateVersion": "6.2.0"
         },
         {
 			"name":"html5",
 			"groupId":"com.sopragroup.adeuza.movalysfwk.templates.formation",
-			"artifactId": "mdk-html5-formation-template"
+			"artifactId": "mdk-html5-formation-template",
+            "minTemplateVersion": "6.2.0"
         }
       ],
       "versions":[
-        {
-			"version":"6.0.1-RC1",
-			"mdkVersion":"6.0.1-RC1",
-			"zipPath":"com/sopragroup/adeuza/movalysfwk/templates/formation/mdk-formation-project/6.0.1-RC1/",
-			"zipFile":"mdk-formation-project-6.0.1-RC1-bin.zip"
-        },
-        {
-			"version":"6.1.0",
-			"mdkVersion":"6.1.0",
-			"zipPath":"com/sopragroup/adeuza/movalysfwk/templates/formation/mdk-formation-project/6.1.0/",
-			"zipFile":"mdk-formation-project-6.1.0-bin.zip"
-        },
 		{
 			"version":"6.2.0",
 			"mdkVersion":"6.2.0",
