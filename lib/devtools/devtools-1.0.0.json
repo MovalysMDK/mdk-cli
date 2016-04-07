@@ -470,7 +470,7 @@
 			"script": "win8/checkWindowsVersion",
 			"platforms": ["win8"],
             "opts": {
-                "minVersion": "8.1.0"
+                "minVersion": "6.0.0"
             },
             "prerequisite": true
 		}
