@@ -360,6 +360,39 @@
         }
       },
       {
+        "version": "6.5.0",
+        "devToolsVersion": "1.0.0",
+        "default": true,
+        "android": {
+          "pom-customizable-keys": {
+            "adJavaAppendGeneratorForceOverwrite": "/project/profiles/profile/id[text()='adjava']/../build/plugins/plugin/artifactId[starts-with(text(),'adjava')]/../executions/execution/id[starts-with(text(), 'adjava')]/../configuration/properties/appendGeneratorForceOverwrite",
+            "adJavaImportForceOverwrite":"/project/profiles/profile/id[text()='adjava']/../build/plugins/plugin/artifactId[starts-with(text(),'adjava')]/../executions/execution/id[starts-with(text(), 'adjava')]/../configuration/properties/importForceOverwrite",
+            "adJavaDebug":"/project/profiles/profile/id[text()='adjava']/../build/plugins/plugin/artifactId[starts-with(text(),'adjava')]/../executions/execution/id[starts-with(text(), 'adjava')]/../configuration/debug"
+          },
+          "mdkAndroidVersion": "6.5.0",
+          "mdkWidgetVersion": "1.5.0",
+          "mdkEspressoVersion": "1.4.0"
+        },
+        "ios": {
+          "pom-customizable-keys": {
+            "adJavaAppendGeneratorForceOverwrite": "/project/profiles/profile/id[text()='adjava']/../build/plugins/plugin/artifactId[starts-with(text(),'adjava')]/../executions/execution/id[starts-with(text(), 'adjava')]/../configuration/properties/appendGeneratorForceOverwrite",
+            "adJavaImportForceOverwrite":"/project/profiles/profile/id[text()='adjava']/../build/plugins/plugin/artifactId[starts-with(text(),'adjava')]/../executions/execution/id[starts-with(text(), 'adjava')]/../configuration/properties/importForceOverwrite",
+            "adJavaDebug":"/project/profiles/profile/id[text()='adjava']/../build/plugins/plugin/artifactId[starts-with(text(),'adjava')]/../executions/execution/id[starts-with(text(), 'adjava')]/../configuration/debug"
+          },
+          "mfVersion": "2.4.0",
+          "mdkControl": "1.4.0"
+        },
+        "html5": {
+          "pom-customizable-keys": {
+            "adJavaAppendGeneratorForceOverwrite": "/project/profiles/profile/id[text()='adjava']/../build/plugins/plugin/artifactId[starts-with(text(),'adjava')]/../executions/execution/id[starts-with(text(), 'adjava')]/../configuration/properties/appendGeneratorForceOverwrite",
+            "adJavaImportForceOverwrite":"/project/profiles/profile/id[text()='adjava']/../build/plugins/plugin/artifactId[starts-with(text(),'adjava')]/../executions/execution/id[starts-with(text(), 'adjava')]/../configuration/properties/importForceOverwrite",
+            "adJavaDebug":"/project/profiles/profile/id[text()='adjava']/../build/plugins/plugin/artifactId[starts-with(text(),'adjava')]/../executions/execution/id[starts-with(text(), 'adjava')]/../configuration/debug"
+          },
+          "mdkHtml5LibCoreVersion": "1.7.0",
+          "mdkHtml5LibUIVersion": "1.7.0"
+        }
+      },
+      {
           "version": "6.6.0-SNAPSHOT",
           "devToolsVersion": "1.0.0",
           "android": {
@@ -378,8 +411,8 @@
               "adJavaImportForceOverwrite":"/project/profiles/profile/id[text()='adjava']/../build/plugins/plugin/artifactId[starts-with(text(),'adjava')]/../executions/execution/id[starts-with(text(), 'adjava')]/../configuration/properties/importForceOverwrite",
               "adJavaDebug":"/project/profiles/profile/id[text()='adjava']/../build/plugins/plugin/artifactId[starts-with(text(),'adjava')]/../executions/execution/id[starts-with(text(), 'adjava')]/../configuration/debug"
             },
-            "mfVersion": "2.5.0",
-            "mdkControl": "1.5.0"
+            "mfVersion": "2.5.0-SNAPSHOT",
+            "mdkControl": "1.5.0-SNAPSHOT"
           },
           "html5": {
             "pom-customizable-keys": {
@@ -387,8 +420,8 @@
               "adJavaImportForceOverwrite":"/project/profiles/profile/id[text()='adjava']/../build/plugins/plugin/artifactId[starts-with(text(),'adjava')]/../executions/execution/id[starts-with(text(), 'adjava')]/../configuration/properties/importForceOverwrite",
               "adJavaDebug":"/project/profiles/profile/id[text()='adjava']/../build/plugins/plugin/artifactId[starts-with(text(),'adjava')]/../executions/execution/id[starts-with(text(), 'adjava')]/../configuration/debug"
             },
-            "mdkHtml5LibCoreVersion": "1.6.0",
-            "mdkHtml5LibUIVersion": "1.6.0"
+            "mdkHtml5LibCoreVersion": "1.8.0-SNAPSHOT",
+            "mdkHtml5LibUIVersion": "1.8.0-SNAPSHOT"
           },
           "win8": {
             "pom-customizable-keys": {
