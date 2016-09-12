@@ -1,0 +1,478 @@
+{
+    "mdk_cli": {
+        "minVersion": "0.9.0"
+    },
+    "install": [
+        {
+            "name": "jdk",
+            "version": "1.8.0.102",
+            "script": "common/installJdk",
+            "installVersion": 1,
+            "os": ["osx"],
+            "packages": [ {
+                "url": "http://download.oracle.com/otn-pub/java/jdk/8u102-b14/jdk-8u102-macosx-x64.dmg",
+                "filename": "jdk-8u102-macosx-x64.dmg",
+                "checksum": "910ad1aa48cccdce6cac012ab7107e0707b2edbb",
+                "headers": {
+                    "Cookie": "oraclelicense=accept-securebackup-cookie"
+                },
+                "opts": {
+                    "osxVolumePath" : "/Volumes/JDK 8 Update 102",
+                    "extractedPkgDir": "jdk180102.pkg"
+                }
+            }],
+            "licenses":[
+                {
+                    "name": "Oracle Binary Code License Agreement for the Java SE Platform Products and JavaFX",
+                    "url": "http://www.oracle.com/technetwork/java/javase/terms/license/index.html"
+                }
+            ],
+            "opts": {},
+            "diskSpace": 310
+        },
+        {
+            "name": "jdk",
+            "version": "1.8.0.102",
+            "script": "common/installJdk",
+            "installVersion": 1,
+            "os": ["win"],
+            "packages": [ {
+                "url": "http://download.oracle.com/otn-pub/java/jdk/8u102-b14/server-jre-8u102-windows-x64.tar.gz",
+                "filename": "server-jre-8u102-windows-x64.tar.gz",
+                "checksum": "6c51a9d17f2e2f99eb1f2f9b026718560c6a7065",
+                "headers": {
+                    "Cookie": "oraclelicense=accept-securebackup-cookie"
+                },
+                "options": {
+                    "extractedDirectory" : "jdk1.8.0_102"
+                }
+            }],
+            "licenses":[
+                {
+                    "name": "Oracle Binary Code License Agreement for the Java SE Platform Products and JavaFX",
+                    "url": "http://www.oracle.com/technetwork/java/javase/terms/license/index.html"
+                }
+            ],
+            "opts": {},
+            "diskSpace": 215
+        },
+        {
+            "name": "apache-maven",
+            "version": "3.3.9",
+            "script": "common/installMaven",
+            "installVersion": 1,
+            "platforms" : ["ios","html5","android"],
+            "packages": [ {
+                "url": "http://mirrors.ukfast.co.uk/sites/ftp.apache.org/maven/maven-3/3.3.9/binaries/apache-maven-3.3.9-bin.tar.gz",
+                "filename": "apache-maven-3.3.9-bin.tar.gz",
+                "checksum": "5b4c117854921b527ab6190615f9435da730ba05",
+                "headers": {
+                },
+                "opts": {}
+            }],
+            "opts": {},
+            "diskSpace": 9
+        },
+        {
+            "name": "apache-maven",
+            "version": "3.0.5",
+            "script": "common/installMaven",
+            "installVersion": 1,
+            "platforms" : ["win8"],
+            "packages": [ {
+                "url": "http://mirrors.ukfast.co.uk/sites/ftp.apache.org/maven/maven-3/3.0.5/binaries/apache-maven-3.0.5-bin.tar.gz",
+                "filename": "apache-maven-3.0.5-bin.tar.gz",
+                "checksum": "c8f257dce3381d9d8c420168a6df0fa25664337c",
+                "headers": {
+                },
+                "opts": {}
+            }],
+            "opts": {},
+            "diskSpace": 9
+        },
+        {
+            "name": "cocoapods",
+            "version": "0.39",
+            "script": "ios/installCocoapods",
+            "installVersion": 1,
+            "os": ["osx"],
+            "platforms" : ["ios"],
+            "opts": {
+                "libDirectory" : "lib",
+                "binDirectory" : "bin",
+                "isGem": "true"
+            },
+            "diskSpace": 12
+        },
+        {
+            "name": "xcproj",
+            "version": "0.1.2",
+            "script": "ios/installXcproj",
+            "installVersion": 1,
+            "os": ["osx"],
+            "platforms" : ["ios"],
+            "packages": [ {
+                "url": "https://github.com/0xced/xcproj/archive/0.1.2.zip",
+                "filename": "0.1.2.zip",
+                "checksum": "766b00b7db6313d9c91811986691e8940db76ce7",
+                "opts": {
+                    "baseVersionName": "<string>0.1</string>",
+                    "fixedVersionName": "<string>0.1.2</string>"
+                }
+            }],
+            "opts": {
+            },
+            "diskSpace": 1
+        },
+        {
+            "name": "mfxcode",
+            "version": "1.0.1",
+            "script": "ios/installMfxcode",
+            "installVersion": 1,
+            "os": ["osx"],
+            "platforms" : ["ios"],
+            "opts": {
+                "libDirectory" : "lib",
+                "binDirectory" : "bin",
+                "isGem": "true"
+            },
+            "diskSpace": 14
+        },
+        {
+            "name": "doxygen",
+            "version": "1.8.8",
+            "script": "ios/installDoxygen",
+            "installVersion": 1,
+            "os": ["osx"],
+            "platforms" : ["ios"],
+            "packages": [ {
+                "url": "http://ftp.stack.nl/pub/users/dimitri/Doxygen-1.8.8.dmg",
+                "filename": "Doxygen-1.8.8.dmg",
+                "checksum": "5c9ec7a82b34337e7b22cbad5ecc9d650b9372e6",
+                "opts": {
+                    "osxVolumePath" : "/Volumes/Doxygen",
+                    "extractedPkgDir": "Doxygen.app",
+                    "binaryLocation": "Contents/Resources"
+                }
+            }],
+            "opts": {},
+            "diskSpace": 96
+        },
+        {
+            "name": "uncrustify",
+            "version": "0.61",
+            "script": "ios/installUncrustify",
+            "installVersion": 1,
+            "os": ["osx"],
+            "platforms" : ["ios"],
+            "packages": [ {
+                "url": "https://github.com/bengardner/uncrustify/archive/uncrustify-0.61.zip",
+                "filename": "uncrustify-0.61.zip",
+                "checksum": "cf9295558d0c08a19738a8521457392044a043e8",
+                "opts": {
+                    "binaryLocation": "src",
+                    "versionFileNameToFix" :"uncrustify_version.h",
+                    "baseVersionName": "0.60",
+                    "fixedVersionName": "0.61"
+                }
+            }],
+            "opts": {},
+            "diskSpace": 14
+        },
+        {
+            "name": "xctool",
+            "version": "0.2.6",
+            "script": "ios/installXctool",
+            "installVersion": 1,
+            "os": ["osx"],
+            "platforms" : ["ios"],
+            "packages": [ {
+                "url": "https://github.com/facebook/xctool/releases/download/v0.2.6/xctool-v0.2.6.zip",
+                "filename": "xctool-v0.2.6.zip",
+                "checksum": "4861d62f729b4c2d2f3817ccbb943529ccccf095",
+                "headers": {
+                },
+                "opts": {}
+            }],
+            "opts": {},
+            "diskSpace": 3
+        },
+        {
+            "name": "android-sdk",
+            "version": "24.3.4",
+            "script": "android/installAndroidSdk",
+            "installVersion": 1,
+            "platforms" : ["android", "html5"],
+            "packages": [ {
+                "url": "http://dl.google.com/android/android-sdk_r24.3.4-macosx.zip",
+                "filename": "android-sdk_r24.3.4-macosx.zip",
+                "checksum": "128f10fba668ea490cc94a08e505a48a608879b9",
+                "os": "osx"
+            },
+            {
+                "url": "http://dl.google.com/android/android-sdk_r24.3.4-windows.zip",
+                "filename": "android-sdk_r24.3.4-windows.zip",
+                "checksum": "4a8718fb4a2bf2128d34b92f23ddd79fc65839e7",
+                "os": "win"
+            }],
+            "licenses":[
+                {
+                    "name": "Android Software Development Kit License",
+                    "url": "https://developer.android.com/sdk/terms.html"
+                }
+            ],
+            "opts": {
+              "api": [15,22,23],
+              "buildTools": "23.0.1"
+            },
+            "diskSpace": 1000
+        },
+        {
+            "name": "gradle",
+            "version": "2.14.1",
+            "script": "android/installGradle",
+            "installVersion": 1,
+            "platforms" : ["android"],
+            "packages": [],
+            "opts": {},
+            "diskSpace": 250
+        },
+		{
+			"name": "cordova",
+			"npmName": "cordova",
+            "version": "5.4.1",
+            "script": "html5/installNPMPackage",
+            "installVersion": 1,
+			"packages": [],
+            "opts": {},
+            "platforms" : ["html5"],
+			"diskSpace": 65
+		},
+		{
+			"name": "gulp",
+			"npmName": "gulp",
+            "version": "3.9.0",
+            "script": "html5/installNPMPackage",
+            "installVersion": 1,
+			"packages": [],
+            "opts": {},
+            "platforms" : ["html5"],
+			"diskSpace": 7
+		},
+		{
+			"name": "js-beautify",
+			"npmName": "js-beautify",
+            "version": "1.5.10",
+            "script": "html5/installNPMPackage",
+            "installVersion": 1,
+			"packages": [],
+            "opts": {},
+            "platforms" : ["html5"],
+			"diskSpace": 2
+		},
+		{
+			"name": "sass",
+			"npmName": "node-sass",
+            "version": "3.4.2",
+            "script": "html5/installNPMPackage",
+            "installVersion": 1,
+			"packages": [],
+            "opts": {},
+            "platforms" : ["html5"],
+			"diskSpace": 21
+		},
+		{
+			"name": "bower",
+			"npmName": "bower",
+            "version": "1.7.1",
+            "script": "html5/installNPMPackage",
+            "installVersion": 1,
+			"packages": [],
+            "opts": {},
+            "platforms" : ["html5"],
+			"diskSpace": 28
+		},
+		{
+			"name": "ios-sim",
+			"npmName": "ios-sim",
+            "version": "5.0.4",
+            "script": "html5/installNPMPackage",
+            "installVersion": 1,
+			"packages": [],
+            "opts": {},
+            "os": ["osx"],
+            "platforms" : ["html5"],
+			"diskSpace": 28
+		},
+		{
+			"name": "ios-deploy",
+			"npmName": "ios-deploy",
+            "version": "1.8.3",
+            "script": "html5/installNPMPackage",
+            "installVersion": 1,
+			"packages": [],
+            "opts": {},
+            "os": ["osx"],
+            "platforms" : ["html5"],
+			"diskSpace": 28
+		},
+        {
+            "name": "NuGet",
+			"npmName": "NuGet",
+            "version": "3.3.0",
+            "script": "win8/installNuGet",
+            "installVersion": 1,
+			"packages": [ {
+                "url": "https://dist.nuget.org/win-x86-commandline/v3.3.0/nuget.exe",
+                "filename": "nuget.exe",
+                "checksum": "56de2b3f051ef6d114ad71ece4ceb5330fe44e0e",
+                "headers": {
+                },
+                "opts": {}
+            }],
+            "opts": {},
+            "os": ["win"],
+            "platforms" : ["win8"],
+			"diskSpace": 2
+        },
+        {
+            "name": "AStyle",
+			"npmName": "AStyle",
+            "version": "2.05.1",
+            "script": "win8/installAStyle",
+            "installVersion": 1,
+			"packages": [ {
+                "url": "http://downloads.sourceforge.net/project/astyle/astyle/astyle%202.05.1/AStyle_2.05.1_windows.zip?r=&ts=1454424022&use_mirror=netix",
+                "filename": "AStyle_2.05.1_windows.zip",
+                "checksum": "3e67d3823df562a6bffc6997421318a9b5562677",
+                "headers": {
+                },
+                "opts": {}
+            }],
+            "opts": {},
+            "os": ["win"],
+            "platforms" : ["win8"],
+			"diskSpace": 2
+        }
+    ],
+    "checks": [
+        {
+            "script": "ios/checkMacos",
+            "platforms": ["ios"],
+            "opts": {
+                "minVersion": "10.9.4"
+            },
+            "prerequisite": true
+        },
+        {
+            "script": "ios/checkXcodeCLT",
+            "platforms": ["ios"],
+            "opts": {
+                "minVersion": "7.0.0"
+            },
+            "prerequisite": true
+        },
+        {
+            "script": "common/checkGit",
+            "platforms":["html5"],
+            "os": ["osx", "win"],
+            "prerequisite": true
+        },
+        {
+            "script": "common/checkJdk",
+            "os": ["osx", "win"]
+        },
+        {
+            "script": "common/checkMaven",
+            "os": ["osx", "win"]
+        },
+        {
+            "script": "ios/checkCocoapods",
+            "platforms": ["ios"]
+        },
+        {
+            "script": "ios/checkXcproj",
+            "platforms": ["ios"]
+        },
+        {
+            "script": "ios/checkMfxcode",
+            "platforms": ["ios"]
+        },
+        {
+            "script": "ios/checkDoxygen",
+            "platforms": ["ios"]
+        },
+        {
+            "script": "ios/checkUncrustify",
+            "platforms": ["ios"]
+        },
+        {
+            "script": "ios/checkXctool",
+            "platforms": ["ios"]
+        },
+        {
+            "script": "android/checkAndroidSdk",
+            "platforms": ["android", "html5"]
+        },
+        {
+            "script": "android/checkGradle",
+            "platforms": ["android"]
+        },
+        {
+            "script": "common/checkMdkArtifactory"
+        },
+		{
+			"script": "html5/checkCordova",
+			"platforms": ["html5"]
+		},
+		{
+			"script": "html5/checkGulp",
+			"platforms": ["html5"]
+		},
+		{
+			"script": "html5/checkJSBeautify",
+			"platforms": ["html5"]
+		},
+		{
+			"script": "html5/checkSass",
+			"platforms": ["html5"]
+		},
+		{
+			"script": "html5/checkBower",
+			"platforms": ["html5"]
+		},
+		{
+			"script": "html5/checkiOSSim",
+			"platforms": ["html5"],
+            "os": ["osx"]
+		},
+		{
+			"script": "html5/checkiOSDeploy",
+			"platforms": ["html5"],
+            "os": ["osx"]
+		},
+		{
+			"script": "win8/checkNuGet",
+			"platforms": ["win8"],
+            "os": ["win"]
+		},
+		{
+			"script": "win8/checkAStyle",
+			"platforms": ["win8"],
+            "os": ["win"]
+		},
+		{
+			"script": "win8/checkVisualStudio2013",
+			"platforms": ["win8"],
+            "prerequisite": true
+		},
+		{
+			"script": "win8/checkWindowsVersion",
+			"platforms": ["win8"],
+            "opts": {
+                "minVersion": "6.0.0"
+            },
+            "prerequisite": true
+		}
+    ]
+}
