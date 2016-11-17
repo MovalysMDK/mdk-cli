@@ -104,10 +104,16 @@
 			"zipFile":"mdk-basic-project-6.5.0-bin.zip"
         },
 		{
-			"version":"6.6.0-SNAPSHOT",
-			"mdkVersion":"6.6.0-SNAPSHOT",
-			"zipPath":"com/sopragroup/adeuza/movalysfwk/templates/basic/mdk-basic-project/6.6.0-SNAPSHOT/",
-			"zipFile":"mdk-basic-project-6.6.0-SNAPSHOT-bin.zip"
+			"version":"6.6.0",
+			"mdkVersion":"6.6.0",
+			"zipPath":"com/sopragroup/adeuza/movalysfwk/templates/basic/mdk-basic-project/6.6.0/",
+			"zipFile":"mdk-basic-project-6.6.0-bin.zip"
+        },
+		{
+			"version":"6.7.0-SNAPSHOT",
+			"mdkVersion":"6.7.0-SNAPSHOT",
+			"zipPath":"com/sopragroup/adeuza/movalysfwk/templates/basic/mdk-basic-project/6.7.0-SNAPSHOT/",
+			"zipFile":"mdk-basic-project-6.7.0-SNAPSHOT-bin.zip"
         }
 		
       ]
@@ -211,10 +217,16 @@
 			"zipFile":"mdk-design-project-6.5.0-bin.zip"
         },
         {
-			"version":"6.6.0-SNAPSHOT",
-			"mdkVersion":"6.6.0-SNAPSHOT",
-			"zipPath":"com/sopragroup/adeuza/movalysfwk/templates/design/mdk-design-project/6.6.0-SNAPSHOT/",
-			"zipFile":"mdk-design-project-6.6.0-SNAPSHOT-bin.zip"
+			"version":"6.6.0",
+			"mdkVersion":"6.6.0",
+			"zipPath":"com/sopragroup/adeuza/movalysfwk/templates/design/mdk-design-project/6.6.0/",
+			"zipFile":"mdk-design-project-6.6.0-bin.zip"
+        },
+        {
+			"version":"6.7.0-SNAPSHOT",
+			"mdkVersion":"6.7.0-SNAPSHOT",
+			"zipPath":"com/sopragroup/adeuza/movalysfwk/templates/design/mdk-design-project/6.7.0-SNAPSHOT/",
+			"zipFile":"mdk-design-project-6.7.0-SNAPSHOT-bin.zip"
         }
       ]
     },
@@ -320,10 +332,16 @@
 			"zipFile":"mdk-my_expenses_demo-project-6.5.0-bin.zip"
         },
 		{
-			"version":"6.6.0-SNAPSHOT",
-			"mdkVersion":"6.6.0-SNAPSHOT",
-			"zipPath":"com/sopragroup/adeuza/movalysfwk/templates/my_expenses_demo/mdk-my_expenses_demo-project/6.6.0-SNAPSHOT/",
-			"zipFile":"mdk-my_expenses_demo-project-6.6.0-SNAPSHOT-bin.zip"
+			"version":"6.6.0",
+			"mdkVersion":"6.6.0",
+			"zipPath":"com/sopragroup/adeuza/movalysfwk/templates/my_expenses_demo/mdk-my_expenses_demo-project/6.6.0/",
+			"zipFile":"mdk-my_expenses_demo-project-6.6.0-bin.zip"
+        },
+		{
+			"version":"6.7.0-SNAPSHOT",
+			"mdkVersion":"6.7.0-SNAPSHOT",
+			"zipPath":"com/sopragroup/adeuza/movalysfwk/templates/my_expenses_demo/mdk-my_expenses_demo-project/6.7.0-SNAPSHOT/",
+			"zipFile":"mdk-my_expenses_demo-project-6.7.0-SNAPSHOT-bin.zip"
         }
       ]
     },
@@ -429,10 +447,16 @@
 			"zipFile":"mdk-my_expenses_tuto-project-6.5.0-bin.zip"
         },
 		{
-			"version":"6.6.0-SNAPSHOT",
-			"mdkVersion":"6.6.0-SNAPSHOT",
-			"zipPath":"com/sopragroup/adeuza/movalysfwk/templates/my_expenses_tuto/mdk-my_expenses_tuto-project/6.6.0-SNAPSHOT/",
-			"zipFile":"mdk-my_expenses_tuto-project-6.6.0-SNAPSHOT-bin.zip"
+			"version":"6.6.0",
+			"mdkVersion":"6.6.0",
+			"zipPath":"com/sopragroup/adeuza/movalysfwk/templates/my_expenses_tuto/mdk-my_expenses_tuto-project/6.6.0/",
+			"zipFile":"mdk-my_expenses_tuto-project-6.6.0-bin.zip"
+        },
+		{
+			"version":"6.7.0-SNAPSHOT",
+			"mdkVersion":"6.7.0-SNAPSHOT",
+			"zipPath":"com/sopragroup/adeuza/movalysfwk/templates/my_expenses_tuto/mdk-my_expenses_tuto-project/6.7.0-SNAPSHOT/",
+			"zipFile":"mdk-my_expenses_tuto-project-6.7.0-SNAPSHOT-bin.zip"
         }
       ]
     },
@@ -526,10 +550,16 @@
 			"zipFile":"mdk-formation-project-6.5.0-bin.zip"
         },
 		{
-			"version":"6.6.0-SNAPSHOT",
-			"mdkVersion":"6.6.0-SNAPSHOT",
-			"zipPath":"com/sopragroup/adeuza/movalysfwk/templates/formation/mdk-formation-project/6.6.0-SNAPSHOT/",
-			"zipFile":"mdk-formation-project-6.6.0-SNAPSHOT-bin.zip"
+			"version":"6.6.0",
+			"mdkVersion":"6.6.0",
+			"zipPath":"com/sopragroup/adeuza/movalysfwk/templates/formation/mdk-formation-project/6.6.0/",
+			"zipFile":"mdk-formation-project-6.6.0-bin.zip"
+        },
+		{
+			"version":"6.7.0-SNAPSHOT",
+			"mdkVersion":"6.7.0-SNAPSHOT",
+			"zipPath":"com/sopragroup/adeuza/movalysfwk/templates/formation/mdk-formation-project/6.7.0-SNAPSHOT/",
+			"zipFile":"mdk-formation-project-6.7.0-SNAPSHOT-bin.zip"
         }
       ]
     }
