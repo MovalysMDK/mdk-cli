@@ -111,16 +111,16 @@
 					"zipFile": "mdk-basic-project-6.6.0-bin.zip"
 				},
 				{
-					"version": "6.7.0",
-					"mdkVersion": "6.7.0",
-					"zipPath": "com/sopragroup/adeuza/movalysfwk/templates/basic/mdk-basic-project/6.7.0/",
-					"zipFile": "mdk-basic-project-6.7.0-bin.zip"
+					"version": "6.6.1",
+					"mdkVersion": "6.6.1",
+					"zipPath": "com/sopragroup/adeuza/movalysfwk/templates/basic/mdk-basic-project/6.6.1/",
+					"zipFile": "mdk-basic-project-6.6.1-bin.zip"
 				},
 				{
-					"version": "6.8.0-SNAPSHOT",
-					"mdkVersion": "6.8.0-SNAPSHOT",
-					"zipPath": "com/sopragroup/adeuza/movalysfwk/templates/basic/mdk-basic-project/6.8.0-SNAPSHOT/",
-					"zipFile": "mdk-basic-project-6.8.0-SNAPSHOT-bin.zip"
+					"version": "6.7.0-SNAPSHOT",
+					"mdkVersion": "6.7.0-SNAPSHOT",
+					"zipPath": "com/sopragroup/adeuza/movalysfwk/templates/basic/mdk-basic-project/6.7.0-SNAPSHOT/",
+					"zipFile": "mdk-basic-project-6.7.0-SNAPSHOT-bin.zip"
 				}
 			]
 		},
@@ -228,16 +228,16 @@
 					"zipFile": "mdk-design-project-6.6.0-bin.zip"
 				},
 				{
-					"version": "6.7.0",
-					"mdkVersion": "6.7.0",
-					"zipPath": "com/sopragroup/adeuza/movalysfwk/templates/design/mdk-design-project/6.7.0/",
-					"zipFile": "mdk-design-project-6.7.0-bin.zip"
+					"version": "6.6.1",
+					"mdkVersion": "6.6.1",
+					"zipPath": "com/sopragroup/adeuza/movalysfwk/templates/design/mdk-design-project/6.6.1/",
+					"zipFile": "mdk-design-project-6.6.1-bin.zip"
 				},
 				{
-					"version": "6.8.0-SNAPSHOT",
-					"mdkVersion": "6.8.0-SNAPSHOT",
-					"zipPath": "com/sopragroup/adeuza/movalysfwk/templates/design/mdk-design-project/6.8.0-SNAPSHOT/",
-					"zipFile": "mdk-design-project-6.8.0-SNAPSHOT-bin.zip"
+					"version": "6.7.0-SNAPSHOT",
+					"mdkVersion": "6.7.0-SNAPSHOT",
+					"zipPath": "com/sopragroup/adeuza/movalysfwk/templates/design/mdk-design-project/6.7.0-SNAPSHOT/",
+					"zipFile": "mdk-design-project-6.7.0-SNAPSHOT-bin.zip"
 				}
 			]
 		},
@@ -348,16 +348,16 @@
 					"zipFile": "mdk-my_expenses_demo-project-6.6.0-bin.zip"
 				},
 				{
-					"version": "6.7.0",
-					"mdkVersion": "6.7.0",
-					"zipPath": "com/sopragroup/adeuza/movalysfwk/templates/my_expenses_demo/mdk-my_expenses_demo-project/6.7.0/",
-					"zipFile": "mdk-my_expenses_demo-project-6.7.0-bin.zip"
+					"version": "6.6.1",
+					"mdkVersion": "6.6.1",
+					"zipPath": "com/sopragroup/adeuza/movalysfwk/templates/my_expenses_demo/mdk-my_expenses_demo-project/6.6.1/",
+					"zipFile": "mdk-my_expenses_demo-project-6.6.1-bin.zip"
 				},
 				{
-					"version": "6.8.0-SNAPSHOT",
-					"mdkVersion": "6.8.0-SNAPSHOT",
-					"zipPath": "com/sopragroup/adeuza/movalysfwk/templates/my_expenses_demo/mdk-my_expenses_demo-project/6.8.0-SNAPSHOT/",
-					"zipFile": "mdk-my_expenses_demo-project-6.8.0-SNAPSHOT-bin.zip"
+					"version": "6.7.0-SNAPSHOT",
+					"mdkVersion": "6.7.0-SNAPSHOT",
+					"zipPath": "com/sopragroup/adeuza/movalysfwk/templates/my_expenses_demo/mdk-my_expenses_demo-project/6.7.0-SNAPSHOT/",
+					"zipFile": "mdk-my_expenses_demo-project-6.7.0-SNAPSHOT-bin.zip"
 				}
 			]
 		},
@@ -468,16 +468,16 @@
 					"zipFile": "mdk-my_expenses_tuto-project-6.6.0-bin.zip"
 				},
 				{
-					"version": "6.7.0",
-					"mdkVersion": "6.7.0",
-					"zipPath": "com/sopragroup/adeuza/movalysfwk/templates/my_expenses_tuto/mdk-my_expenses_tuto-project/6.7.0/",
-					"zipFile": "mdk-my_expenses_tuto-project-6.7.0-bin.zip"
+					"version": "6.6.1",
+					"mdkVersion": "6.6.1",
+					"zipPath": "com/sopragroup/adeuza/movalysfwk/templates/my_expenses_tuto/mdk-my_expenses_tuto-project/6.6.1/",
+					"zipFile": "mdk-my_expenses_tuto-project-6.6.1-bin.zip"
 				},
 				{
-					"version": "6.8.0-SNAPSHOT",
-					"mdkVersion": "6.8.0-SNAPSHOT",
-					"zipPath": "com/sopragroup/adeuza/movalysfwk/templates/my_expenses_tuto/mdk-my_expenses_tuto-project/6.8.0-SNAPSHOT/",
-					"zipFile": "mdk-my_expenses_tuto-project-6.8.0-SNAPSHOT-bin.zip"
+					"version": "6.7.0-SNAPSHOT",
+					"mdkVersion": "6.7.0-SNAPSHOT",
+					"zipPath": "com/sopragroup/adeuza/movalysfwk/templates/my_expenses_tuto/mdk-my_expenses_tuto-project/6.7.0-SNAPSHOT/",
+					"zipFile": "mdk-my_expenses_tuto-project-6.7.0-SNAPSHOT-bin.zip"
 				}
 			]
 		},
@@ -576,16 +576,16 @@
 					"zipFile": "mdk-formation-project-6.6.0-bin.zip"
 				},
 				{
-					"version": "6.7.0",
-					"mdkVersion": "6.7.0",
-					"zipPath": "com/sopragroup/adeuza/movalysfwk/templates/formation/mdk-formation-project/6.7.0/",
-					"zipFile": "mdk-formation-project-6.7.0-bin.zip"
+					"version": "6.6.1",
+					"mdkVersion": "6.6.1",
+					"zipPath": "com/sopragroup/adeuza/movalysfwk/templates/formation/mdk-formation-project/6.6.1/",
+					"zipFile": "mdk-formation-project-6.6.1-bin.zip"
 				},
 				{
-					"version": "6.8.0-SNAPSHOT",
-					"mdkVersion": "6.8.0-SNAPSHOT",
-					"zipPath": "com/sopragroup/adeuza/movalysfwk/templates/formation/mdk-formation-project/6.8.0-SNAPSHOT/",
-					"zipFile": "mdk-formation-project-6.8.0-SNAPSHOT-bin.zip"
+					"version": "6.7.0-SNAPSHOT",
+					"mdkVersion": "6.7.0-SNAPSHOT",
+					"zipPath": "com/sopragroup/adeuza/movalysfwk/templates/formation/mdk-formation-project/6.7.0-SNAPSHOT/",
+					"zipFile": "mdk-formation-project-6.7.0-SNAPSHOT-bin.zip"
 				}
 			]
 		},
@@ -597,21 +597,21 @@
 					"name": "html5",
 					"groupId": "com.sopragroup.adeuza.movalysfwk.templates.enedis",
 					"artifactId": "mdk-html5-enedis-template",
-					"minTemplateVersion": "6.6.0"
+					"minTemplateVersion": "6.6.1"
 				}
 			],
 			"versions": [
 				{
-					"version": "6.7.0",
-					"mdkVersion": "6.7.0",
-					"zipPath": "com/sopragroup/adeuza/movalysfwk/templates/enedis/mdk-enedis-project/6.7.0/",
-					"zipFile": "mdk-enedis-project-6.7.0-bin.zip"
+					"version": "6.6.1",
+					"mdkVersion": "6.6.1",
+					"zipPath": "com/sopragroup/adeuza/movalysfwk/templates/enedis/mdk-enedis-project/6.6.1/",
+					"zipFile": "mdk-enedis-project-6.6.1-bin.zip"
 				},
 				{
-					"version": "6.8.0-SNAPSHOT",
-					"mdkVersion": "6.8.0-SNAPSHOT",
-					"zipPath": "com/sopragroup/adeuza/movalysfwk/templates/enedis/mdk-enedis-project/6.8.0-SNAPSHOT/",
-					"zipFile": "mdk-enedis-project-6.8.0-SNAPSHOT-bin.zip"
+					"version": "6.7.0-SNAPSHOT",
+					"mdkVersion": "6.7.0-SNAPSHOT",
+					"zipPath": "com/sopragroup/adeuza/movalysfwk/templates/enedis/mdk-enedis-project/6.7.0-SNAPSHOT/",
+					"zipFile": "mdk-enedis-project-6.7.0-SNAPSHOT-bin.zip"
 				}
 			]
 		}
