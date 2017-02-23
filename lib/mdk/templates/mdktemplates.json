@@ -1,538 +1,619 @@
 {
-  "templates":[
-	{
-      "name":"Basic",
-	  "default":true,
-      "description": "A Basic template for a MDK Project.",
-      "platforms":[
-        {
-			"name":"android",
-			"groupId":"com.sopragroup.adeuza.movalysfwk.templates.basic",
-			"artifactId":"mdk-android-basic-template",
-            "minTemplateVersion": "6.0.0"
-        },
-        {
-			"name":"ios",
-			"groupId":"com.sopragroup.adeuza.movalysfwk.templates.basic",
-			"artifactId": "mdk-ios-basic-template",
-            "minTemplateVersion": "6.0.0"
-        },
-        {
-			"name":"html5",
-			"groupId":"com.sopragroup.adeuza.movalysfwk.templates.basic",
-			"artifactId": "mdk-html5-basic-template",
-            "minTemplateVersion": "6.2.0"
-        },
-        {
-			"name":"win8",
-			"groupId":"com.sopragroup.adeuza.movalysfwk.templates.basic",
-			"artifactId": "mdk-win8-basic-template",
-            "minTemplateVersion": "6.6.0-SNAPSHOT"
-        }
-      ],
-      "versions":[
-        {
-			"version":"6.0.1-RC1",
-			"mdkVersion":"6.0.1-RC1",
-			"zipPath":"com/sopragroup/adeuza/movalysfwk/templates/basic/mdk-basic-project/6.0.1-RC1/",
-			"zipFile":"mdk-basic-project-6.0.1-RC1-bin.zip"
-        },
-        {
-			"version":"6.1.0",
-			"mdkVersion":"6.1.0",
-			"zipPath":"com/sopragroup/adeuza/movalysfwk/templates/basic/mdk-basic-project/6.1.0/",
-			"zipFile":"mdk-basic-project-6.1.0-bin.zip"
-        },
-        {
-			"version":"6.2.0",
-			"mdkVersion":"6.2.0",
-			"zipPath":"com/sopragroup/adeuza/movalysfwk/templates/basic/mdk-basic-project/6.2.0/",
-			"zipFile":"mdk-basic-project-6.2.0-bin.zip"
-        },
-        {
-			"version":"6.2.1",
-			"mdkVersion":"6.2.1",
-			"zipPath":"com/sopragroup/adeuza/movalysfwk/templates/basic/mdk-basic-project/6.2.1/",
-			"zipFile":"mdk-basic-project-6.2.1-bin.zip"
-        },
-        {
-			"version":"6.3.0",
-			"mdkVersion":"6.3.0",
-			"zipPath":"com/sopragroup/adeuza/movalysfwk/templates/basic/mdk-basic-project/6.3.0/",
-			"zipFile":"mdk-basic-project-6.3.0-bin.zip"
-        },
-        {
-			"version":"6.3.1",
-			"mdkVersion":"6.3.1",
-			"zipPath":"com/sopragroup/adeuza/movalysfwk/templates/basic/mdk-basic-project/6.3.1/",
-			"zipFile":"mdk-basic-project-6.3.1-bin.zip"
-        },{
-			"version":"6.3.2",
-			"mdkVersion":"6.3.2",
-			"zipPath":"com/sopragroup/adeuza/movalysfwk/templates/basic/mdk-basic-project/6.3.2/",
-			"zipFile":"mdk-basic-project-6.3.2-bin.zip"
-        },
+	"templates": [
 		{
-			"version":"6.3.3",
-			"mdkVersion":"6.3.3",
-			"zipPath":"com/sopragroup/adeuza/movalysfwk/templates/basic/mdk-basic-project/6.3.3/",
-			"zipFile":"mdk-basic-project-6.3.3-bin.zip",
-			"default": true
-        },
+			"name": "Basic",
+			"default": true,
+			"description": "A Basic template for a MDK Project.",
+			"platforms": [
+				{
+					"name": "android",
+					"groupId": "com.sopragroup.adeuza.movalysfwk.templates.basic",
+					"artifactId": "mdk-android-basic-template",
+					"minTemplateVersion": "6.0.0"
+				},
+				{
+					"name": "ios",
+					"groupId": "com.sopragroup.adeuza.movalysfwk.templates.basic",
+					"artifactId": "mdk-ios-basic-template",
+					"minTemplateVersion": "6.0.0"
+				},
+				{
+					"name": "html5",
+					"groupId": "com.sopragroup.adeuza.movalysfwk.templates.basic",
+					"artifactId": "mdk-html5-basic-template",
+					"minTemplateVersion": "6.2.0"
+				},
+				{
+					"name": "win8",
+					"groupId": "com.sopragroup.adeuza.movalysfwk.templates.basic",
+					"artifactId": "mdk-win8-basic-template",
+					"minTemplateVersion": "6.6.0-SNAPSHOT"
+				}
+			],
+			"versions": [
+				{
+					"version": "6.0.1-RC1",
+					"mdkVersion": "6.0.1-RC1",
+					"zipPath": "com/sopragroup/adeuza/movalysfwk/templates/basic/mdk-basic-project/6.0.1-RC1/",
+					"zipFile": "mdk-basic-project-6.0.1-RC1-bin.zip"
+				},
+				{
+					"version": "6.1.0",
+					"mdkVersion": "6.1.0",
+					"zipPath": "com/sopragroup/adeuza/movalysfwk/templates/basic/mdk-basic-project/6.1.0/",
+					"zipFile": "mdk-basic-project-6.1.0-bin.zip"
+				},
+				{
+					"version": "6.2.0",
+					"mdkVersion": "6.2.0",
+					"zipPath": "com/sopragroup/adeuza/movalysfwk/templates/basic/mdk-basic-project/6.2.0/",
+					"zipFile": "mdk-basic-project-6.2.0-bin.zip"
+				},
+				{
+					"version": "6.2.1",
+					"mdkVersion": "6.2.1",
+					"zipPath": "com/sopragroup/adeuza/movalysfwk/templates/basic/mdk-basic-project/6.2.1/",
+					"zipFile": "mdk-basic-project-6.2.1-bin.zip"
+				},
+				{
+					"version": "6.3.0",
+					"mdkVersion": "6.3.0",
+					"zipPath": "com/sopragroup/adeuza/movalysfwk/templates/basic/mdk-basic-project/6.3.0/",
+					"zipFile": "mdk-basic-project-6.3.0-bin.zip"
+				},
+				{
+					"version": "6.3.1",
+					"mdkVersion": "6.3.1",
+					"zipPath": "com/sopragroup/adeuza/movalysfwk/templates/basic/mdk-basic-project/6.3.1/",
+					"zipFile": "mdk-basic-project-6.3.1-bin.zip"
+				},
+				{
+					"version": "6.3.2",
+					"mdkVersion": "6.3.2",
+					"zipPath": "com/sopragroup/adeuza/movalysfwk/templates/basic/mdk-basic-project/6.3.2/",
+					"zipFile": "mdk-basic-project-6.3.2-bin.zip"
+				},
+				{
+					"version": "6.3.3",
+					"mdkVersion": "6.3.3",
+					"zipPath": "com/sopragroup/adeuza/movalysfwk/templates/basic/mdk-basic-project/6.3.3/",
+					"zipFile": "mdk-basic-project-6.3.3-bin.zip",
+					"default": true
+				},
+				{
+					"version": "6.4.0",
+					"mdkVersion": "6.4.0",
+					"zipPath": "com/sopragroup/adeuza/movalysfwk/templates/basic/mdk-basic-project/6.4.0/",
+					"zipFile": "mdk-basic-project-6.4.0-bin.zip"
+				},
+				{
+					"version": "6.4.1",
+					"mdkVersion": "6.4.1",
+					"zipPath": "com/sopragroup/adeuza/movalysfwk/templates/basic/mdk-basic-project/6.4.1/",
+					"zipFile": "mdk-basic-project-6.4.1-bin.zip"
+				},
+				{
+					"version": "6.4.2",
+					"mdkVersion": "6.4.2",
+					"zipPath": "com/sopragroup/adeuza/movalysfwk/templates/basic/mdk-basic-project/6.4.2/",
+					"zipFile": "mdk-basic-project-6.4.2-bin.zip"
+				},
+				{
+					"version": "6.5.0",
+					"mdkVersion": "6.5.0",
+					"zipPath": "com/sopragroup/adeuza/movalysfwk/templates/basic/mdk-basic-project/6.5.0/",
+					"zipFile": "mdk-basic-project-6.5.0-bin.zip"
+				},
+				{
+					"version": "6.6.0",
+					"mdkVersion": "6.6.0",
+					"zipPath": "com/sopragroup/adeuza/movalysfwk/templates/basic/mdk-basic-project/6.6.0/",
+					"zipFile": "mdk-basic-project-6.6.0-bin.zip"
+				},
+				{
+					"version": "6.6.1",
+					"mdkVersion": "6.6.1",
+					"zipPath": "com/sopragroup/adeuza/movalysfwk/templates/basic/mdk-basic-project/6.6.1/",
+					"zipFile": "mdk-basic-project-6.6.1-bin.zip"
+				},
+				{
+					"version": "6.7.0-SNAPSHOT",
+					"mdkVersion": "6.7.0-SNAPSHOT",
+					"zipPath": "com/sopragroup/adeuza/movalysfwk/templates/basic/mdk-basic-project/6.7.0-SNAPSHOT/",
+					"zipFile": "mdk-basic-project-6.7.0-SNAPSHOT-bin.zip"
+				}
+			]
+		},
 		{
-			"version":"6.4.0",
-			"mdkVersion":"6.4.0",
-			"zipPath":"com/sopragroup/adeuza/movalysfwk/templates/basic/mdk-basic-project/6.4.0/",
-			"zipFile":"mdk-basic-project-6.4.0-bin.zip"
-        },
-        {
-			"version":"6.4.1",
-			"mdkVersion":"6.4.1",
-			"zipPath":"com/sopragroup/adeuza/movalysfwk/templates/basic/mdk-basic-project/6.4.1/",
-			"zipFile":"mdk-basic-project-6.4.1-bin.zip"
-        },
+			"name": "Design",
+			"description": "A Design template for a MDK Project. Provides a set of predefined layouts and styles to make your application look better.",
+			"platforms": [
+				{
+					"name": "android",
+					"groupId": "com.sopragroup.adeuza.movalysfwk.templates.design",
+					"artifactId": "mdk-android-design-template",
+					"minTemplateVersion": "6.0.0"
+				},
+				{
+					"name": "ios",
+					"groupId": "com.sopragroup.adeuza.movalysfwk.templates.design",
+					"artifactId": "mdk-ios-design-template",
+					"minTemplateVersion": "6.0.0"
+				},
+				{
+					"name": "html5",
+					"groupId": "com.sopragroup.adeuza.movalysfwk.templates.design",
+					"artifactId": "mdk-html5-design-template",
+					"minTemplateVersion": "6.2.0"
+				}
+			],
+			"versions": [
+				{
+					"version": "6.0.1-RC1",
+					"mdkVersion": "6.0.1-RC1",
+					"zipPath": "com/sopragroup/adeuza/movalysfwk/templates/design/mdk-design-project/6.0.1-RC1/",
+					"zipFile": "mdk-design-project-6.0.1-RC1-bin.zip"
+				},
+				{
+					"version": "6.1.0",
+					"mdkVersion": "6.1.0",
+					"zipPath": "com/sopragroup/adeuza/movalysfwk/templates/design/mdk-design-project/6.1.0/",
+					"zipFile": "mdk-design-project-6.1.0-bin.zip"
+				},
+				{
+					"version": "6.2.0",
+					"mdkVersion": "6.2.0",
+					"zipPath": "com/sopragroup/adeuza/movalysfwk/templates/design/mdk-design-project/6.2.0/",
+					"zipFile": "mdk-design-project-6.2.0-bin.zip"
+				},
+				{
+					"version": "6.2.1",
+					"mdkVersion": "6.2.1",
+					"zipPath": "com/sopragroup/adeuza/movalysfwk/templates/design/mdk-design-project/6.2.1/",
+					"zipFile": "mdk-design-project-6.2.1-bin.zip"
+				},
+				{
+					"version": "6.3.0",
+					"mdkVersion": "6.3.0",
+					"zipPath": "com/sopragroup/adeuza/movalysfwk/templates/design/mdk-design-project/6.3.0/",
+					"zipFile": "mdk-design-project-6.3.0-bin.zip"
+				},
+				{
+					"version": "6.3.1",
+					"mdkVersion": "6.3.1",
+					"zipPath": "com/sopragroup/adeuza/movalysfwk/templates/design/mdk-design-project/6.3.1/",
+					"zipFile": "mdk-design-project-6.3.1-bin.zip"
+				},
+				{
+					"version": "6.3.2",
+					"mdkVersion": "6.3.2",
+					"zipPath": "com/sopragroup/adeuza/movalysfwk/templates/design/mdk-design-project/6.3.2/",
+					"zipFile": "mdk-design-project-6.3.2-bin.zip"
+				},
+				{
+					"version": "6.3.3",
+					"mdkVersion": "6.3.3",
+					"zipPath": "com/sopragroup/adeuza/movalysfwk/templates/design/mdk-design-project/6.3.3/",
+					"zipFile": "mdk-design-project-6.3.3-bin.zip",
+					"default": true
+				},
+				{
+					"version": "6.4.0",
+					"mdkVersion": "6.4.0",
+					"zipPath": "com/sopragroup/adeuza/movalysfwk/templates/design/mdk-design-project/6.4.0/",
+					"zipFile": "mdk-design-project-6.4.0-bin.zip"
+				},
+				{
+					"version": "6.4.1",
+					"mdkVersion": "6.4.1",
+					"zipPath": "com/sopragroup/adeuza/movalysfwk/templates/design/mdk-design-project/6.4.1/",
+					"zipFile": "mdk-design-project-6.4.1-bin.zip"
+				},
+				{
+					"version": "6.4.2",
+					"mdkVersion": "6.4.2",
+					"zipPath": "com/sopragroup/adeuza/movalysfwk/templates/design/mdk-design-project/6.4.2/",
+					"zipFile": "mdk-design-project-6.4.2-bin.zip"
+				},
+				{
+					"version": "6.5.0",
+					"mdkVersion": "6.5.0",
+					"zipPath": "com/sopragroup/adeuza/movalysfwk/templates/design/mdk-design-project/6.5.0/",
+					"zipFile": "mdk-design-project-6.5.0-bin.zip"
+				},
+				{
+					"version": "6.6.0",
+					"mdkVersion": "6.6.0",
+					"zipPath": "com/sopragroup/adeuza/movalysfwk/templates/design/mdk-design-project/6.6.0/",
+					"zipFile": "mdk-design-project-6.6.0-bin.zip"
+				},
+				{
+					"version": "6.6.1",
+					"mdkVersion": "6.6.1",
+					"zipPath": "com/sopragroup/adeuza/movalysfwk/templates/design/mdk-design-project/6.6.1/",
+					"zipFile": "mdk-design-project-6.6.1-bin.zip"
+				},
+				{
+					"version": "6.7.0-SNAPSHOT",
+					"mdkVersion": "6.7.0-SNAPSHOT",
+					"zipPath": "com/sopragroup/adeuza/movalysfwk/templates/design/mdk-design-project/6.7.0-SNAPSHOT/",
+					"zipFile": "mdk-design-project-6.7.0-SNAPSHOT-bin.zip"
+				}
+			]
+		},
 		{
-			"version":"6.4.2",
-			"mdkVersion":"6.4.2",
-			"zipPath":"com/sopragroup/adeuza/movalysfwk/templates/basic/mdk-basic-project/6.4.2/",
-			"zipFile":"mdk-basic-project-6.4.2-bin.zip"
-        },
+			"name": "My Expenses Demo",
+			"description": "Demo project generating the My Expenses application from scratch, based on the Design template. Use com.soprasteria.mdk.handson.myexpenses as name for your project.",
+			"demo": {
+				"applicationId": "com.soprasteria.mdk.handson.myexpenses"
+			},
+			"platforms": [
+				{
+					"name": "android",
+					"groupId": "com.sopragroup.adeuza.movalysfwk.templates.my_expenses_demo",
+					"artifactId": "mdk-android-my_expenses_demo-template",
+					"minTemplateVersion": "6.0.0"
+				},
+				{
+					"name": "ios",
+					"groupId": "com.sopragroup.adeuza.movalysfwk.templates.my_expenses_demo",
+					"artifactId": "mdk-ios-my_expenses_demo-template",
+					"minTemplateVersion": "6.0.0"
+				},
+				{
+					"name": "html5",
+					"groupId": "com.sopragroup.adeuza.movalysfwk.templates.my_expenses_demo",
+					"artifactId": "mdk-html5-my_expenses_demo-template",
+					"minTemplateVersion": "6.2.0"
+				}
+			],
+			"versions": [
+				{
+					"version": "6.0.1-RC1",
+					"mdkVersion": "6.0.1-RC1",
+					"zipPath": "com/sopragroup/adeuza/movalysfwk/templates/my_expenses_demo/mdk-my_expenses_demo-project/6.0.1-RC1/",
+					"zipFile": "mdk-my_expenses_demo-project-6.0.1-RC1-bin.zip"
+				},
+				{
+					"version": "6.1.0",
+					"mdkVersion": "6.1.0",
+					"zipPath": "com/sopragroup/adeuza/movalysfwk/templates/my_expenses_demo/mdk-my_expenses_demo-project/6.1.0/",
+					"zipFile": "mdk-my_expenses_demo-project-6.1.0-bin.zip"
+				},
+				{
+					"version": "6.2.0",
+					"mdkVersion": "6.2.0",
+					"zipPath": "com/sopragroup/adeuza/movalysfwk/templates/my_expenses_demo/mdk-my_expenses_demo-project/6.2.0/",
+					"zipFile": "mdk-my_expenses_demo-project-6.2.0-bin.zip"
+				},
+				{
+					"version": "6.2.1",
+					"mdkVersion": "6.2.1",
+					"zipPath": "com/sopragroup/adeuza/movalysfwk/templates/my_expenses_demo/mdk-my_expenses_demo-project/6.2.1/",
+					"zipFile": "mdk-my_expenses_demo-project-6.2.1-bin.zip"
+				},
+				{
+					"version": "6.3.0",
+					"mdkVersion": "6.3.0",
+					"zipPath": "com/sopragroup/adeuza/movalysfwk/templates/my_expenses_demo/mdk-my_expenses_demo-project/6.3.0/",
+					"zipFile": "mdk-my_expenses_demo-project-6.3.0-bin.zip"
+				},
+				{
+					"version": "6.3.1",
+					"mdkVersion": "6.3.1",
+					"zipPath": "com/sopragroup/adeuza/movalysfwk/templates/my_expenses_demo/mdk-my_expenses_demo-project/6.3.1/",
+					"zipFile": "mdk-my_expenses_demo-project-6.3.1-bin.zip"
+				},
+				{
+					"version": "6.3.2",
+					"mdkVersion": "6.3.2",
+					"zipPath": "com/sopragroup/adeuza/movalysfwk/templates/my_expenses_demo/mdk-my_expenses_demo-project/6.3.2/",
+					"zipFile": "mdk-my_expenses_demo-project-6.3.2-bin.zip"
+				},
+				{
+					"version": "6.3.3",
+					"mdkVersion": "6.3.3",
+					"zipPath": "com/sopragroup/adeuza/movalysfwk/templates/my_expenses_demo/mdk-my_expenses_demo-project/6.3.3/",
+					"zipFile": "mdk-my_expenses_demo-project-6.3.3-bin.zip",
+					"default": true
+				},
+				{
+					"version": "6.4.0",
+					"mdkVersion": "6.4.0",
+					"zipPath": "com/sopragroup/adeuza/movalysfwk/templates/my_expenses_demo/mdk-my_expenses_demo-project/6.4.0/",
+					"zipFile": "mdk-my_expenses_demo-project-6.4.0-bin.zip"
+				},
+				{
+					"version": "6.4.1",
+					"mdkVersion": "6.4.1",
+					"zipPath": "com/sopragroup/adeuza/movalysfwk/templates/my_expenses_demo/mdk-my_expenses_demo-project/6.4.1/",
+					"zipFile": "mdk-my_expenses_demo-project-6.4.1-bin.zip"
+				},
+				{
+					"version": "6.4.2",
+					"mdkVersion": "6.4.2",
+					"zipPath": "com/sopragroup/adeuza/movalysfwk/templates/my_expenses_demo/mdk-my_expenses_demo-project/6.4.2/",
+					"zipFile": "mdk-my_expenses_demo-project-6.4.2-bin.zip"
+				},
+				{
+					"version": "6.5.0",
+					"mdkVersion": "6.5.0",
+					"zipPath": "com/sopragroup/adeuza/movalysfwk/templates/my_expenses_demo/mdk-my_expenses_demo-project/6.5.0/",
+					"zipFile": "mdk-my_expenses_demo-project-6.5.0-bin.zip"
+				},
+				{
+					"version": "6.6.0",
+					"mdkVersion": "6.6.0",
+					"zipPath": "com/sopragroup/adeuza/movalysfwk/templates/my_expenses_demo/mdk-my_expenses_demo-project/6.6.0/",
+					"zipFile": "mdk-my_expenses_demo-project-6.6.0-bin.zip"
+				},
+				{
+					"version": "6.6.1",
+					"mdkVersion": "6.6.1",
+					"zipPath": "com/sopragroup/adeuza/movalysfwk/templates/my_expenses_demo/mdk-my_expenses_demo-project/6.6.1/",
+					"zipFile": "mdk-my_expenses_demo-project-6.6.1-bin.zip"
+				},
+				{
+					"version": "6.7.0-SNAPSHOT",
+					"mdkVersion": "6.7.0-SNAPSHOT",
+					"zipPath": "com/sopragroup/adeuza/movalysfwk/templates/my_expenses_demo/mdk-my_expenses_demo-project/6.7.0-SNAPSHOT/",
+					"zipFile": "mdk-my_expenses_demo-project-6.7.0-SNAPSHOT-bin.zip"
+				}
+			]
+		},
 		{
-			"version":"6.5.0",
-			"mdkVersion":"6.5.0",
-			"zipPath":"com/sopragroup/adeuza/movalysfwk/templates/basic/mdk-basic-project/6.5.0/",
-			"zipFile":"mdk-basic-project-6.5.0-bin.zip"
-        },
+			"name": "My Expenses Tuto",
+			"description": "Tutorial project based on the My Expenses application and the Design template. Provides a set of files and instructions to guide you through the making of a MDK application. Use com.soprasteria.mdk.handson.myexpenses as name for your project.",
+			"demo": {
+				"applicationId": "com.soprasteria.mdk.handson.myexpenses"
+			},
+			"platforms": [
+				{
+					"name": "android",
+					"groupId": "com.sopragroup.adeuza.movalysfwk.templates.my_expenses_tuto",
+					"artifactId": "mdk-android-my_expenses_tuto-template",
+					"minTemplateVersion": "6.0.0"
+				},
+				{
+					"name": "ios",
+					"groupId": "com.sopragroup.adeuza.movalysfwk.templates.my_expenses_tuto",
+					"artifactId": "mdk-ios-my_expenses_tuto-template",
+					"minTemplateVersion": "6.0.0"
+				},
+				{
+					"name": "html5",
+					"groupId": "com.sopragroup.adeuza.movalysfwk.templates.my_expenses_tuto",
+					"artifactId": "mdk-html5-my_expenses_tuto-template",
+					"minTemplateVersion": "6.2.0"
+				}
+			],
+			"versions": [
+				{
+					"version": "6.0.1-RC1",
+					"mdkVersion": "6.0.1-RC1",
+					"zipPath": "com/sopragroup/adeuza/movalysfwk/templates/my_expenses_tuto/mdk-my_expenses_tuto-project/6.0.1-RC1/",
+					"zipFile": "mdk-my_expenses_tuto-project-6.0.1-RC1-bin.zip"
+				},
+				{
+					"version": "6.1.0",
+					"mdkVersion": "6.1.0",
+					"zipPath": "com/sopragroup/adeuza/movalysfwk/templates/my_expenses_tuto/mdk-my_expenses_tuto-project/6.1.0/",
+					"zipFile": "mdk-my_expenses_tuto-project-6.1.0-bin.zip"
+				},
+				{
+					"version": "6.2.0",
+					"mdkVersion": "6.2.0",
+					"zipPath": "com/sopragroup/adeuza/movalysfwk/templates/my_expenses_tuto/mdk-my_expenses_tuto-project/6.2.0/",
+					"zipFile": "mdk-my_expenses_tuto-project-6.2.0-bin.zip"
+				},
+				{
+					"version": "6.2.1",
+					"mdkVersion": "6.2.1",
+					"zipPath": "com/sopragroup/adeuza/movalysfwk/templates/my_expenses_tuto/mdk-my_expenses_tuto-project/6.2.1/",
+					"zipFile": "mdk-my_expenses_tuto-project-6.2.1-bin.zip"
+				},
+				{
+					"version": "6.3.0",
+					"mdkVersion": "6.3.0",
+					"zipPath": "com/sopragroup/adeuza/movalysfwk/templates/my_expenses_tuto/mdk-my_expenses_tuto-project/6.3.0/",
+					"zipFile": "mdk-my_expenses_tuto-project-6.3.0-bin.zip"
+				},
+				{
+					"version": "6.3.1",
+					"mdkVersion": "6.3.1",
+					"zipPath": "com/sopragroup/adeuza/movalysfwk/templates/my_expenses_tuto/mdk-my_expenses_tuto-project/6.3.1/",
+					"zipFile": "mdk-my_expenses_tuto-project-6.3.1-bin.zip"
+				},
+				{
+					"version": "6.3.2",
+					"mdkVersion": "6.3.2",
+					"zipPath": "com/sopragroup/adeuza/movalysfwk/templates/my_expenses_tuto/mdk-my_expenses_tuto-project/6.3.2/",
+					"zipFile": "mdk-my_expenses_tuto-project-6.3.2-bin.zip"
+				},
+				{
+					"version": "6.3.3",
+					"mdkVersion": "6.3.3",
+					"zipPath": "com/sopragroup/adeuza/movalysfwk/templates/my_expenses_tuto/mdk-my_expenses_tuto-project/6.3.3/",
+					"zipFile": "mdk-my_expenses_tuto-project-6.3.3-bin.zip",
+					"default": true
+				},
+				{
+					"version": "6.4.0",
+					"mdkVersion": "6.4.0",
+					"zipPath": "com/sopragroup/adeuza/movalysfwk/templates/my_expenses_tuto/mdk-my_expenses_tuto-project/6.4.0/",
+					"zipFile": "mdk-my_expenses_tuto-project-6.4.0-bin.zip"
+				},
+				{
+					"version": "6.4.1",
+					"mdkVersion": "6.4.1",
+					"zipPath": "com/sopragroup/adeuza/movalysfwk/templates/my_expenses_tuto/mdk-my_expenses_tuto-project/6.4.1/",
+					"zipFile": "mdk-my_expenses_tuto-project-6.4.1-bin.zip"
+				},
+				{
+					"version": "6.4.2",
+					"mdkVersion": "6.4.2",
+					"zipPath": "com/sopragroup/adeuza/movalysfwk/templates/my_expenses_tuto/mdk-my_expenses_tuto-project/6.4.2/",
+					"zipFile": "mdk-my_expenses_tuto-project-6.4.2-bin.zip"
+				},
+				{
+					"version": "6.5.0",
+					"mdkVersion": "6.5.0",
+					"zipPath": "com/sopragroup/adeuza/movalysfwk/templates/my_expenses_tuto/mdk-my_expenses_tuto-project/6.5.0/",
+					"zipFile": "mdk-my_expenses_tuto-project-6.5.0-bin.zip"
+				},
+				{
+					"version": "6.6.0",
+					"mdkVersion": "6.6.0",
+					"zipPath": "com/sopragroup/adeuza/movalysfwk/templates/my_expenses_tuto/mdk-my_expenses_tuto-project/6.6.0/",
+					"zipFile": "mdk-my_expenses_tuto-project-6.6.0-bin.zip"
+				},
+				{
+					"version": "6.6.1",
+					"mdkVersion": "6.6.1",
+					"zipPath": "com/sopragroup/adeuza/movalysfwk/templates/my_expenses_tuto/mdk-my_expenses_tuto-project/6.6.1/",
+					"zipFile": "mdk-my_expenses_tuto-project-6.6.1-bin.zip"
+				},
+				{
+					"version": "6.7.0-SNAPSHOT",
+					"mdkVersion": "6.7.0-SNAPSHOT",
+					"zipPath": "com/sopragroup/adeuza/movalysfwk/templates/my_expenses_tuto/mdk-my_expenses_tuto-project/6.7.0-SNAPSHOT/",
+					"zipFile": "mdk-my_expenses_tuto-project-6.7.0-SNAPSHOT-bin.zip"
+				}
+			]
+		},
 		{
-			"version":"6.6.0-SNAPSHOT",
-			"mdkVersion":"6.6.0-SNAPSHOT",
-			"zipPath":"com/sopragroup/adeuza/movalysfwk/templates/basic/mdk-basic-project/6.6.0-SNAPSHOT/",
-			"zipFile":"mdk-basic-project-6.6.0-SNAPSHOT-bin.zip"
-        }
-		
-      ]
-    },
-	
-	{
-      "name":"Design",
-      "description": "A Design template for a MDK Project. Provides a set of predefined layouts and styles to make your application look better.",
-      "platforms":[
-        {
-			"name":"android",
-			"groupId":"com.sopragroup.adeuza.movalysfwk.templates.design",
-			"artifactId":"mdk-android-design-template",
-            "minTemplateVersion": "6.0.0"
-        },
-        {
-			"name":"ios",
-			"groupId":"com.sopragroup.adeuza.movalysfwk.templates.design",
-			"artifactId": "mdk-ios-design-template",
-            "minTemplateVersion": "6.0.0"
-        },
-        {
-			"name":"html5",
-			"groupId":"com.sopragroup.adeuza.movalysfwk.templates.design",
-			"artifactId": "mdk-html5-design-template",
-            "minTemplateVersion": "6.2.0"
-        }
-      ],
-      "versions":[
-        {
-			"version":"6.0.1-RC1",
-			"mdkVersion":"6.0.1-RC1",
-			"zipPath":"com/sopragroup/adeuza/movalysfwk/templates/design/mdk-design-project/6.0.1-RC1/",
-			"zipFile":"mdk-design-project-6.0.1-RC1-bin.zip"
-        },
-        {
-			"version":"6.1.0",
-			"mdkVersion":"6.1.0",
-			"zipPath":"com/sopragroup/adeuza/movalysfwk/templates/design/mdk-design-project/6.1.0/",
-			"zipFile":"mdk-design-project-6.1.0-bin.zip"
-        },
+			"name": "Formation",
+			"description": "Formation project based on the My Expenses application and the Design template. Provides a set of files and instructions to guide you through a MDK formation. Use com.soprasteria.mdk.handson.myexpenses as name for your project.",
+			"demo": {
+				"applicationId": "com.soprasteria.mdk.handson.myexpenses"
+			},
+			"platforms": [
+				{
+					"name": "android",
+					"groupId": "com.sopragroup.adeuza.movalysfwk.templates.formation",
+					"artifactId": "mdk-android-formation",
+					"minTemplateVersion": "6.2.0"
+				},
+				{
+					"name": "ios",
+					"groupId": "com.sopragroup.adeuza.movalysfwk.templates.formation",
+					"artifactId": "mdk-ios-formation-template",
+					"minTemplateVersion": "6.2.0"
+				},
+				{
+					"name": "html5",
+					"groupId": "com.sopragroup.adeuza.movalysfwk.templates.formation",
+					"artifactId": "mdk-html5-formation-template",
+					"minTemplateVersion": "6.2.0"
+				}
+			],
+			"versions": [
+				{
+					"version": "6.2.0",
+					"mdkVersion": "6.2.0",
+					"zipPath": "com/sopragroup/adeuza/movalysfwk/templates/formation/mdk-formation-project/6.2.0/",
+					"zipFile": "mdk-formation-project-6.2.0-bin.zip"
+				},
+				{
+					"version": "6.2.1",
+					"mdkVersion": "6.2.1",
+					"zipPath": "com/sopragroup/adeuza/movalysfwk/templates/formation/mdk-formation-project/6.2.1/",
+					"zipFile": "mdk-formation-project-6.2.1-bin.zip"
+				},
+				{
+					"version": "6.3.0",
+					"mdkVersion": "6.3.0",
+					"zipPath": "com/sopragroup/adeuza/movalysfwk/templates/formation/mdk-formation-project/6.3.0/",
+					"zipFile": "mdk-formation-project-6.3.0-bin.zip"
+				},
+				{
+					"version": "6.3.1",
+					"mdkVersion": "6.3.1",
+					"zipPath": "com/sopragroup/adeuza/movalysfwk/templates/formation/mdk-formation-project/6.3.1/",
+					"zipFile": "mdk-formation-project-6.3.1-bin.zip"
+				},
+				{
+					"version": "6.3.2",
+					"mdkVersion": "6.3.2",
+					"zipPath": "com/sopragroup/adeuza/movalysfwk/templates/formation/mdk-formation-project/6.3.2/",
+					"zipFile": "mdk-formation-project-6.3.2-bin.zip"
+				},
+				{
+					"version": "6.3.3",
+					"mdkVersion": "6.3.3",
+					"zipPath": "com/sopragroup/adeuza/movalysfwk/templates/formation/mdk-formation-project/6.3.3/",
+					"zipFile": "mdk-formation-project-6.3.3-bin.zip",
+					"default": true
+				},
+				{
+					"version": "6.4.0",
+					"mdkVersion": "6.4.0",
+					"zipPath": "com/sopragroup/adeuza/movalysfwk/templates/formation/mdk-formation-project/6.4.0/",
+					"zipFile": "mdk-formation-project-6.4.0-bin.zip"
+				},
+				{
+					"version": "6.4.1",
+					"mdkVersion": "6.4.1",
+					"zipPath": "com/sopragroup/adeuza/movalysfwk/templates/formation/mdk-formation-project/6.4.1/",
+					"zipFile": "mdk-formation-project-6.4.1-bin.zip"
+				},
+				{
+					"version": "6.4.2",
+					"mdkVersion": "6.4.2",
+					"zipPath": "com/sopragroup/adeuza/movalysfwk/templates/formation/mdk-formation-project/6.4.2/",
+					"zipFile": "mdk-formation-project-6.4.2-bin.zip"
+				},
+				{
+					"version": "6.5.0",
+					"mdkVersion": "6.5.0",
+					"zipPath": "com/sopragroup/adeuza/movalysfwk/templates/formation/mdk-formation-project/6.5.0/",
+					"zipFile": "mdk-formation-project-6.5.0-bin.zip"
+				},
+				{
+					"version": "6.6.0",
+					"mdkVersion": "6.6.0",
+					"zipPath": "com/sopragroup/adeuza/movalysfwk/templates/formation/mdk-formation-project/6.6.0/",
+					"zipFile": "mdk-formation-project-6.6.0-bin.zip"
+				},
+				{
+					"version": "6.6.1",
+					"mdkVersion": "6.6.1",
+					"zipPath": "com/sopragroup/adeuza/movalysfwk/templates/formation/mdk-formation-project/6.6.1/",
+					"zipFile": "mdk-formation-project-6.6.1-bin.zip"
+				},
+				{
+					"version": "6.7.0-SNAPSHOT",
+					"mdkVersion": "6.7.0-SNAPSHOT",
+					"zipPath": "com/sopragroup/adeuza/movalysfwk/templates/formation/mdk-formation-project/6.7.0-SNAPSHOT/",
+					"zipFile": "mdk-formation-project-6.7.0-SNAPSHOT-bin.zip"
+				}
+			]
+		},
 		{
-			"version":"6.2.0",
-			"mdkVersion":"6.2.0",
-			"zipPath":"com/sopragroup/adeuza/movalysfwk/templates/design/mdk-design-project/6.2.0/",
-			"zipFile":"mdk-design-project-6.2.0-bin.zip"
-        },
-        {
-			"version":"6.2.1",
-			"mdkVersion":"6.2.1",
-			"zipPath":"com/sopragroup/adeuza/movalysfwk/templates/design/mdk-design-project/6.2.1/",
-			"zipFile":"mdk-design-project-6.2.1-bin.zip"
-        },
-        {
-			"version":"6.3.0",
-			"mdkVersion":"6.3.0",
-			"zipPath":"com/sopragroup/adeuza/movalysfwk/templates/design/mdk-design-project/6.3.0/",
-			"zipFile":"mdk-design-project-6.3.0-bin.zip"
-        },
-        {
-			"version":"6.3.1",
-			"mdkVersion":"6.3.1",
-			"zipPath":"com/sopragroup/adeuza/movalysfwk/templates/design/mdk-design-project/6.3.1/",
-			"zipFile":"mdk-design-project-6.3.1-bin.zip"
-        },
-        {
-			"version":"6.3.2",
-			"mdkVersion":"6.3.2",
-			"zipPath":"com/sopragroup/adeuza/movalysfwk/templates/design/mdk-design-project/6.3.2/",
-			"zipFile":"mdk-design-project-6.3.2-bin.zip"
-        },
-        {
-			"version":"6.3.3",
-			"mdkVersion":"6.3.3",
-			"zipPath":"com/sopragroup/adeuza/movalysfwk/templates/design/mdk-design-project/6.3.3/",
-			"zipFile":"mdk-design-project-6.3.3-bin.zip",
-            "default": true
-        },
-		{
-			"version":"6.4.0",
-			"mdkVersion":"6.4.0",
-			"zipPath":"com/sopragroup/adeuza/movalysfwk/templates/design/mdk-design-project/6.4.0/",
-			"zipFile":"mdk-design-project-6.4.0-bin.zip"
-        },
-		{
-			"version":"6.4.1",
-			"mdkVersion":"6.4.1",
-			"zipPath":"com/sopragroup/adeuza/movalysfwk/templates/design/mdk-design-project/6.4.1/",
-			"zipFile":"mdk-design-project-6.4.1-bin.zip"
-        },
-		{
-			"version":"6.4.2",
-			"mdkVersion":"6.4.2",
-			"zipPath":"com/sopragroup/adeuza/movalysfwk/templates/design/mdk-design-project/6.4.2/",
-			"zipFile":"mdk-design-project-6.4.2-bin.zip"
-        },
-		{
-			"version":"6.5.0",
-			"mdkVersion":"6.5.0",
-			"zipPath":"com/sopragroup/adeuza/movalysfwk/templates/design/mdk-design-project/6.5.0/",
-			"zipFile":"mdk-design-project-6.5.0-bin.zip"
-        },
-        {
-			"version":"6.6.0-SNAPSHOT",
-			"mdkVersion":"6.6.0-SNAPSHOT",
-			"zipPath":"com/sopragroup/adeuza/movalysfwk/templates/design/mdk-design-project/6.6.0-SNAPSHOT/",
-			"zipFile":"mdk-design-project-6.6.0-SNAPSHOT-bin.zip"
-        }
-      ]
-    },
-	
-	{
-      "name":"My Expenses Demo",
-      "description": "Demo project generating the My Expenses application from scratch, based on the Design template. Use com.soprasteria.mdk.handson.myexpenses as name for your project.",
-	  "demo": {
-        "applicationId":"com.soprasteria.mdk.handson.myexpenses"
-      },
-      "platforms":[
-        {
-			"name":"android",
-			"groupId":"com.sopragroup.adeuza.movalysfwk.templates.my_expenses_demo",
-			"artifactId":"mdk-android-my_expenses_demo-template",
-            "minTemplateVersion": "6.0.0"
-        },
-        {
-			"name":"ios",
-			"groupId":"com.sopragroup.adeuza.movalysfwk.templates.my_expenses_demo",
-			"artifactId": "mdk-ios-my_expenses_demo-template",
-            "minTemplateVersion": "6.0.0"
-        },
-        {
-			"name":"html5",
-			"groupId":"com.sopragroup.adeuza.movalysfwk.templates.my_expenses_demo",
-			"artifactId": "mdk-html5-my_expenses_demo-template",
-            "minTemplateVersion": "6.2.0"
-        }
-      ],
-      "versions":[
-        {
-			"version":"6.0.1-RC1",
-			"mdkVersion":"6.0.1-RC1",
-			"zipPath":"com/sopragroup/adeuza/movalysfwk/templates/my_expenses_demo/mdk-my_expenses_demo-project/6.0.1-RC1/",
-			"zipFile":"mdk-my_expenses_demo-project-6.0.1-RC1-bin.zip"
-        },
-        {
-			"version":"6.1.0",
-			"mdkVersion":"6.1.0",
-			"zipPath":"com/sopragroup/adeuza/movalysfwk/templates/my_expenses_demo/mdk-my_expenses_demo-project/6.1.0/",
-			"zipFile":"mdk-my_expenses_demo-project-6.1.0-bin.zip"
-        },
-        {
-			"version":"6.2.0",
-			"mdkVersion":"6.2.0",
-			"zipPath":"com/sopragroup/adeuza/movalysfwk/templates/my_expenses_demo/mdk-my_expenses_demo-project/6.2.0/",
-			"zipFile":"mdk-my_expenses_demo-project-6.2.0-bin.zip"
-        },
-        {
-			"version":"6.2.1",
-			"mdkVersion":"6.2.1",
-			"zipPath":"com/sopragroup/adeuza/movalysfwk/templates/my_expenses_demo/mdk-my_expenses_demo-project/6.2.1/",
-			"zipFile":"mdk-my_expenses_demo-project-6.2.1-bin.zip"
-        },
-        {
-			"version":"6.3.0",
-			"mdkVersion":"6.3.0",
-			"zipPath":"com/sopragroup/adeuza/movalysfwk/templates/my_expenses_demo/mdk-my_expenses_demo-project/6.3.0/",
-			"zipFile":"mdk-my_expenses_demo-project-6.3.0-bin.zip"
-        },
-        {
-			"version":"6.3.1",
-			"mdkVersion":"6.3.1",
-			"zipPath":"com/sopragroup/adeuza/movalysfwk/templates/my_expenses_demo/mdk-my_expenses_demo-project/6.3.1/",
-			"zipFile":"mdk-my_expenses_demo-project-6.3.1-bin.zip"
-        },
-        {
-			"version":"6.3.2",
-			"mdkVersion":"6.3.2",
-			"zipPath":"com/sopragroup/adeuza/movalysfwk/templates/my_expenses_demo/mdk-my_expenses_demo-project/6.3.2/",
-			"zipFile":"mdk-my_expenses_demo-project-6.3.2-bin.zip"
-        },
-        {
-			"version":"6.3.3",
-			"mdkVersion":"6.3.3",
-			"zipPath":"com/sopragroup/adeuza/movalysfwk/templates/my_expenses_demo/mdk-my_expenses_demo-project/6.3.3/",
-			"zipFile":"mdk-my_expenses_demo-project-6.3.3-bin.zip",
-			"default": true
-        },
-		{
-			"version":"6.4.0",
-			"mdkVersion":"6.4.0",
-			"zipPath":"com/sopragroup/adeuza/movalysfwk/templates/my_expenses_demo/mdk-my_expenses_demo-project/6.4.0/",
-			"zipFile":"mdk-my_expenses_demo-project-6.4.0-bin.zip"
-        },
-        {
-			"version":"6.4.1",
-			"mdkVersion":"6.4.1",
-			"zipPath":"com/sopragroup/adeuza/movalysfwk/templates/my_expenses_demo/mdk-my_expenses_demo-project/6.4.1/",
-			"zipFile":"mdk-my_expenses_demo-project-6.4.1-bin.zip"
-        },
-		{
-			"version":"6.4.2",
-			"mdkVersion":"6.4.2",
-			"zipPath":"com/sopragroup/adeuza/movalysfwk/templates/my_expenses_demo/mdk-my_expenses_demo-project/6.4.2/",
-			"zipFile":"mdk-my_expenses_demo-project-6.4.2-bin.zip"
-        },
-		{
-			"version":"6.5.0",
-			"mdkVersion":"6.5.0",
-			"zipPath":"com/sopragroup/adeuza/movalysfwk/templates/my_expenses_demo/mdk-my_expenses_demo-project/6.5.0/",
-			"zipFile":"mdk-my_expenses_demo-project-6.5.0-bin.zip"
-        },
-		{
-			"version":"6.6.0-SNAPSHOT",
-			"mdkVersion":"6.6.0-SNAPSHOT",
-			"zipPath":"com/sopragroup/adeuza/movalysfwk/templates/my_expenses_demo/mdk-my_expenses_demo-project/6.6.0-SNAPSHOT/",
-			"zipFile":"mdk-my_expenses_demo-project-6.6.0-SNAPSHOT-bin.zip"
-        }
-      ]
-    },
-	
-	{
-      "name":"My Expenses Tuto",
-      "description": "Tutorial project based on the My Expenses application and the Design template. Provides a set of files and instructions to guide you through the making of a MDK application. Use com.soprasteria.mdk.handson.myexpenses as name for your project.",
-	  "demo": {
-        "applicationId":"com.soprasteria.mdk.handson.myexpenses"
-      },
-      "platforms":[
-        {
-			"name":"android",
-			"groupId":"com.sopragroup.adeuza.movalysfwk.templates.my_expenses_tuto",
-			"artifactId":"mdk-android-my_expenses_tuto-template",
-            "minTemplateVersion": "6.0.0"
-        },
-        {
-			"name":"ios",
-			"groupId":"com.sopragroup.adeuza.movalysfwk.templates.my_expenses_tuto",
-			"artifactId": "mdk-ios-my_expenses_tuto-template",
-            "minTemplateVersion": "6.0.0"
-        },
-        {
-			"name":"html5",
-			"groupId":"com.sopragroup.adeuza.movalysfwk.templates.my_expenses_tuto",
-			"artifactId": "mdk-html5-my_expenses_tuto-template",
-            "minTemplateVersion": "6.2.0"
-        }
-      ],
-      "versions":[
-        {
-			"version":"6.0.1-RC1",
-			"mdkVersion":"6.0.1-RC1",
-			"zipPath":"com/sopragroup/adeuza/movalysfwk/templates/my_expenses_tuto/mdk-my_expenses_tuto-project/6.0.1-RC1/",
-			"zipFile":"mdk-my_expenses_tuto-project-6.0.1-RC1-bin.zip"
-        },
-        {
-			"version":"6.1.0",
-			"mdkVersion":"6.1.0",
-			"zipPath":"com/sopragroup/adeuza/movalysfwk/templates/my_expenses_tuto/mdk-my_expenses_tuto-project/6.1.0/",
-			"zipFile":"mdk-my_expenses_tuto-project-6.1.0-bin.zip"
-        },
-		{
-			"version":"6.2.0",
-			"mdkVersion":"6.2.0",
-			"zipPath":"com/sopragroup/adeuza/movalysfwk/templates/my_expenses_tuto/mdk-my_expenses_tuto-project/6.2.0/",
-			"zipFile":"mdk-my_expenses_tuto-project-6.2.0-bin.zip"
-        },
-        {
-			"version":"6.2.1",
-			"mdkVersion":"6.2.1",
-			"zipPath":"com/sopragroup/adeuza/movalysfwk/templates/my_expenses_tuto/mdk-my_expenses_tuto-project/6.2.1/",
-			"zipFile":"mdk-my_expenses_tuto-project-6.2.1-bin.zip"
-        },
-        {
-			"version":"6.3.0",
-			"mdkVersion":"6.3.0",
-			"zipPath":"com/sopragroup/adeuza/movalysfwk/templates/my_expenses_tuto/mdk-my_expenses_tuto-project/6.3.0/",
-			"zipFile":"mdk-my_expenses_tuto-project-6.3.0-bin.zip"
-        },
-        {
-			"version":"6.3.1",
-			"mdkVersion":"6.3.1",
-			"zipPath":"com/sopragroup/adeuza/movalysfwk/templates/my_expenses_tuto/mdk-my_expenses_tuto-project/6.3.1/",
-			"zipFile":"mdk-my_expenses_tuto-project-6.3.1-bin.zip"
-        },
-        {
-			"version":"6.3.2",
-			"mdkVersion":"6.3.2",
-			"zipPath":"com/sopragroup/adeuza/movalysfwk/templates/my_expenses_tuto/mdk-my_expenses_tuto-project/6.3.2/",
-			"zipFile":"mdk-my_expenses_tuto-project-6.3.2-bin.zip"
-        },
-        {
-			"version":"6.3.3",
-			"mdkVersion":"6.3.3",
-			"zipPath":"com/sopragroup/adeuza/movalysfwk/templates/my_expenses_tuto/mdk-my_expenses_tuto-project/6.3.3/",
-			"zipFile":"mdk-my_expenses_tuto-project-6.3.3-bin.zip",
-			"default": true
-        },
-		{
-			"version":"6.4.0",
-			"mdkVersion":"6.4.0",
-			"zipPath":"com/sopragroup/adeuza/movalysfwk/templates/my_expenses_tuto/mdk-my_expenses_tuto-project/6.4.0/",
-			"zipFile":"mdk-my_expenses_tuto-project-6.4.0-bin.zip"
-        },
-        {
-			"version":"6.4.1",
-			"mdkVersion":"6.4.1",
-			"zipPath":"com/sopragroup/adeuza/movalysfwk/templates/my_expenses_tuto/mdk-my_expenses_tuto-project/6.4.1/",
-			"zipFile":"mdk-my_expenses_tuto-project-6.4.1-bin.zip"
-        },
-		{
-			"version":"6.4.2",
-			"mdkVersion":"6.4.2",
-			"zipPath":"com/sopragroup/adeuza/movalysfwk/templates/my_expenses_tuto/mdk-my_expenses_tuto-project/6.4.2/",
-			"zipFile":"mdk-my_expenses_tuto-project-6.4.2-bin.zip"
-        },
-		{
-			"version":"6.5.0",
-			"mdkVersion":"6.5.0",
-			"zipPath":"com/sopragroup/adeuza/movalysfwk/templates/my_expenses_tuto/mdk-my_expenses_tuto-project/6.5.0/",
-			"zipFile":"mdk-my_expenses_tuto-project-6.5.0-bin.zip"
-        },
-		{
-			"version":"6.6.0-SNAPSHOT",
-			"mdkVersion":"6.6.0-SNAPSHOT",
-			"zipPath":"com/sopragroup/adeuza/movalysfwk/templates/my_expenses_tuto/mdk-my_expenses_tuto-project/6.6.0-SNAPSHOT/",
-			"zipFile":"mdk-my_expenses_tuto-project-6.6.0-SNAPSHOT-bin.zip"
-        }
-      ]
-    },
-
-    {
-      "name":"Formation",
-      "description": "Formation project based on the My Expenses application and the Design template. Provides a set of files and instructions to guide you through a MDK formation. Use com.soprasteria.mdk.handson.myexpenses as name for your project.",
-    "demo": {
-        "applicationId":"com.soprasteria.mdk.handson.myexpenses"
-      },
-      "platforms":[
-        {
-			"name":"android",
-			"groupId":"com.sopragroup.adeuza.movalysfwk.templates.formation",
-			"artifactId":"mdk-android-formation",
-            "minTemplateVersion": "6.2.0"
-        },
-        {
-			"name":"ios",
-			"groupId":"com.sopragroup.adeuza.movalysfwk.templates.formation",
-			"artifactId": "mdk-ios-formation-template",
-            "minTemplateVersion": "6.2.0"
-        },
-        {
-			"name":"html5",
-			"groupId":"com.sopragroup.adeuza.movalysfwk.templates.formation",
-			"artifactId": "mdk-html5-formation-template",
-            "minTemplateVersion": "6.2.0"
-        }
-      ],
-      "versions":[
-		{
-			"version":"6.2.0",
-			"mdkVersion":"6.2.0",
-			"zipPath":"com/sopragroup/adeuza/movalysfwk/templates/formation/mdk-formation-project/6.2.0/",
-			"zipFile":"mdk-formation-project-6.2.0-bin.zip"
-        },
-        {
-			"version":"6.2.1",
-			"mdkVersion":"6.2.1",
-			"zipPath":"com/sopragroup/adeuza/movalysfwk/templates/formation/mdk-formation-project/6.2.1/",
-			"zipFile":"mdk-formation-project-6.2.1-bin.zip"
-        },
-        {
-			"version":"6.3.0",
-			"mdkVersion":"6.3.0",
-			"zipPath":"com/sopragroup/adeuza/movalysfwk/templates/formation/mdk-formation-project/6.3.0/",
-			"zipFile":"mdk-formation-project-6.3.0-bin.zip"
-        },
-        {
-			"version":"6.3.1",
-			"mdkVersion":"6.3.1",
-			"zipPath":"com/sopragroup/adeuza/movalysfwk/templates/formation/mdk-formation-project/6.3.1/",
-			"zipFile":"mdk-formation-project-6.3.1-bin.zip"
-        },
-        {
-			"version":"6.3.2",
-			"mdkVersion":"6.3.2",
-			"zipPath":"com/sopragroup/adeuza/movalysfwk/templates/formation/mdk-formation-project/6.3.2/",
-			"zipFile":"mdk-formation-project-6.3.2-bin.zip"
-        },
-        {
-			"version":"6.3.3",
-			"mdkVersion":"6.3.3",
-			"zipPath":"com/sopragroup/adeuza/movalysfwk/templates/formation/mdk-formation-project/6.3.3/",
-			"zipFile":"mdk-formation-project-6.3.3-bin.zip",
-			"default": true
-        },
-		{
-			"version":"6.4.0",
-			"mdkVersion":"6.4.0",
-			"zipPath":"com/sopragroup/adeuza/movalysfwk/templates/formation/mdk-formation-project/6.4.0/",
-			"zipFile":"mdk-formation-project-6.4.0-bin.zip"
-        },
-        {
-			"version":"6.4.1",
-			"mdkVersion":"6.4.1",
-			"zipPath":"com/sopragroup/adeuza/movalysfwk/templates/formation/mdk-formation-project/6.4.1/",
-			"zipFile":"mdk-formation-project-6.4.1-bin.zip"
-        },
-		{
-			"version":"6.4.2",
-			"mdkVersion":"6.4.2",
-			"zipPath":"com/sopragroup/adeuza/movalysfwk/templates/formation/mdk-formation-project/6.4.2/",
-			"zipFile":"mdk-formation-project-6.4.2-bin.zip"
-        },
-		{
-			"version":"6.5.0",
-			"mdkVersion":"6.5.0",
-			"zipPath":"com/sopragroup/adeuza/movalysfwk/templates/formation/mdk-formation-project/6.5.0/",
-			"zipFile":"mdk-formation-project-6.5.0-bin.zip"
-        },
-		{
-			"version":"6.6.0-SNAPSHOT",
-			"mdkVersion":"6.6.0-SNAPSHOT",
-			"zipPath":"com/sopragroup/adeuza/movalysfwk/templates/formation/mdk-formation-project/6.6.0-SNAPSHOT/",
-			"zipFile":"mdk-formation-project-6.6.0-SNAPSHOT-bin.zip"
-        }
-      ]
-    }
-	
-  ]
+			"name": "Enedis",
+			"description": "Enedis templates project.",
+			"platforms": [
+				{
+					"name": "html5",
+					"groupId": "com.sopragroup.adeuza.movalysfwk.templates.enedis",
+					"artifactId": "mdk-html5-enedis-template",
+					"minTemplateVersion": "6.6.1"
+				}
+			],
+			"versions": [
+				{
+					"version": "6.6.1",
+					"mdkVersion": "6.6.1",
+					"zipPath": "com/sopragroup/adeuza/movalysfwk/templates/enedis/mdk-enedis-project/6.6.1/",
+					"zipFile": "mdk-enedis-project-6.6.1-bin.zip"
+				},
+				{
+					"version": "6.7.0-SNAPSHOT",
+					"mdkVersion": "6.7.0-SNAPSHOT",
+					"zipPath": "com/sopragroup/adeuza/movalysfwk/templates/enedis/mdk-enedis-project/6.7.0-SNAPSHOT/",
+					"zipFile": "mdk-enedis-project-6.7.0-SNAPSHOT-bin.zip"
+				}
+			]
+		}
+	]
 }
