@@ -92,7 +92,7 @@
         },
         {
             "name": "cocoapods",
-            "version": "1.2",
+            "version": "1.2.0",
             "script": "ios/installCocoapods",
             "installVersion": 1,
             "os": ["osx"],
